@@ -1,13 +1,79 @@
 [
   {
-    "name": "Email Welcome Sequence",
-    "slug": "email-welcome-sequence",
-    "category": "Email",
+    "name": "Abandoned Cart Objections",
+    "slug": "abandoned-cart-objections",
+    "category": "Email / CRO",
     "one_shot": true,
     "uses_profile": true,
-    "description": "Generate a complete 5-email welcome sequence for new subscribers using a proven framework that builds trust, agitates pain, demonstrates value, and drives sales.",
-    "keywords": ["email", "welcome", "onboarding", "subscribers", "newsletter", "drip", "sequence", "nurture"],
-    "url": "skills/email-welcome-sequence/skill.md"
+    "description": "Identifies and ranks the 10 most impactful objections holding back warm leads who visited a sales page but didn't buy, with reframe strategies and email frameworks for each.",
+    "keywords": [
+      "abandoned cart",
+      "objection handling",
+      "sales hesitation",
+      "warm leads",
+      "conversion",
+      "email sequence",
+      "cart recovery",
+      "sales page"
+    ],
+    "url": "skills/abandoned-cart-objections/skill.md"
+  },
+  {
+    "name": "Analyze My Content and Brainstorm 10 Lead Magnet Ideas",
+    "slug": "analyze-my-content-and-brainstorm-10-lead-magnet-ideas",
+    "category": "Lead Magnets",
+    "one_shot": true,
+    "uses_profile": true,
+    "description": "Analyzes 90 days of existing content to identify top-performing themes and hidden lead magnet opportunities, then generates 10 validated ideas based on what's already working.",
+    "keywords": [
+      "lead magnet",
+      "content analysis",
+      "content audit",
+      "lead generation",
+      "opt-in ideas",
+      "content repurposing",
+      "audience insights",
+      "engagement patterns"
+    ],
+    "url": "skills/analyze-my-content-and-brainstorm-10-lead-magnet-ideas/skill.md"
+  },
+  {
+    "name": "Brainstorm a Curation Lead Magnet",
+    "slug": "brainstorm-a-curation-lead-magnet",
+    "category": "Lead Magnets",
+    "one_shot": true,
+    "uses_profile": true,
+    "description": "Generates 10 curation-based lead magnet ideas \u2014 swipe files, resource collections, and example libraries \u2014 that save audience time and lead naturally to a paid offer.",
+    "keywords": [
+      "lead magnet",
+      "curation",
+      "swipe file",
+      "resource collection",
+      "template library",
+      "example library",
+      "list building",
+      "opt-in"
+    ],
+    "url": "skills/brainstorm-a-curation-lead-magnet/skill.md"
+  },
+  {
+    "name": "Brainstorm AI-Powered Lead Magnet Ideas",
+    "slug": "brainstorm-ai-powered-lead-magnet-ideas",
+    "category": "Lead Magnets",
+    "one_shot": false,
+    "uses_profile": true,
+    "description": "Unbundles a paid offer into AI-powered lead magnet ideas that solve a precursor problem using AI prompts, custom GPTs, or AI workflows.",
+    "keywords": [
+      "lead magnet",
+      "AI lead magnet",
+      "freebie ideas",
+      "AI prompts",
+      "opt-in",
+      "lead generation",
+      "list building",
+      "AI-powered"
+    ],
+    "url": "skills/brainstorm-ai-powered-lead-magnet-ideas/skill.md"
   },
   {
     "name": "Brainstorm Hyper-Relevant Lead Magnet Ideas",
@@ -15,8 +81,417 @@
     "category": "Lead Magnets",
     "one_shot": true,
     "uses_profile": true,
-    "description": "Analyze a piece of content and generate 10 lead magnet ideas that feel like the natural next step — organized by effort level.",
-    "keywords": ["lead magnet", "content", "opt-in", "freebie", "list building", "subscribers", "conversion"],
+    "description": "Analyze a piece of content and generate 10 lead magnet ideas that feel like the natural next step \u2014 organized by effort level.",
+    "keywords": [
+      "lead magnet",
+      "content",
+      "opt-in",
+      "freebie",
+      "list building",
+      "subscribers",
+      "conversion"
+    ],
     "url": "skills/brainstorm-hyper-relevant-lead-magnet-ideas/skill.md"
+  },
+  {
+    "name": "Brainstorm Money-Making Lead Magnet Ideas",
+    "slug": "brainstorm-money-making-lead-magnet-ideas",
+    "category": "Lead Magnets",
+    "one_shot": false,
+    "uses_profile": true,
+    "description": "Generates strategically aligned lead magnet ideas that attract buyers, not freebie-seekers, by identifying precursor problems that bridge directly to a paid offer.",
+    "keywords": [
+      "lead magnet",
+      "list building",
+      "opt-in",
+      "freebie",
+      "sales funnel",
+      "lead generation",
+      "buyer personas",
+      "email list"
+    ],
+    "url": "skills/brainstorm-money-making-lead-magnet-ideas/skill.md"
+  },
+  {
+    "name": "Churn Prevention",
+    "slug": "churn-prevention",
+    "category": "Retention",
+    "one_shot": false,
+    "uses_profile": true,
+    "description": "Builds cancel flows, dynamic save offers, proactive retention strategies, and dunning sequences to reduce both voluntary and involuntary subscription churn.",
+    "keywords": [
+      "churn prevention",
+      "cancel flow",
+      "retention",
+      "dunning",
+      "save offer",
+      "subscription churn",
+      "failed payment",
+      "win-back"
+    ],
+    "url": "skills/churn-prevention/skill.md"
+  },
+  {
+    "name": "Content Strategy",
+    "slug": "content-strategy",
+    "category": "Content",
+    "one_shot": false,
+    "uses_profile": true,
+    "description": "Plans a content strategy \u2014 pillars, topic clusters, keyword mapping by buyer stage, and prioritization \u2014 so content drives traffic, builds authority, and generates leads.",
+    "keywords": [
+      "content strategy",
+      "content planning",
+      "blog strategy",
+      "topic clusters",
+      "content pillars",
+      "editorial calendar",
+      "content marketing",
+      "content roadmap"
+    ],
+    "url": "skills/content-strategy/skill.md"
+  },
+  {
+    "name": "Copywriting",
+    "slug": "copywriting",
+    "category": "Copy",
+    "one_shot": false,
+    "uses_profile": true,
+    "description": "Writes or rewrites marketing copy for any page \u2014 homepage, landing pages, pricing, feature pages \u2014 using clarity-first principles, benefit-driven framing, and customer language.",
+    "keywords": [
+      "copywriting",
+      "landing page copy",
+      "homepage copy",
+      "marketing copy",
+      "headline writing",
+      "CTA copy",
+      "value proposition",
+      "conversion copy"
+    ],
+    "url": "skills/copywriting/skill.md"
+  },
+  {
+    "name": "Email Welcome Sequence",
+    "slug": "email-welcome-sequence",
+    "category": "Email",
+    "one_shot": true,
+    "uses_profile": true,
+    "description": "Generate a complete 5-email welcome sequence for new subscribers using a proven framework that builds trust, agitates pain, demonstrates value, and drives sales.",
+    "keywords": [
+      "email",
+      "welcome",
+      "onboarding",
+      "subscribers",
+      "newsletter",
+      "drip",
+      "sequence",
+      "nurture"
+    ],
+    "url": "skills/email-welcome-sequence/skill.md"
+  },
+  {
+    "name": "Generate an Email Course Value Proposition",
+    "slug": "generate-an-email-course-value-proposition",
+    "category": "Lead Magnets",
+    "one_shot": false,
+    "uses_profile": true,
+    "description": "Guides a one-question-at-a-time interview to determine the best email course approach (Unbundling vs. Buffet), then produces 3\u20135 complete email course concepts with day-by-day outlines.",
+    "keywords": [
+      "email course",
+      "lead magnet",
+      "value proposition",
+      "email sequence",
+      "list building",
+      "opt-in",
+      "freebie",
+      "course concept"
+    ],
+    "url": "skills/generate-an-email-course-value-proposition/skill.md"
+  },
+  {
+    "name": "Generate Lead Magnet Names",
+    "slug": "generate-lead-magnet-names",
+    "category": "Lead Magnets",
+    "one_shot": false,
+    "uses_profile": true,
+    "description": "Generates 10\u201315 high-converting lead magnet names organized by naming strategy \u2014 outcome-driven, mechanism-driven, and specificity-driven \u2014 optimized for clarity over cleverness.",
+    "keywords": [
+      "lead magnet name",
+      "freebie title",
+      "opt-in name",
+      "lead magnet title",
+      "naming",
+      "copywriting",
+      "conversion",
+      "A/B testing"
+    ],
+    "url": "skills/generate-lead-magnet-names/skill.md"
+  },
+  {
+    "name": "Generate Mockup Images for a Lead Magnet Landing Page",
+    "slug": "generate-mockup-images-for-a-lead-magnet-landing-page",
+    "category": "Lead Magnets",
+    "one_shot": true,
+    "uses_profile": false,
+    "description": "Creates detailed AI image generation prompts (Midjourney, DALL-E, Ideogram) for professional lead magnet mockups \u2014 ebook covers, PDF previews, template visuals \u2014 in three style variations.",
+    "keywords": [
+      "mockup",
+      "lead magnet",
+      "landing page",
+      "ebook cover",
+      "product image",
+      "Midjourney",
+      "DALL-E",
+      "Ideogram",
+      "visual design",
+      "opt-in page"
+    ],
+    "url": "skills/generate-mockup-images-for-a-lead-magnet-landing-page/skill.md"
+  },
+  {
+    "name": "Instagram Post",
+    "slug": "instagram-post",
+    "category": "Social",
+    "one_shot": true,
+    "uses_profile": true,
+    "description": "Creates Instagram content (carousel, reel, or story) in Kim Coleman's voice using a decision framework for format, caption length, and tone \u2014 prioritizing resonance over virality.",
+    "keywords": [
+      "Instagram",
+      "Instagram post",
+      "carousel",
+      "reel",
+      "social media",
+      "personal brand",
+      "Kim Coleman",
+      "caption writing"
+    ],
+    "url": "skills/instagram-post/skill.md"
+  },
+  {
+    "name": "Launch Strategy",
+    "slug": "launch-strategy",
+    "category": "Strategy",
+    "one_shot": false,
+    "uses_profile": true,
+    "description": "Plans product launches and feature announcements using the ORB framework (Owned, Rented, Borrowed channels) and a five-phase launch approach from internal testing to full public release.",
+    "keywords": [
+      "product launch",
+      "launch strategy",
+      "go-to-market",
+      "feature announcement",
+      "Product Hunt",
+      "early access",
+      "waitlist",
+      "GTM"
+    ],
+    "url": "skills/launch-strategy/skill.md"
+  },
+  {
+    "name": "LinkedIn Post",
+    "slug": "linkedin-post",
+    "category": "Social",
+    "one_shot": true,
+    "uses_profile": true,
+    "description": "Writes a LinkedIn post in Kim Coleman's voice \u2014 thoughtful, first-person, experience-based \u2014 using her proven post structures and required signoff format.",
+    "keywords": [
+      "LinkedIn",
+      "LinkedIn post",
+      "social media",
+      "thought leadership",
+      "personal brand",
+      "founder content",
+      "Kim Coleman",
+      "social writing"
+    ],
+    "url": "skills/linkedin-post/skill.md"
+  },
+  {
+    "name": "Newsletter Welcome Sequence",
+    "slug": "newsletter-welcome-sequence",
+    "category": "Email",
+    "one_shot": true,
+    "uses_profile": true,
+    "description": "Writes a 5-email newsletter welcome sequence (Warm Welcome, Greatest Hits, Biggest Mistake, Origin Story, Soft Pitch) following Daniel Bustamante's proven templates.",
+    "keywords": [
+      "welcome email",
+      "email sequence",
+      "newsletter onboarding",
+      "subscriber nurture",
+      "email marketing",
+      "welcome series",
+      "new subscriber",
+      "email automation"
+    ],
+    "url": "skills/newsletter-welcome-sequence/skill.md"
+  },
+  {
+    "name": "Objection Handling Email",
+    "slug": "objection-handling-email",
+    "category": "Email",
+    "one_shot": true,
+    "uses_profile": true,
+    "description": "Writes a single 400\u2013600 word objection-handling email using a proven 7-step framework that acknowledges, reframes, and overcomes a specific sales hesitation.",
+    "keywords": [
+      "objection handling",
+      "sales email",
+      "conversion email",
+      "email copywriting",
+      "price objection",
+      "hesitation",
+      "email marketing",
+      "sales funnel"
+    ],
+    "url": "skills/objection-handling-email/skill.md"
+  },
+  {
+    "name": "Onboarding CRO",
+    "slug": "onboarding-cro",
+    "category": "CRO",
+    "one_shot": false,
+    "uses_profile": true,
+    "description": "Optimizes post-signup onboarding to reduce time-to-value, increase activation rates, and build habits that lead to long-term retention through flow design, empty states, and email triggers.",
+    "keywords": [
+      "onboarding",
+      "user activation",
+      "time-to-value",
+      "aha moment",
+      "CRO",
+      "onboarding flow",
+      "activation rate",
+      "user retention"
+    ],
+    "url": "skills/onboarding-cro/skill.md"
+  },
+  {
+    "name": "Paywall and Upgrade Screen CRO",
+    "slug": "paywall-upgrade-cro",
+    "category": "CRO",
+    "one_shot": false,
+    "uses_profile": true,
+    "description": "Designs and optimizes in-app paywalls, upgrade modals, feature gates, and trial expiration screens to convert free users to paid at the right moment with the right message.",
+    "keywords": [
+      "paywall",
+      "upgrade screen",
+      "freemium conversion",
+      "upsell",
+      "feature gate",
+      "trial expiration",
+      "in-app upgrade",
+      "CRO"
+    ],
+    "url": "skills/paywall-upgrade-cro/skill.md"
+  },
+  {
+    "name": "Post-Purchase Email Sequence",
+    "slug": "post-purchase-email-sequence",
+    "category": "Email",
+    "one_shot": false,
+    "uses_profile": true,
+    "description": "Writes a 6-email post-purchase sequence covering onboarding, obstacle removal, feature discovery, feedback collection, and upsell \u2014 focused on customer success over sales.",
+    "keywords": [
+      "post-purchase email",
+      "customer onboarding",
+      "retention",
+      "customer success",
+      "email sequence",
+      "LTV",
+      "refund reduction",
+      "follow-up emails"
+    ],
+    "url": "skills/post-purchase-email-sequence/skill.md"
+  },
+  {
+    "name": "Pricing Strategy",
+    "slug": "pricing-strategy",
+    "category": "Strategy",
+    "one_shot": false,
+    "uses_profile": true,
+    "description": "Helps design value-based pricing, tier structures, and packaging decisions for SaaS or membership products \u2014 covering value metrics, price points, and pricing page best practices.",
+    "keywords": [
+      "pricing",
+      "pricing strategy",
+      "tiered pricing",
+      "freemium",
+      "packaging",
+      "value metric",
+      "SaaS pricing",
+      "monetization"
+    ],
+    "url": "skills/pricing-strategy/skill.md"
+  },
+  {
+    "name": "Re-Engagement Email Sequence",
+    "slug": "re-engagement-email-sequence",
+    "category": "Email",
+    "one_shot": true,
+    "uses_profile": true,
+    "description": "Writes a 3-email re-engagement sequence (Greatest Hits, Lead Magnet Bribe, Quick Question) to win back cold subscribers inactive for 30+ days and clean the list.",
+    "keywords": [
+      "re-engagement email",
+      "win-back email",
+      "inactive subscribers",
+      "list hygiene",
+      "email marketing",
+      "sunset sequence",
+      "cold leads",
+      "churn"
+    ],
+    "url": "skills/re-engagement-email-sequence/skill.md"
+  },
+  {
+    "name": "Signup Flow CRO",
+    "slug": "signup-flow-cro",
+    "category": "CRO",
+    "one_shot": false,
+    "uses_profile": true,
+    "description": "Optimizes signup, registration, and trial activation flows by reducing friction, improving field design, and increasing completion rates through audits and experiment recommendations.",
+    "keywords": [
+      "signup optimization",
+      "registration flow",
+      "CRO",
+      "conversion rate",
+      "trial signup",
+      "account creation",
+      "signup friction",
+      "form optimization"
+    ],
+    "url": "skills/signup-flow-cro/skill.md"
+  },
+  {
+    "name": "Site Architecture",
+    "slug": "site-architecture",
+    "category": "Strategy",
+    "one_shot": true,
+    "uses_profile": true,
+    "description": "Plans website structure \u2014 page hierarchy, navigation, URL patterns, and internal linking \u2014 producing an ASCII tree, Mermaid sitemap, URL map, and navigation spec.",
+    "keywords": [
+      "site architecture",
+      "sitemap",
+      "information architecture",
+      "website structure",
+      "navigation design",
+      "URL structure",
+      "internal linking",
+      "page hierarchy"
+    ],
+    "url": "skills/site-architecture/skill.md"
+  },
+  {
+    "name": "Webinar Promo Email Sequence",
+    "slug": "webinar-promo-email-sequence",
+    "category": "Email",
+    "one_shot": true,
+    "uses_profile": true,
+    "description": "Writes a complete 5-day email sequence to promote a free live webinar, driving registrations through announcement, problem agitation, value deep-dive, social proof, and last-chance emails.",
+    "keywords": [
+      "webinar email",
+      "email sequence",
+      "event promotion",
+      "registration emails",
+      "masterclass",
+      "live training",
+      "email marketing",
+      "webinar promotion"
+    ],
+    "url": "skills/webinar-promo-email-sequence/skill.md"
   }
 ]
