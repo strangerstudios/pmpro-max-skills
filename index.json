@@ -698,5 +698,44 @@
       "member agreement"
     ],
     "url": "skills/community-guidelines/skill.md"
+  },
+  {
+    "name": "Ideal Member Profile",
+    "slug": "ideal-member-profile",
+    "category": "Strategy",
+    "one_shot": false,
+    "uses_profile": true,
+    "description": "Builds a vivid, specific ideal member profile through a structured interview — who they are, where they are now, what they want, what stops them, and what makes them buy and stay.",
+    "keywords": [
+      "ideal member",
+      "buyer persona",
+      "member profile",
+      "target audience",
+      "ICP",
+      "ideal customer",
+      "audience research",
+      "membership marketing",
+      "customer avatar"
+    ],
+    "url": "skills/ideal-member-profile/skill.md"
+  },
+  {
+    "name": "Free Content Audit",
+    "slug": "free-content-audit",
+    "category": "Strategy",
+    "one_shot": false,
+    "uses_profile": true,
+    "description": "Audits the free-facing content on a membership site to evaluate whether it's attracting the right visitors, building enough trust to convert, and creating a clear path from free to paid.",
+    "keywords": [
+      "free content",
+      "content audit",
+      "membership conversion",
+      "content strategy",
+      "free to paid",
+      "content review",
+      "trust building",
+      "membership marketing"
+    ],
+    "url": "skills/free-content-audit/skill.md"
   }
 ]
