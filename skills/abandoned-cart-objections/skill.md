@@ -14,15 +14,20 @@ keywords: [abandoned cart, objection handling, sales hesitation, warm leads, con
 
 Abandoned cart sequences can boost launch sales by 15–20% by targeting warm leads — people who visited a sales page 2+ times but didn't buy. These prospects have high interest but high hesitation. The goal of this skill is to surface the 10 most impactful objections holding them back, ranked by impact, so the user can select 4 to build their sequence around.
 
+## Before Starting
+
+**Check for context profile first:**
+If a context profile is available, read it before asking questions. Use that context to understand the user's membership offer, audience, and price point. Only ask for information not already covered.
+
 ## Step 1: Gather Required Inputs
 
 Before generating any output, collect the following from the user. Ask for all of it up front if not already provided.
 
-**Product/Service Details**
-- What exactly are you selling?
-- What's the price point?
+**Membership / Product Details**
+- What exactly are you selling? (e.g., course membership, coaching program, paid community, association membership, paid newsletter)
+- What's the price point? (monthly, annual, or one-time)
 - What transformation or outcome does it provide?
-- How long does it take to see results?
+- How long does it typically take to see results or get value?
 
 **Target Audience Profile**
 - Who is your ideal customer?

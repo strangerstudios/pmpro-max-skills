@@ -4,24 +4,31 @@ slug: linkedin-post
 category: Social
 one_shot: true
 uses_profile: true
-description: Writes a LinkedIn post in Kim Coleman's voice — thoughtful, first-person, experience-based — using her proven post structures and required signoff format.
-keywords: [LinkedIn, LinkedIn post, social media, thought leadership, personal brand, founder content, Kim Coleman, social writing]
+description: Writes a LinkedIn post for a membership site owner — thoughtful, first-person, experience-based — using proven post structures that build authority and resonate with your audience.
+keywords: [LinkedIn, LinkedIn post, social media, thought leadership, founder content, membership site, recurring business, social writing]
 ---
 
-# LinkedIn Post (Kim Coleman)
+# LinkedIn Post
 
-Write a LinkedIn post that sounds like someone thinking out loud in public — thoughtful, experienced, still curious. The goal is resonance, not virality.
+Write a LinkedIn post that sounds like a thoughtful practitioner thinking out loud in public — curious, direct, experience-based. The goal is resonance with potential members and peer founders, not virality.
+
+## Before Writing
+
+**Check for context profile first:**
+If a context profile is available, read it before asking questions. Use that context to understand the user's membership niche, audience, and expertise. Only ask for information not already covered.
+
+If no profile is available, ask:
+- What type of membership site do you run? (e.g., online courses, community, paid newsletter, association, podcast + community)
+- Who is your audience?
 
 ## Step 1: Gather Required Information
-
-Before writing, collect these inputs from the user (ask for any that are missing):
 
 | Field | Description |
 |-------|-------------|
 | Topic or Idea | The core thought, story, or observation to write about |
-| Content Category | Leadership, Business Strategy, Personal Growth, Processes & Systems, Product & Customer Stories, or Life Parallels |
+| Content Category | Leadership, Business Strategy, Personal Growth, Processes & Systems, Product & Member Stories, or Life Parallels |
 | Post Length | Short (100-200 words), Medium (200-400 words), or Long (400-600 words). Default to Medium. |
-| Source Material | (Optional) LinkedIn draft, blog post, or raw idea to adapt |
+| Source Material | (Optional) Draft, blog post, or raw idea to adapt |
 
 If the user has provided enough context upfront, skip straight to writing.
 
@@ -80,11 +87,11 @@ Select the structure that best fits the idea:
 The hook appears "above the fold" on LinkedIn and determines whether people click "see more." Make it count.
 
 **Hook styles that work:**
-- **Bold statement or question:** "Don't be afraid to fire your customers."
+- **Bold statement or question:** "Don't be afraid to fire your members."
 - **Provocative challenge:** "Would you ever trust just one person's opinion without double-checking?"
-- **Personal story opener:** "Fourteen years ago today, we released Paid Memberships Pro..."
-- **Relatable tension:** "Building a Community Feels Like a Mistake—Until It's Not"
-- **Vulnerable admission:** "Am I Making My Team Crazy?"
+- **Personal story opener:** "Three years in, we nearly shut the whole community down..."
+- **Relatable tension:** "Building a Membership Feels Like a Mistake—Until It's Not"
+- **Vulnerable admission:** "Our churn rate hit 18% this month. Here's what we learned."
 
 ### Body
 
@@ -110,7 +117,7 @@ The hook appears "above the fold" on LinkedIn and determines whether people clic
 ### Closing (Final 2-4 Lines)
 
 **In order of preference:**
-1. **Empowering statement** — Leave the reader feeling capable, not prompted. ("You **do** know what you're doing. So listen to yourself.")
+1. **Empowering statement** — Leave the reader feeling capable, not prompted.
 2. **Reflective close** — A thought that lingers without demanding interaction.
 3. **Open-ended question** — Use sparingly. Should invite nuance, not binary answers.
 
@@ -120,16 +127,6 @@ The hook appears "above the fold" on LinkedIn and determines whether people clic
 - "Would love to hear how this shows up for you."
 
 **Never use:** "Agree or disagree?" / "What do you think?" (too generic) / Engagement bait phrasing
-
-### Mandatory Signoff
-
-Every post must end with this exact signoff:
-
-```
-- - -
-
-I'm Kim Coleman, co-founder of Paid Memberships Pro. I write here about building open source software, membership businesses, and the messy, human side of being a founder.
-```
 
 ---
 
@@ -158,24 +155,25 @@ I'm Kim Coleman, co-founder of Paid Memberships Pro. I write here about building
 - Name the tension you are sitting with — you do not need to resolve it
 
 **Content approach:**
-- Connect everyday moments to business or leadership lessons (parenting, travel, health, volunteering, daily observations)
+- Connect everyday moments to membership and leadership lessons (serving members, navigating renewals, hiring decisions, parenting, health, travel, daily observations)
 - Use concrete examples: real numbers, real decisions, real trade-offs, real mistakes
 - Share process over outcomes: how decisions were made, what was unclear, what you would do differently
 - Teach through story, not instruction manuals
 
-**Relationship to product (Paid Memberships Pro):**
-- PMPro appears as context, not the hero
+**Relationship to your membership:**
+- Your membership appears as context, not the hero
 - Never sales-heavy or CTA-driven
 - Product mentions should feel incidental to the lesson
-- If PMPro were removed, the post should still stand on its own
+- If the membership were removed, the post should still stand on its own
 
 **Philosophical throughline:**
-- Work can be meaningful without being exploitative
-- Ownership (time, platform, decisions) matters
+- Recurring revenue creates freedom — but only if your members get recurring value
+- Ownership of your platform, audience, and data matters more than scale
+- Small, highly engaged communities beat large passive audiences
+- The best membership businesses are built slowly and intentionally
+- Most membership challenges are relationship challenges in disguise
 - Progress is iterative, not linear
 - People want agency more than shortcuts
-- Systems should support humans, not trap them
-- The best businesses are built with patience and intention
 
 ---
 
@@ -201,24 +199,10 @@ I'm Kim Coleman, co-founder of Paid Memberships Pro. I write here about building
 - [ ] Tone is conversational and authentic
 - [ ] Ends with engagement prompt or empowering close
 - [ ] No excessive self-promotion or sales language
-- [ ] Mandatory signoff is included
-- [ ] Feels like something Kim would actually say
+- [ ] Reflects genuine experience and a clear point of view
 
 ---
 
 ## Output Format
 
-Deliver the post with this file metadata at the top:
-
-```markdown
-# [Post Title - Use Title Case]
-
-**Author:** Kim Coleman
-**Date:** [Today's Date]
-**Platform:** LinkedIn
-**Original URL:** [Add after publishing]
-
----
-
-[Post content here]
-```
+Deliver the finished post, ready to copy and paste into LinkedIn.

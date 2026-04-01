@@ -12,18 +12,16 @@ keywords: [re-engagement email, win-back email, inactive subscribers, list hygie
 
 Win back cold subscribers (30+ days inactive) with a tight 3-email sequence: Greatest Hits → Lead Magnet Bribe → Quick Question.
 
+## Before Writing
+
+**Check for context profile first:**
+If a context profile is available, read it before asking questions. Use that context to understand the user's membership niche, audience, and expertise. Only ask for information not already covered.
+
 ## Step 1: Gather Inputs
-
-**1. PDF with templates + examples**
-If attached, read it first. Extract the structure, tone, and phrasing patterns for each of the 3 email types. Follow the templates as closely as possible — they take priority over the frameworks below.
-
-If no PDF is attached, ask — or confirm the user wants to proceed with best-practice defaults.
-
-**2. Business Information**
 
 | # | Field | Example |
 |---|-------|---------|
-| 1 | Niche or topic | digital marketing, fitness, parenting |
+| 1 | Niche or topic | online courses, membership community, paid newsletter, association |
 | 2 | Audience pain point | managing time, generating leads |
 | 3 | Audience goal/desired outcome | growing their business, feeling confident |
 | 4 | Best content/resources (3-5) | titles + links (blog posts, videos, guides, etc.) |

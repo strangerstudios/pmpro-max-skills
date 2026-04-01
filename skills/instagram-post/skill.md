@@ -4,19 +4,22 @@ slug: instagram-post
 category: Social
 one_shot: true
 uses_profile: true
-description: Creates Instagram content (carousel, reel, or story) in Kim Coleman's voice using a decision framework for format, caption length, and tone — prioritizing resonance over virality.
-keywords: [Instagram, Instagram post, carousel, reel, social media, personal brand, Kim Coleman, caption writing]
+description: Creates Instagram content for a membership site owner — carousels, reels, or stories — using a decision framework for format, caption, and tone that prioritizes resonance over virality.
+keywords: [Instagram, Instagram post, carousel, reel, social media, membership site, thought leadership, caption writing]
 ---
 
-# Instagram Post (Kim Coleman)
+# Instagram Post
 
-Create Instagram content that builds trust and context. Instagram is a support channel for humanizing ideas that live elsewhere (LinkedIn, blog). The goal is resonance and clarity, not virality or persuasion.
+Create Instagram content that builds trust and context around your membership expertise. Instagram works as a support channel for humanizing ideas that live elsewhere (LinkedIn, blog, podcast). The goal is resonance and clarity, not virality or persuasion.
 
 **Operating principle:** "If it feels like marketing, pull it back. If it feels like a thoughtful person explaining something clearly, it's correct."
 
-## Step 1: Gather Required Information
+## Before Creating
 
-Before creating, collect these inputs from the user (ask for any that are missing):
+**Check for context profile first:**
+If a context profile is available, read it before asking questions. Use that context to understand the user's membership niche, audience, and expertise. Only ask for what isn't already covered.
+
+## Step 1: Gather Required Information
 
 | Field | Description |
 |-------|-------------|
@@ -122,13 +125,9 @@ Create a short script:
 - Length: under 45 seconds
 - Avoid trends, hooks-for-hooks-sake, or exaggerated claims
 
-**Include one of these mid-reel CTAs:**
+**Include one mid-reel CTA.** A strong template: "Hey, I'm [Your Name]. I help [your audience] [core outcome]. [Follow / like / check the link in bio if that resonates.]"
 
-1. "Hey, I'm Kim Coleman. I help people build membership sites and get paid for what they know. If this was helpful, give it a like or follow along."
-
-2. "Hey, I'm Kim Coleman. I help people build membership sites and get paid for what they know. Follow me if you want more honest advice about building this stuff."
-
-3. "Hey, I'm Kim Coleman. I help people build membership sites and get paid for what they know. Like this or follow me if you are building something of your own."
+Keep it short, direct, and grounded — not hype-driven.
 
 ### Story-only
 
@@ -186,15 +185,14 @@ Otherwise, let it disappear.
 - "I don't think this gets talked about enough."
 - "I could be wrong, but..."
 
-**Relationship to product (PMPro):**
-- Appears as context, not centerpiece
+**Relationship to your membership:**
+- Appears as context, not the centerpiece
 - Never sales-forward
-- Content must stand alone without PMPro mentioned
-- Product is part of the ecosystem, not the conclusion
+- Content must stand alone without the membership mentioned
+- Your expertise is the point, not the product
 
-**Personal content (dogs, life):**
-- Personal content is signal, not filler
-- It builds trust and increases time-on-profile
+**Personal content:**
+- Personal moments (life outside the business, behind-the-scenes, observations) build trust and increase time-on-profile
 - Do not force lessons onto personal moments. Let them coexist.
 
 ---

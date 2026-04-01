@@ -14,7 +14,7 @@ Guide customers from purchase → success → repeat buyer through a strategic 6
 
 ## Core Philosophy
 
-Most creators think their job ends at the sale. This sequence is built on the opposite belief: the sale is where the relationship begins. Every email focuses on customer success first — business outcomes (testimonials, LTV, referrals) follow naturally.
+Most membership site owners think their job ends at the checkout. This sequence is built on the opposite belief: the sale is where the member relationship begins. Every email focuses on member success first — business outcomes (testimonials, LTV, referrals, renewals) follow naturally.
 
 ---
 
@@ -22,13 +22,13 @@ Most creators think their job ends at the sale. This sequence is built on the op
 
 Collect the following before writing. Ask for any missing fields.
 
-### Product/Service Details
+### Membership / Product Details
 | # | Field |
 |---|-------|
-| 1 | What exactly did they purchase? |
-| 2 | Main outcome/transformation it provides |
-| 3 | How long does it typically take to see results? |
-| 4 | Format: course / coaching / software / physical / etc. |
+| 1 | What exactly did they join or purchase? (e.g., course, community, coaching program, paid newsletter, association) |
+| 2 | Main outcome/transformation or core value it provides |
+| 3 | How long does it typically take to see results or feel the value? |
+| 4 | Format: membership site / course / coaching / community / newsletter / etc. |
 | 5 | How do they access it? (login portal, email delivery, etc.) |
 
 ### Customer Journey Insights

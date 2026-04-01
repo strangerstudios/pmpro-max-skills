@@ -78,9 +78,9 @@ Every piece of content must be searchable, shareable, or both. Prioritize in tha
 
 **Use-Case Content**
 Formula: [persona] + [use-case]. Targets long-tail keywords.
-- "Project management for designers"
-- "Task tracking for developers"
-- "Client collaboration for freelancers"
+- "Online membership site for yoga teachers"
+- "Paid community for nonprofit professionals"
+- "Course membership for independent consultants"
 
 **Hub and Spoke**
 Hub = comprehensive overview. Spokes = related subtopics.
@@ -173,34 +173,34 @@ Map topics to the buyer's journey using proven keyword modifiers:
 ### Awareness Stage
 Modifiers: "what is," "how to," "guide to," "introduction to"
 
-Example: If customers ask about project management basics:
-- "What is Agile Project Management"
-- "Guide to Sprint Planning"
-- "How to Run a Standup Meeting"
+Example: If potential members are new to the concept:
+- "What is a Membership Site"
+- "How to Start an Online Community"
+- "Guide to Launching a Paid Newsletter"
 
 ### Consideration Stage
 Modifiers: "best," "top," "vs," "alternatives," "comparison"
 
-Example: If customers evaluate multiple tools:
-- "Best Project Management Tools for Remote Teams"
-- "Asana vs Trello vs Monday"
-- "Basecamp Alternatives"
+Example: If potential members are evaluating options:
+- "Best Platforms for Online Course Membership Sites"
+- "Paid Community vs. Free Facebook Group"
+- "Substack Alternatives for Newsletter Creators"
 
 ### Decision Stage
-Modifiers: "pricing," "reviews," "demo," "trial," "buy"
+Modifiers: "pricing," "reviews," "demo," "trial," "join"
 
-Example: If pricing comes up in sales calls:
-- "Project Management Tool Pricing Comparison"
-- "How to Choose the Right Plan"
-- "[Product] Reviews"
+Example: If pricing or commitment comes up before joining:
+- "How Much Should a Membership Site Cost?"
+- "Is [Membership Name] Worth It?"
+- "What You Get When You Join [Membership]"
 
 ### Implementation Stage
 Modifiers: "templates," "examples," "tutorial," "how to use," "setup"
 
-Example: If support tickets show implementation struggles:
-- "Project Template Library"
-- "Step-by-Step Setup Tutorial"
-- "How to Use [Feature]"
+Example: If new members struggle to get started:
+- "New Member Welcome Checklist"
+- "How to Get the Most From Your Membership"
+- "How to Set Up Your Member Profile"
 
 ---
 

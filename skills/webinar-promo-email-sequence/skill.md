@@ -12,19 +12,14 @@ keywords: [webinar email, email sequence, event promotion, registration emails, 
 
 Write a 5-email sequence that drives registrations for a free live webinar, using provided templates, examples, and event details.
 
+## Before Writing
+
+**Check for context profile first:**
+If a context profile is available, read it before asking questions. Use that context to understand the user's membership niche, audience, and expertise. Only ask for what isn't already covered.
+
 ## Step 1: Gather Inputs
 
-You need 3 things before writing. Check what the user has provided:
-
-**1. PDF with templates + examples**
-If the user has attached a PDF, read it first. Extract:
-- The fill-in-the-blank template structure for each of the 5 days
-- Tone, phrasing patterns, and formatting from the examples
-- Any structural elements specific to their style
-
-If no PDF is attached, ask for it — or ask if they'd like you to proceed with a general best-practice structure.
-
-**2. Webinar Details**
+**Webinar Details**
 
 | Field | Status |
 |-------|--------|
@@ -54,21 +49,7 @@ If webinar details are missing, ask before writing.
 
 ---
 
-## Step 2: Read the PDF Templates
-
-If a PDF is attached:
-1. Read the full PDF carefully
-2. Identify the template structure for each of the 5 days (fill-in-the-blank sections)
-3. Note the example emails — study their sentence rhythm, hook style, and how they transition to CTA
-4. Use those templates as your scaffolding, filled in with the user's specific webinar details
-
-The templates in the PDF take priority over the generic frameworks below.
-
----
-
-## Step 3: Write the 5 Emails
-
-If no PDF templates are provided, use these frameworks:
+## Step 2: Write the 5 Emails
 
 ### Day 1 — The Announcement
 *Goal: Generate awareness and first-wave registrations*

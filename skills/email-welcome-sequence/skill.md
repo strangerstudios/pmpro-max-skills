@@ -12,6 +12,11 @@ keywords: [email, welcome, onboarding, subscribers, newsletter, drip, sequence, 
 
 Generate a high-converting 5-email welcome sequence that builds trust, agitates pain, demonstrates value, and drives sales.
 
+## Before Writing
+
+**Check for context profile first:**
+If a context profile is available, read it before asking questions. Use that context to understand the user's membership niche, audience, and offer. Only ask for information not already covered.
+
 ## Step 1: Gather Required Information
 
 Before writing, collect these inputs (ask for any that are missing):
@@ -19,10 +24,10 @@ Before writing, collect these inputs (ask for any that are missing):
 | Field | Example |
 |-------|---------|
 | Your Name | Jane Smith |
-| Niche/Industry | fitness coaching, SaaS, consulting |
+| Membership Type / Niche | courses & coaching, paid community, association, paid newsletter, podcast membership |
 | Core Problem You Solve | Main pain point your audience experiences |
 | Product/Service Name | What you're selling |
-| Product Category | Course / Coaching / Software / Membership / etc. |
+| Product Category | Membership / Course / Coaching / Community / Newsletter / etc. |
 | Price Point | $497, $97/mo, etc. |
 | Lead Magnet Name | What subscribers downloaded to join the list |
 | Target Audience | Specific demographic/psychographic |

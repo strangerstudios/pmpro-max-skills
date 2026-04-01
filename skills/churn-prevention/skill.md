@@ -204,7 +204,7 @@ The key insight: **match the offer to the reason.** A discount won't save someon
 - Use the customer's name and account data when possible
 - Mobile-friendly (many cancellations happen on mobile)
 
-For detailed cancel flow patterns by industry and billing provider, see [references/cancel-flow-patterns.md](references/cancel-flow-patterns.md).
+Ask the AI to generate cancel flow patterns specific to your membership type and billing provider if you need more detail.
 
 ---
 
@@ -324,7 +324,7 @@ Not all failures are the same. Retry strategy by decline type:
 | Overall payment recovery | <30% | 40-50% | 60%+ |
 | Pre-dunning prevention | None | 10-15% | 20-30% |
 
-For the complete dunning playbook with provider-specific setup, see [references/dunning-playbook.md](references/dunning-playbook.md).
+Ask the AI for a provider-specific dunning setup guide based on your billing platform if you need more detail.
 
 ---
 
@@ -363,7 +363,7 @@ Test one variable at a time:
 | Offer presentation (modal vs full page) | Full page gets more attention | Save rate |
 | Copy tone (empathetic vs direct) | Empathetic reduces friction | Save rate |
 
-**How to run cancel flow experiments:** Use the **ab-test-setup** skill to design statistically rigorous tests. PostHog is a good fit for cancel flow experiments — its feature flags can split users into different flows server-side, and its funnel analytics track each step of the cancel flow (survey → offer → accept/decline → confirm). See the [PostHog integration guide](../../tools/integrations/posthog.md) for setup.
+**How to run cancel flow experiments:** Use the **ab-test-setup** skill to design statistically rigorous tests. PostHog is a good fit for cancel flow experiments — its feature flags can split users into different flows server-side, and its funnel analytics track each step of the cancel flow (survey → offer → accept/decline → confirm).
 
 ---
 
@@ -383,8 +383,6 @@ Test one variable at a time:
 ---
 
 ## Tool Integrations
-
-For implementation, see the [tools registry](../../tools/REGISTRY.md).
 
 ### Retention Platforms
 

@@ -12,13 +12,18 @@ keywords: [objection handling, sales email, conversion email, email copywriting,
 
 Write a single, conversational 400-600 word email that reframes one specific objection and drives action.
 
+## Before Writing
+
+**Check for context profile first:**
+If a context profile is available, read it before asking questions. Use that context to understand the user's membership offer, audience, and price point. Only ask for what isn't already covered.
+
 ## Step 1: Gather Inputs
 
 Collect all fields below before writing. Ask for any that are missing.
 
 | Field | Example |
 |-------|---------|
-| Product type | course, coaching program, software, etc. |
+| Product type | membership, course, coaching program, paid community, paid newsletter, etc. |
 | Product name | |
 | Price | $297, $97/mo, etc. |
 | The specific objection to address | "It's too expensive" / "I don't have time" / "I'm not sure it'll work for me" |

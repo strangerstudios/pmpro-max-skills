@@ -253,15 +253,15 @@
     "category": "Social",
     "one_shot": true,
     "uses_profile": true,
-    "description": "Creates Instagram content (carousel, reel, or story) in Kim Coleman's voice using a decision framework for format, caption length, and tone \u2014 prioritizing resonance over virality.",
+    "description": "Creates Instagram content for a membership site owner — carousels, reels, or stories — using a decision framework for format, caption, and tone that prioritizes resonance over virality.",
     "keywords": [
       "Instagram",
       "Instagram post",
       "carousel",
       "reel",
       "social media",
-      "personal brand",
-      "Kim Coleman",
+      "membership site",
+      "thought leadership",
       "caption writing"
     ],
     "url": "skills/instagram-post/skill.md"
@@ -291,15 +291,15 @@
     "category": "Social",
     "one_shot": true,
     "uses_profile": true,
-    "description": "Writes a LinkedIn post in Kim Coleman's voice \u2014 thoughtful, first-person, experience-based \u2014 using her proven post structures and required signoff format.",
+    "description": "Writes a LinkedIn post for a membership site owner — thoughtful, first-person, experience-based — using proven post structures that build authority and resonate with your audience.",
     "keywords": [
       "LinkedIn",
       "LinkedIn post",
       "social media",
       "thought leadership",
-      "personal brand",
       "founder content",
-      "Kim Coleman",
+      "membership site",
+      "recurring business",
       "social writing"
     ],
     "url": "skills/linkedin-post/skill.md"
@@ -310,7 +310,7 @@
     "category": "Email",
     "one_shot": true,
     "uses_profile": true,
-    "description": "Writes a 5-email newsletter welcome sequence (Warm Welcome, Greatest Hits, Biggest Mistake, Origin Story, Soft Pitch) following Daniel Bustamante's proven templates.",
+    "description": "Writes a 5-email newsletter welcome sequence for a membership site owner — Warm Welcome, Greatest Hits, Biggest Mistake, Origin Story, Soft Pitch — to turn new subscribers into engaged (and eventually paying) members.",
     "keywords": [
       "welcome email",
       "email sequence",
@@ -319,7 +319,8 @@
       "email marketing",
       "welcome series",
       "new subscriber",
-      "email automation"
+      "email automation",
+      "membership site"
     ],
     "url": "skills/newsletter-welcome-sequence/skill.md"
   },
@@ -493,5 +494,209 @@
       "webinar promotion"
     ],
     "url": "skills/webinar-promo-email-sequence/skill.md"
+  },
+  {
+    "name": "Membership Level Description",
+    "slug": "membership-level-description",
+    "category": "PMPro",
+    "one_shot": true,
+    "uses_profile": true,
+    "description": "Writes compelling level names, taglines, and benefit descriptions for the PMPro levels page — making the value of each tier instantly clear so browsers become members.",
+    "keywords": [
+      "membership level",
+      "level description",
+      "pricing page",
+      "tier description",
+      "PMPro levels",
+      "membership copy",
+      "tier copy",
+      "level benefits"
+    ],
+    "url": "skills/membership-level-description/skill.md"
+  },
+  {
+    "name": "Level Confirmation Message",
+    "slug": "level-confirmation-message",
+    "category": "PMPro",
+    "one_shot": true,
+    "uses_profile": true,
+    "description": "Writes the post-checkout confirmation message members see immediately after joining — turning a transactional moment into a warm welcome that sets expectations and drives the first action.",
+    "keywords": [
+      "confirmation message",
+      "PMPro confirmation",
+      "post-checkout message",
+      "member welcome",
+      "level settings",
+      "onboarding",
+      "first impression"
+    ],
+    "url": "skills/level-confirmation-message/skill.md"
+  },
+  {
+    "name": "Locked Content Teaser",
+    "slug": "locked-content-teaser",
+    "category": "PMPro",
+    "one_shot": true,
+    "uses_profile": true,
+    "description": "Writes the teaser message and signup prompt non-members see when they land on protected content — turning a blocked page into a conversion opportunity.",
+    "keywords": [
+      "locked content",
+      "content protection",
+      "teaser message",
+      "member signup prompt",
+      "PMPro protection",
+      "gated content",
+      "Advanced Signups Add On",
+      "conversion"
+    ],
+    "url": "skills/locked-content-teaser/skill.md"
+  },
+  {
+    "name": "Membership Sales Page",
+    "slug": "membership-sales-page",
+    "category": "Copy",
+    "one_shot": true,
+    "uses_profile": true,
+    "description": "Writes a complete membership sales page — hero, problem, solution, what's included, social proof, FAQ, and CTA — with a shortcode placeholder for the PMPro levels table.",
+    "keywords": [
+      "membership sales page",
+      "sales page copy",
+      "landing page",
+      "membership page",
+      "PMPro levels",
+      "conversion copy",
+      "membership marketing"
+    ],
+    "url": "skills/membership-sales-page/skill.md"
+  },
+  {
+    "name": "WordPress Page Blocks",
+    "slug": "wordpress-page-blocks",
+    "category": "PMPro",
+    "one_shot": false,
+    "uses_profile": false,
+    "description": "Converts page copy into WordPress block editor code view HTML — ready to paste directly into WordPress. Pairs with the Membership Sales Page skill.",
+    "keywords": [
+      "WordPress blocks",
+      "block editor",
+      "code view",
+      "Gutenberg",
+      "WordPress copy",
+      "block editor HTML",
+      "WordPress page"
+    ],
+    "url": "skills/wordpress-page-blocks/skill.md"
+  },
+  {
+    "name": "Memberlite Color Scheme",
+    "slug": "memberlite-color-scheme",
+    "category": "PMPro",
+    "one_shot": true,
+    "uses_profile": false,
+    "description": "Extracts a color palette from your logo and outputs a complete Memberlite CSS color scheme — ready to paste into Appearance > Customize > Additional CSS or a child theme.",
+    "keywords": [
+      "Memberlite",
+      "color scheme",
+      "CSS",
+      "branding",
+      "PMPro theme",
+      "logo colors",
+      "custom CSS",
+      "WordPress theme",
+      "color palette"
+    ],
+    "url": "skills/memberlite-color-scheme/skill.md"
+  },
+  {
+    "name": "Membership CTA Block",
+    "slug": "membership-cta-block",
+    "category": "PMPro",
+    "one_shot": true,
+    "uses_profile": true,
+    "description": "Generates a styled HTML/CSS call-to-action block for promoting your membership anywhere on your site — with instructions for saving it as a WordPress Synced Pattern for easy reuse.",
+    "keywords": [
+      "CTA block",
+      "call to action",
+      "membership promotion",
+      "HTML CTA",
+      "WordPress CTA",
+      "synced pattern",
+      "membership widget",
+      "conversion block"
+    ],
+    "url": "skills/membership-cta-block/skill.md"
+  },
+  {
+    "name": "Content Access Strategy",
+    "slug": "content-access-strategy",
+    "category": "Strategy",
+    "one_shot": false,
+    "uses_profile": true,
+    "description": "Designs what to keep free, what to gate, and how to structure access across membership levels — so free content builds trust and gated content drives and keeps memberships.",
+    "keywords": [
+      "content access",
+      "content gating",
+      "free vs paid content",
+      "membership levels",
+      "content strategy",
+      "content protection",
+      "PMPro access"
+    ],
+    "url": "skills/content-access-strategy/skill.md"
+  },
+  {
+    "name": "Member Onboarding Guide",
+    "slug": "member-onboarding-guide",
+    "category": "PMPro",
+    "one_shot": true,
+    "uses_profile": true,
+    "description": "Writes the Start Here welcome page new members land on after joining — organized first steps, what to explore, and how to get the most from their membership from day one.",
+    "keywords": [
+      "member onboarding",
+      "welcome page",
+      "start here page",
+      "new member guide",
+      "member orientation",
+      "membership onboarding",
+      "first steps"
+    ],
+    "url": "skills/member-onboarding-guide/skill.md"
+  },
+  {
+    "name": "Renewal Reminder Email",
+    "slug": "renewal-reminder-email",
+    "category": "Email",
+    "one_shot": true,
+    "uses_profile": true,
+    "description": "Writes a 3-email proactive renewal sequence (30 days, 7 days, expiry day) to reduce passive churn before a membership expires — warm, value-focused, not alarming.",
+    "keywords": [
+      "renewal email",
+      "membership renewal",
+      "expiring membership",
+      "renewal reminder",
+      "retention email",
+      "subscription renewal",
+      "PMPro renewal",
+      "membership expiry"
+    ],
+    "url": "skills/renewal-reminder-email/skill.md"
+  },
+  {
+    "name": "Community Guidelines",
+    "slug": "community-guidelines",
+    "category": "PMPro",
+    "one_shot": true,
+    "uses_profile": true,
+    "description": "Writes a community guidelines and code of conduct page — covering expectations, participation norms, and enforcement — that makes the right members want to participate.",
+    "keywords": [
+      "community guidelines",
+      "code of conduct",
+      "community rules",
+      "membership community",
+      "forum rules",
+      "community standards",
+      "member agreement"
+    ],
+    "url": "skills/community-guidelines/skill.md"
   }
 ]
