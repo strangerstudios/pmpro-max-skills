@@ -1,25 +1,26 @@
 # PMPro Max Skills
 
-A library of AI prompt skills for membership site operators — built by the [Paid Memberships Pro](https://www.paidmembershipspro.com) team.
+A library of AI prompt skills for membership site operators. Built by the [Paid Memberships Pro](https://www.paidmembershipspro.com) team.
 
-Each skill is a focused prompt file you load into Claude, ChatGPT, or any AI tool to complete a specific marketing or growth task for your membership site.
+Each skill is a focused prompt file you load into Claude, ChatGPT, or any AI tool to complete a specific development, marketing, sales, or operational task for your membership site.
 
 ---
 
 ## How to Use a Skill
 
-### Option 1 — Run it on PMPro.com (PMPro Max members)
+### Option 1 — Run it on PaidMembershipsPro.com (PMPro Max membership required)
 
-Skills marked as **one-shot** can be run directly inside your PMPro Max dashboard at `membership-account/ai-tools/`. Paste your context, click Generate, and get a complete output in one step.
+Skills marked as **one-shot** can be run directly inside your [member dashboard](https://www.paidmembershipspro.com/membership-account/). Paste your context, click Generate, and get a complete output in one step.
 
-[Learn more about PMPro Max →](https://www.paidmembershipspro.com/max/)
+[Learn more about PMPro Max →](https://www.paidmembershipspro.com/pricing/)
 
 ### Option 2 — Use it in Claude
 
 1. Open [claude.ai](https://claude.ai) and start a new conversation
 2. Copy the contents of the `skill.md` file you want
 3. Paste it into the chat
-4. Follow the prompts — the skill will guide you through what it needs
+4. Include your personal [Context Profile](https://www.paidmembershipspro.com/membership-account/) for the best results.
+5. Follow the prompts. The skill will guide you through what it needs
 
 ### Option 3 — Use it in ChatGPT
 
@@ -28,6 +29,8 @@ Same as Claude. Open [chat.openai.com](https://chat.openai.com), start a new cha
 ### Option 4 — Use it in Claude Code
 
 If you use [Claude Code](https://claude.ai/code), you can load skills from this repo directly into your project's `.claude/skills/` directory.
+
+For best results, you should store a copy of your [Context Profile](https://www.paidmembershipspro.com/membership-account/) in your project. This could be added in your project's CLAUDE.md file or stored separately and referenced in CLAUDE.md like `@docs/context-profile.md`.
 
 ---
 
@@ -58,9 +61,9 @@ keywords: [email, welcome, onboarding, subscribers, newsletter]
 
 Skills that use your context profile (`uses_profile: true`) work better when you tell the AI who you are, what you sell, and who you serve. You can do this two ways:
 
-**On PMPro.com:** Your AI Context Profile is saved to your account and added automatically.
+**On PaidMembershipsPro.com:** Your AI Context Profile is saved to your account and added automatically.
 
-**In your own AI tool:** Before pasting the skill, start your message with something like:
+**In your own AI tool:** Before pasting the skill, attach your ContextProfile.md OR start your message with something like:
 
 ```
 ## My Context
@@ -134,9 +137,3 @@ Skills in this repo are maintained by the PMPro team. Community contributions we
 - Follow the frontmatter format above
 - After adding or editing a skill, run `scripts/generate-index.py` to update `index.json`
 - Open a PR with a brief description of what the skill does and who it's for
-
----
-
-## License
-
-MIT — use freely, modify, share.
