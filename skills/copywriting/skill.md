@@ -1,11 +1,11 @@
 ---
 name: Copywriting
 slug: copywriting
-category: Content
+category: Copy
 one_shot: false
 uses_profile: true
-description: Writes or rewrites marketing copy for any page — homepage, landing pages, pricing, feature pages — using clarity-first principles, benefit-driven framing, and customer language.
-keywords: [copywriting, landing page copy, homepage copy, marketing copy, headline writing, CTA copy, value proposition, conversion copy]
+description: Writes or rewrites marketing copy for PMPro membership sites — homepage, landing pages, pricing, feature pages — including PMPro-specific CTAs, levels pages, and member vs. non-member copy splits.
+keywords: [copywriting, landing page copy, membership site copy, pricing page, PMPro, checkout button, levels page, member content, conversion copy, CTA]
 ---
 
 # Copywriting
@@ -217,6 +217,80 @@ Maintain consistency, but adjust intensity:
 - Headlines can be bolder
 - Body copy should be clearer
 - CTAs should be action-oriented
+
+---
+
+## PMPro Implementation
+
+When writing copy for a PMPro-powered site, use native PMPro blocks and shortcodes for CTAs and page structure — and always account for the member/non-member copy split.
+
+### Checkout CTAs
+
+Replace generic buttons with PMPro checkout buttons. These link directly to checkout for a specific level.
+
+**Block (recommended for block editor):**
+```
+<!-- wp:pmpro/checkout-button {"selected_membership_level":"1"} /-->
+```
+
+**Shortcode:**
+```
+[pmpro_checkout_button level="1" text="Join Now"]
+```
+
+Customize `text` to match your CTA copy. Default is "Sign Up for {level name} Now."
+
+### Pricing / Levels Pages
+
+Don't build a manual pricing table. Use the native levels page — it pulls live pricing, level names, and descriptions from your PMPro settings and stays in sync automatically.
+
+**Block:**
+```
+<!-- wp:pmpro/levels-page /-->
+```
+
+**Shortcode:**
+```
+[pmpro_levels]
+```
+
+When writing copy for a pricing section, write the surrounding content (headline, intro, social proof) and drop in `[pmpro_levels]` where the tier comparison should appear.
+
+### Member vs. Non-Member Copy Split
+
+This is the most important PMPro-specific consideration. Existing members should never see sales copy, pricing tables, or "Join Now" CTAs — it's confusing and feels like a bad experience.
+
+Use the `[membership]` shortcode (or Membership Required block) to show different content to different audiences.
+
+**Pattern 1 — Hide sales copy from members:**
+```
+[membership level="0"]
+  [your full sales copy, pricing table, and checkout CTA here]
+[/membership]
+
+[membership level="1,2,3"]
+  You're already a member — [link to member dashboard or next step].
+[/membership]
+```
+`level="0"` targets non-members and visitors. List all active level IDs to target existing members.
+
+**Pattern 2 — Upsell members to a higher tier:**
+```
+[membership level="1"]
+  Ready for more? Here's what you unlock at [Level 2 name].
+  [pmpro_checkout_button level="2" text="Upgrade Now"]
+[/membership]
+```
+
+**Pattern 3 — Show a message to all members, hide from visitors:**
+```
+[membership]
+  Welcome back. [Message or link for any logged-in member.]
+[/membership]
+```
+Leaving `level` blank targets all members regardless of level.
+
+When producing copy for any sales or pricing page, always ask: **"What should an existing member see here?"** and write that variant too.
 
 ---
 
