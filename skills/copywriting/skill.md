@@ -274,6 +274,16 @@ Use the `[membership]` shortcode (or Membership Required block) to show differen
 ```
 `level="0"` targets non-members and visitors. List all active level IDs to target existing members.
 
+**Block editor equivalent — use the Membership Required block with `invert_restrictions`:**
+
+Wrap your checkout CTA in a Membership block set to inverted (shows to non-members only):
+```
+<!-- wp:pmpro/membership {"invert_restrictions":"1"} -->
+  <!-- wp:pmpro/checkout-button {"selected_membership_level":"2"} /-->
+<!-- /wp:pmpro/membership -->
+```
+`"invert_restrictions":"1"` inverts the logic so the nested content shows to visitors/non-members and is hidden from members. Nest any blocks inside — checkout buttons, pricing tables, full copy sections.
+
 **Pattern 2 — Upsell members to a higher tier:**
 ```
 [membership level="1"]
