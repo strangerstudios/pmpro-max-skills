@@ -1,7 +1,7 @@
 ---
 name: Instagram Post
 slug: instagram-post
-category: Social
+category: Content
 one_shot: true
 uses_profile: true
 description: Creates Instagram content for a membership site owner — carousels, reels, or stories — using a decision framework for format, caption, and tone that prioritizes resonance over virality.

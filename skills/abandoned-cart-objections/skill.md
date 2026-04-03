@@ -1,7 +1,7 @@
 ---
 name: Abandoned Cart Objections
 slug: abandoned-cart-objections
-category: Email / CRO
+category: CRO
 one_shot: true
 uses_profile: true
 description: Identifies and ranks the 10 most impactful objections holding back warm leads who visited a sales page but didn't buy, with reframe strategies and email frameworks for each.

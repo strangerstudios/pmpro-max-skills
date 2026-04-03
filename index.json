@@ -2,7 +2,7 @@
   {
     "name": "Abandoned Cart Objections",
     "slug": "abandoned-cart-objections",
-    "category": "Email / CRO",
+    "category": "CRO",
     "one_shot": true,
     "uses_profile": true,
     "description": "Identifies and ranks the 10 most impactful objections holding back warm leads who visited a sales page but didn't buy, with reframe strategies and email frameworks for each.",
@@ -17,63 +17,6 @@
       "sales page"
     ],
     "url": "skills/abandoned-cart-objections/skill.md"
-  },
-  {
-    "name": "Analyze My Content and Brainstorm 10 Lead Magnet Ideas",
-    "slug": "analyze-my-content-and-brainstorm-10-lead-magnet-ideas",
-    "category": "Lead Magnets",
-    "one_shot": true,
-    "uses_profile": true,
-    "description": "Analyzes 90 days of existing content to identify top-performing themes and hidden lead magnet opportunities, then generates 10 validated ideas based on what's already working.",
-    "keywords": [
-      "lead magnet",
-      "content analysis",
-      "content audit",
-      "lead generation",
-      "opt-in ideas",
-      "content repurposing",
-      "audience insights",
-      "engagement patterns"
-    ],
-    "url": "skills/analyze-my-content-and-brainstorm-10-lead-magnet-ideas/skill.md"
-  },
-  {
-    "name": "Brainstorm a Curation Lead Magnet",
-    "slug": "brainstorm-a-curation-lead-magnet",
-    "category": "Lead Magnets",
-    "one_shot": true,
-    "uses_profile": true,
-    "description": "Generates 10 curation-based lead magnet ideas \u2014 swipe files, resource collections, and example libraries \u2014 that save audience time and lead naturally to a paid offer.",
-    "keywords": [
-      "lead magnet",
-      "curation",
-      "swipe file",
-      "resource collection",
-      "template library",
-      "example library",
-      "list building",
-      "opt-in"
-    ],
-    "url": "skills/brainstorm-a-curation-lead-magnet/skill.md"
-  },
-  {
-    "name": "Brainstorm AI-Powered Lead Magnet Ideas",
-    "slug": "brainstorm-ai-powered-lead-magnet-ideas",
-    "category": "Lead Magnets",
-    "one_shot": false,
-    "uses_profile": true,
-    "description": "Unbundles a paid offer into AI-powered lead magnet ideas that solve a precursor problem using AI prompts, custom GPTs, or AI workflows.",
-    "keywords": [
-      "lead magnet",
-      "AI lead magnet",
-      "freebie ideas",
-      "AI prompts",
-      "opt-in",
-      "lead generation",
-      "list building",
-      "AI-powered"
-    ],
-    "url": "skills/brainstorm-ai-powered-lead-magnet-ideas/skill.md"
   },
   {
     "name": "Brainstorm Hyper-Relevant Lead Magnet Ideas",
@@ -115,7 +58,7 @@
   {
     "name": "Churn Prevention",
     "slug": "churn-prevention",
-    "category": "Retention",
+    "category": "CRO",
     "one_shot": false,
     "uses_profile": true,
     "description": "Builds cancel flows, dynamic save offers, proactive retention strategies, and dunning sequences to reduce both voluntary and involuntary subscription churn.",
@@ -153,7 +96,7 @@
   {
     "name": "Copywriting",
     "slug": "copywriting",
-    "category": "Copy",
+    "category": "Content",
     "one_shot": false,
     "uses_profile": true,
     "description": "Writes or rewrites marketing copy for any page \u2014 homepage, landing pages, pricing, feature pages \u2014 using clarity-first principles, benefit-driven framing, and customer language.",
@@ -227,30 +170,9 @@
     "url": "skills/generate-lead-magnet-names/skill.md"
   },
   {
-    "name": "Generate Mockup Images for a Lead Magnet Landing Page",
-    "slug": "generate-mockup-images-for-a-lead-magnet-landing-page",
-    "category": "Lead Magnets",
-    "one_shot": true,
-    "uses_profile": false,
-    "description": "Creates detailed AI image generation prompts (Midjourney, DALL-E, Ideogram) for professional lead magnet mockups \u2014 ebook covers, PDF previews, template visuals \u2014 in three style variations.",
-    "keywords": [
-      "mockup",
-      "lead magnet",
-      "landing page",
-      "ebook cover",
-      "product image",
-      "Midjourney",
-      "DALL-E",
-      "Ideogram",
-      "visual design",
-      "opt-in page"
-    ],
-    "url": "skills/generate-mockup-images-for-a-lead-magnet-landing-page/skill.md"
-  },
-  {
     "name": "Instagram Post",
     "slug": "instagram-post",
-    "category": "Social",
+    "category": "Content",
     "one_shot": true,
     "uses_profile": true,
     "description": "Creates Instagram content for a membership site owner — carousels, reels, or stories — using a decision framework for format, caption, and tone that prioritizes resonance over virality.",
@@ -288,7 +210,7 @@
   {
     "name": "LinkedIn Post",
     "slug": "linkedin-post",
-    "category": "Social",
+    "category": "Content",
     "one_shot": true,
     "uses_profile": true,
     "description": "Writes a LinkedIn post for a membership site owner — thoughtful, first-person, experience-based — using proven post structures that build authority and resonate with your audience.",

@@ -1,7 +1,7 @@
 ---
 name: Copywriting
 slug: copywriting
-category: Copy
+category: Content
 one_shot: false
 uses_profile: true
 description: Writes or rewrites marketing copy for any page — homepage, landing pages, pricing, feature pages — using clarity-first principles, benefit-driven framing, and customer language.

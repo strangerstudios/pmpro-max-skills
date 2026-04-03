@@ -1,7 +1,7 @@
 ---
 name: LinkedIn Post
 slug: linkedin-post
-category: Social
+category: Content
 one_shot: true
 uses_profile: true
 description: Writes a LinkedIn post for a membership site owner — thoughtful, first-person, experience-based — using proven post structures that build authority and resonate with your audience.

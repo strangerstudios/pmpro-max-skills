@@ -1,7 +1,7 @@
 ---
 name: Churn Prevention
 slug: churn-prevention
-category: Retention
+category: CRO
 one_shot: false
 uses_profile: true
 description: Builds cancel flows, dynamic save offers, proactive retention strategies, and dunning sequences to reduce both voluntary and involuntary subscription churn.
