@@ -6,6 +6,40 @@ one_shot: true
 uses_profile: true
 description: Analyze a piece of content and generate 10 lead magnet ideas that feel like the natural next step — organized by effort level.
 keywords: [lead magnet, content, opt-in, freebie, list building, subscribers, conversion]
+feature: planning
+quiz:
+  - step: 1
+    heading: "Your Content"
+    hint: "The best lead magnets feel custom-built for someone who just read that specific piece of content. Paste what you've got — the more complete, the better."
+    inputs:
+      - name: content_paste
+        label: "Paste your content here — blog post, newsletter, transcript, article, or outline."
+        type: textarea
+        placeholder: "Paste the full text of your post, email, or transcript here. If it's very long, paste the main body (not the intro/outro)..."
+      - name: content_type
+        label: "What type of content is this?"
+        type: select
+        options: [Blog post or article, Email newsletter, Podcast transcript or show notes, Video script or YouTube description, Social media post, Course or lesson content, Other]
+      - name: target_audience
+        label: "Who is this content written for? Describe your ideal reader specifically."
+        type: textarea
+        placeholder: "e.g. Independent yoga teachers who want to build online income. Freelance designers trying to move from project work to retainers..."
+  - step: 2
+    heading: "Business Context"
+    hint: "Lead magnets need to connect to how you make money. Tell us what you sell so the ideas are built to convert — not just to collect emails."
+    inputs:
+      - name: business_model
+        label: "How does your email list connect to revenue? What do you sell?"
+        type: select
+        options: [Paid membership or subscription, Online courses, Coaching or consulting, Physical products or subscription box, Paid newsletter, Affiliate marketing, SaaS or software, I'm still figuring this out]
+      - name: paid_offer
+        label: "What's your main paid offer? Briefly describe it."
+        type: textarea
+        placeholder: "e.g. A $49/month membership for yoga teachers with courses, community, and monthly live calls. OR: 1-on-1 business coaching at $500/month..."
+      - name: existing_lead_magnets
+        label: "(Optional) What lead magnets do you already have? We'll make sure the new ideas don't overlap."
+        type: textarea
+        placeholder: "e.g. A free email course called '5 Days to Your First Online Yoga Class'. A pricing guide PDF. Nothing yet..."
 ---
 
 # Brainstorm Hyper-Relevant Lead Magnet Ideas

@@ -2,10 +2,76 @@
 name: Copywriting
 slug: copywriting
 category: Copy
-one_shot: false
+one_shot: true
 uses_profile: true
 description: Writes or rewrites marketing copy for PMPro membership sites — homepage, landing pages, pricing, feature pages — including PMPro-specific CTAs, levels pages, and member vs. non-member copy splits.
 keywords: [copywriting, landing page copy, membership site copy, pricing page, PMPro, checkout button, levels page, member content, conversion copy, CTA]
+feature: copywriting
+quiz:
+  - step: 1
+    heading: "Page Purpose"
+    hint: "Great copy serves one goal. If you're trying to do too many things on one page, the copy won't convert. Tell us exactly what this page is for."
+    inputs:
+      - name: page_type
+        label: "What type of page are you writing copy for?"
+        type: select
+        options: [Homepage, Membership sales / landing page, Pricing or levels page, Feature or benefit page, About page, Blog post or article, Email (single email), Lead magnet landing page, Thank you or confirmation page, Other]
+      - name: primary_action
+        label: "What is the ONE primary action you want visitors to take on this page?"
+        type: text
+        placeholder: "e.g. Click 'Join Now' and complete checkout. Sign up for the free email course. Book a demo call..."
+      - name: existing_copy
+        label: "Do you have existing copy you want rewritten, or are you starting from scratch?"
+        type: radio
+        options: [Starting from scratch — nothing written yet, I have a draft I want improved, I have existing live copy I want to rewrite, I have bullet points or notes I want turned into copy]
+      - name: existing_copy_paste
+        label: "If you have existing copy or notes, paste them here. (Leave blank if starting from scratch.)"
+        type: textarea
+        placeholder: "Paste your current copy, draft, or bullet points here..."
+      - name: pmpro_shortcodes
+        label: "Does this page use PMPro shortcodes or member vs. non-member content splits?"
+        type: radio
+        options: [Yes — I need member and non-member versions of some content, Yes — I need [pmpro_member] or [pmpro_non_member] shortcode copy, No — this is a fully public page with no conditional content]
+  - step: 2
+    heading: "Audience"
+    hint: "Copy that speaks directly to the reader converts. The more specifically you can describe who you're writing for, the better the output."
+    inputs:
+      - name: ideal_customer
+        label: "Who is the ideal person reading this page? Describe them specifically — their role, situation, and what they're struggling with."
+        type: textarea
+        placeholder: "e.g. Independent yoga teachers 2-10 years in, earning $2-4k/month from in-person classes, who love teaching but feel financially capped and want to build recurring online income..."
+      - name: primary_pain
+        label: "What is the #1 problem or frustration they're experiencing right now?"
+        type: textarea
+        placeholder: "e.g. They're trading hours for dollars and have no way to scale without burning out. Every slow season is a financial crisis..."
+      - name: objections
+        label: "What are their biggest objections or hesitations? What makes them not buy or not take action?"
+        type: textarea
+        placeholder: "e.g. 'My audience is too small.' 'I don't have time to create content.' 'I've tried courses before and they didn't work.' 'I'm not tech-savvy enough.'"
+      - name: customer_language
+        label: "What words or phrases do your best customers use to describe their situation? Direct quotes are gold."
+        type: textarea
+        placeholder: "e.g. 'I feel trapped trading hours for dollars.' 'I want passive income but I don't know where to start.' 'I love teaching but I can't keep doing this.'"
+  - step: 3
+    heading: "Product & Offer"
+    hint: "Copy sells the transformation, not the features. Tell us what you're offering and what it delivers."
+    inputs:
+      - name: product_name
+        label: "What's the name of the membership, product, or offer?"
+        type: text
+        placeholder: "e.g. Yoga Business Academy, The Freelance OS, The Inner Circle"
+      - name: core_promise
+        label: "What's the core promise or transformation? What can a member do or become after joining?"
+        type: textarea
+        placeholder: "e.g. Go from trading hours for dollars to building a sustainable online membership income — without burning out or needing a huge audience..."
+      - name: key_benefits
+        label: "What are the top 3-5 benefits of joining? What do members get?"
+        type: textarea
+        placeholder: "e.g. 1. Full course library (12 modules on building online income)\n2. Private community of yoga teachers\n3. Monthly live Q&A calls\n4. Done-for-you templates..."
+      - name: tone
+        label: "What tone or voice should the copy have?"
+        type: radio
+        options: [Warm and encouraging, Direct and no-nonsense, Expert and authoritative, Conversational and relatable, Inspirational and aspirational, Match the existing brand voice I've described]
 ---
 
 # Copywriting

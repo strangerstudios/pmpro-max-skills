@@ -6,6 +6,52 @@ one_shot: true
 uses_profile: true
 description: Writes a 3-email re-engagement sequence (Greatest Hits, Lead Magnet Bribe, Quick Question) to win back cold subscribers inactive for 30+ days and clean the list.
 keywords: [re-engagement email, win-back email, inactive subscribers, list hygiene, email marketing, sunset sequence, cold leads, churn]
+feature: copywriting
+quiz:
+  - step: 1
+    heading: "Your Niche & Audience"
+    hint: "Who are these cold subscribers, and what did they originally sign up for?"
+    inputs:
+      - name: niche
+        label: "Your niche or topic"
+        type: text
+        placeholder: "e.g. yoga business, membership site growth, personal finance for freelancers"
+      - name: audience_pain_point
+        label: "Main pain point your audience has — what they're struggling with"
+        type: textarea
+        placeholder: "e.g. inconsistent income from teaching, not knowing how to charge for online content..."
+      - name: audience_goal
+        label: "Primary goal your audience wants to achieve"
+        type: textarea
+        placeholder: "e.g. build a sustainable yoga membership that generates $3-5k/month consistently..."
+      - name: sign_off_name
+        label: "Your name or business name (for email sign-off)"
+        type: text
+        placeholder: "e.g. Kim, or the Yoga Business Academy team"
+  - step: 2
+    heading: "Your Content & Lead Magnet"
+    hint: "The resources that remind cold subscribers why they signed up in the first place."
+    inputs:
+      - name: best_content
+        label: "Your 3-5 best resources — titles, brief descriptions, and links. These go in Email 1 (Greatest Hits)."
+        type: textarea
+        placeholder: "How I Built a $3k/month Membership from 47 Students → yoursite.com/post-1\nPricing Your Online Membership: 3 Models That Work → yoursite.com/post-2\nThe 15-Minute Content Calendar for Yoga Teachers → yoursite.com/post-3"
+      - name: lead_magnet_name
+        label: "Name of the bonus lead magnet to offer in Email 2"
+        type: text
+        placeholder: "e.g. The 30-Day Membership Launch Checklist, The Yoga Teacher Pricing Calculator"
+      - name: lead_magnet_benefit
+        label: "What does this lead magnet help them do? Lead with the outcome."
+        type: textarea
+        placeholder: "e.g. It walks you through exactly how to price your first online membership — with a calculator that does the math for you..."
+      - name: lead_magnet_proof
+        label: "Social proof for the lead magnet (downloads, results, testimonials)"
+        type: text
+        placeholder: "e.g. Downloaded by 2,000+ yoga teachers, Saved members 3+ hours of pricing research"
+      - name: cta_link
+        label: "Primary CTA link used across all 3 emails"
+        type: url
+        placeholder: "e.g. https://yoursite.com/membership-account/levels/"
 ---
 
 # 3-Email Re-Engagement Sequence

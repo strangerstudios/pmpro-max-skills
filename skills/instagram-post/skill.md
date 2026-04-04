@@ -6,6 +6,36 @@ one_shot: true
 uses_profile: true
 description: Creates Instagram content for a membership site owner — carousels, reels, or stories — using a decision framework for format, caption, and tone that prioritizes resonance over virality.
 keywords: [Instagram, Instagram post, carousel, reel, social media, membership site, thought leadership, caption writing]
+feature: copywriting
+quiz:
+  - step: 1
+    heading: "Your Content"
+    hint: "Paste the raw idea, existing content, or observation you want to adapt. The more specific the input, the more specific and useful the Instagram post."
+    inputs:
+      - name: input_content
+        label: "Paste the idea, blog post, LinkedIn post, or raw thought you want to adapt for Instagram."
+        type: textarea
+        placeholder: "e.g. I've been thinking about how most yoga teachers wait until they have 10,000 followers to launch a membership. The ones I know who are actually making $3-5k/month online all launched with under 500. The bottleneck is never audience size — it's clarity on who the offer is for and confidence to ask for the money..."
+      - name: content_category
+        label: "What type of content is this?"
+        type: radio
+        options: [Reflective / Conceptual — an idea or observation worth sitting with, Opinionated / Perspective — a take or counter-argument, Process / Tactical — a how-to or system, Personal / Observational — a moment or behind-the-scenes]
+  - step: 2
+    heading: "Format & Goal"
+    hint: "Leave format on 'let the skill decide' if you're unsure — the framework will choose based on the content type."
+    inputs:
+      - name: content_goal
+        label: "What's the goal for this post?"
+        type: radio
+        options: [Reach / Discovery — maximize visibility and new eyes, Resonance / Trust — build authority and deep connection with existing audience, Conversion / Lead Gen — drive email signups or off-platform action]
+      - name: format_preference
+        label: "Preferred format"
+        type: radio
+        options: [Let the skill decide based on the content, Carousel, Reel (spoken / talking head), Story only]
+      - name: caption_length
+        label: "Caption length"
+        type: radio
+        options: [Let the skill decide, Short (1-4 lines), Long (300-600 words)]
 ---
 
 # Instagram Post

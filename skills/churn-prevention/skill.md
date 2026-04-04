@@ -2,10 +2,56 @@
 name: Churn Prevention
 slug: churn-prevention
 category: CRO
-one_shot: false
+one_shot: true
 uses_profile: true
 description: Builds cancel flows, dynamic save offers, proactive retention strategies, and dunning sequences to reduce both voluntary and involuntary subscription churn.
 keywords: [churn prevention, cancel flow, retention, dunning, save offer, subscription churn, failed payment, win-back]
+feature: strategy
+quiz:
+  - step: 1
+    heading: "Current Churn Situation"
+    hint: "Churn has two types: voluntary (members choose to leave) and involuntary (failed payments). Which problem are you solving today?"
+    inputs:
+      - name: churn_type
+        label: "What type of churn are you most focused on reducing?"
+        type: radio
+        options: [Voluntary churn — members actively cancelling, Involuntary churn — failed payments and card declines, Both equally, Not sure — help me figure out which to prioritize]
+      - name: churn_rate
+        label: "What's your current monthly churn rate, if known? Voluntary and involuntary separately if you have it."
+        type: text
+        placeholder: "e.g. ~8% monthly (voluntary ~5%, involuntary ~3%) — OR 'I don't know'"
+      - name: cancel_flow
+        label: "Do you have a cancel flow today — anything that happens before a member successfully cancels?"
+        type: radio
+        options: [Yes — a multi-step cancel flow with save offers, Yes — a simple cancellation confirmation page, No — cancellation happens immediately with no friction, Members have to contact us to cancel]
+      - name: cancel_reasons
+        label: "Do you know why members cancel? What are the most common reasons?"
+        type: textarea
+        placeholder: "e.g. 'Not using it enough' comes up most often. Price is #2. We also see 'found a better alternative' and 'personal financial reasons'..."
+      - name: membership_price
+        label: "What is your membership price and billing period?"
+        type: text
+        placeholder: "e.g. $49/month or $397/year"
+  - step: 2
+    heading: "Billing & What You Want to Build"
+    hint: "Your billing setup determines which dunning and save-offer strategies are technically possible. Tell us what you're working with."
+    inputs:
+      - name: billing_platform
+        label: "What billing platform are you using?"
+        type: select
+        options: [Paid Memberships Pro (PMPro) with Stripe, PMPro with PayPal, PMPro with Braintree, WooCommerce Subscriptions, Stripe directly, Other]
+      - name: billing_periods
+        label: "What billing periods do you offer?"
+        type: checkbox-group
+        options: [Monthly, Annual, Quarterly, Lifetime, Multiple options]
+      - name: save_offers
+        label: "Do you currently offer any save offers (pause, discount, plan change) to members who want to cancel?"
+        type: radio
+        options: [Yes — we offer a pause option, Yes — we offer a discount, Yes — we offer a plan downgrade, No — we have nothing right now]
+      - name: output_goal
+        label: "What do you most want to come out of this skill?"
+        type: radio
+        options: [Design or improve my cancel flow with save offers, Build a dunning sequence for failed payments, Create a proactive retention strategy (before they want to cancel), Win-back sequence for already-cancelled members, Full churn prevention plan covering all of the above]
 ---
 
 # Churn Prevention

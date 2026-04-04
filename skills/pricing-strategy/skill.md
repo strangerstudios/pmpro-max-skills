@@ -2,10 +2,72 @@
 name: Pricing Strategy
 slug: pricing-strategy
 category: Strategy
-one_shot: false
+one_shot: true
 uses_profile: true
 description: Helps design value-based pricing, tier structures, and packaging decisions for SaaS or membership products — covering value metrics, price points, and pricing page best practices.
 keywords: [pricing, pricing strategy, tiered pricing, freemium, packaging, value metric, SaaS pricing, monetization]
+feature: strategy
+quiz:
+  - step: 1
+    heading: "Business & Product Context"
+    hint: "Pricing decisions depend heavily on who you're selling to and how they find and buy from you."
+    inputs:
+      - name: product_type
+        label: "What type of product or membership are you pricing?"
+        type: select
+        options: [Membership site, SaaS / Software, Marketplace, E-commerce, Service / Agency, Other]
+      - name: current_pricing
+        label: "What's your current pricing, if any? Include plan names, prices, and billing periods."
+        type: textarea
+        placeholder: "e.g. Free tier (limited access)\nMember — $49/month or $397/year\nVIP — $149/month\n\nOR: No pricing yet — launching from scratch"
+      - name: target_market
+        label: "Who are you primarily selling to?"
+        type: radio
+        options: [Individual consumers (B2C), Small businesses or solo professionals (SMB), Mid-market companies, Enterprise organizations, Mixed]
+      - name: go_to_market
+        label: "How do customers buy from you?"
+        type: radio
+        options: [Self-serve — they sign up and pay on their own, Sales-led — a sales conversation closes the deal, Hybrid — both paths exist, Not sure yet]
+  - step: 2
+    heading: "Value & Competition"
+    hint: "Price should sit between the next best alternative and your perceived value. Both matter."
+    inputs:
+      - name: primary_value
+        label: "What's the primary value you deliver? Describe the core outcome or transformation."
+        type: textarea
+        placeholder: "e.g. Yoga teachers who join typically go from inconsistent $2-4k/month income to $4-7k/month within 6 months, with far less in-person teaching..."
+      - name: alternatives
+        label: "What alternatives do customers consider before choosing you? Competitors, DIY, doing nothing?"
+        type: textarea
+        placeholder: "e.g. General business coaches ($300-500/month), free YouTube content, other yoga business courses ($297-997 one-time), doing nothing..."
+      - name: competitor_pricing
+        label: "What do you know about how competitors price? Any pricing you're aware of?"
+        type: textarea
+        placeholder: "e.g. Main competitor charges $97/month with similar content. General business coaches are $300-500/month. Our target member is price-sensitive but invests in the right thing..."
+  - step: 3
+    heading: "Current Performance & Goals"
+    hint: "Numbers help calibrate recommendations. Estimates are fine."
+    inputs:
+      - name: conversion_rate
+        label: "Current free-to-paid or trial-to-paid conversion rate, if known"
+        type: text
+        placeholder: "e.g. 8%, or 'not sure'"
+      - name: arpu_churn
+        label: "Average revenue per member and monthly churn rate, if known"
+        type: textarea
+        placeholder: "e.g. ARPU $49/month, monthly churn ~5% — OR 'I don't have these numbers yet'"
+      - name: customer_feedback
+        label: "What pricing feedback have you gotten from customers or prospects? Common objections?"
+        type: textarea
+        placeholder: "e.g. 'Too expensive for where I am right now' comes up a lot. A few people have asked for a payment plan. Annual pricing seems to confuse people."
+      - name: pricing_goal
+        label: "What are you trying to optimize for with this pricing work?"
+        type: radio
+        options: [Maximize new member growth (lower price / easier entry), Maximize revenue per member (higher price / more value), Move upmarket to serve higher-value customers, Expand downmarket to reach more people, Restructure tiers or packaging, Not sure — help me decide]
+      - name: specific_question
+        label: "What specific pricing question or decision are you trying to solve? What does a great output look like to you?"
+        type: textarea
+        placeholder: "e.g. Should I offer annual pricing? Should I add a higher tier? My monthly churn is high — could pricing be part of the problem?"
 ---
 
 # Pricing Strategy

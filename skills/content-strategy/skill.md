@@ -2,10 +2,72 @@
 name: Content Strategy
 slug: content-strategy
 category: Content
-one_shot: false
+one_shot: true
 uses_profile: true
 description: Plans a content strategy — pillars, topic clusters, keyword mapping by buyer stage, and prioritization — so content drives traffic, builds authority, and generates leads.
 keywords: [content strategy, content planning, blog strategy, topic clusters, content pillars, editorial calendar, content marketing, content roadmap]
+feature: planning
+quiz:
+  - step: 1
+    heading: "Business Context"
+    hint: "Content strategy only works when it's connected to what you sell and who you're trying to attract."
+    inputs:
+      - name: business_description
+        label: "What does your membership or site do, and what problem does it solve?"
+        type: textarea
+        placeholder: "e.g. Yoga Business Academy helps independent yoga teachers build sustainable online memberships. We solve the 'trading hours for dollars' problem by teaching them how to build recurring income without burning out..."
+      - name: ideal_customer
+        label: "Who is your ideal member or customer? Be specific — their role, situation, and goal."
+        type: textarea
+        placeholder: "e.g. Independent yoga teachers 2-10 years into their career, earning $2-4k/month from in-person teaching, who love what they do but feel financially capped..."
+      - name: content_goal
+        label: "What's the primary goal for your content?"
+        type: radio
+        options: [Drive organic search traffic (SEO), Generate email subscribers or leads, Build brand authority and thought leadership, Educate and support existing members, All of the above]
+      - name: problems_solved
+        label: "What are the top 2-3 problems your membership solves? Use language your members would use."
+        type: textarea
+        placeholder: "Inconsistent income that dries up in slow seasons\nNo idea how to build an online offer or charge for digital content\nFeeling isolated — no peers who understand the yoga business world..."
+  - step: 2
+    heading: "Customer Research"
+    hint: "The best content ideas come from real customer conversations, not keyword tools. Share what you know."
+    inputs:
+      - name: questions_before_buying
+        label: "What questions do people ask before joining or buying? List the most common ones."
+        type: textarea
+        placeholder: "Do I need a big social following to make this work?\nHow long before I see real income?\nIs this right for me if I only teach locally?\nWhat if my students aren't tech-savvy?"
+      - name: sales_objections
+        label: "What objections come up most? What makes people hesitate?"
+        type: textarea
+        placeholder: "e.g. 'My audience is too small', 'I don't have time to create content', 'I've tried courses before and they didn't work'..."
+      - name: customer_language
+        label: "What specific phrases do your best members use to describe their situation? Direct quotes are gold."
+        type: textarea
+        placeholder: "e.g. 'I feel like I'm trapped trading hours for dollars', 'I love teaching but I can't scale this', 'I want passive income but I don't know where to start'..."
+      - name: competitor_gaps
+        label: "Who are your main content competitors? What topics or angles are they missing or doing poorly?"
+        type: textarea
+        placeholder: "e.g. Yoga Alliance publishes general business content but never gets specific on numbers. Most yoga business blogs are motivational, not tactical..."
+  - step: 3
+    heading: "Current State & Resources"
+    hint: "What you already have shapes what to build next."
+    inputs:
+      - name: existing_content
+        label: "Do you have existing content? What types and roughly how much? What's performing best?"
+        type: textarea
+        placeholder: "e.g. 40 blog posts — top performers are the pricing posts and the 'how to start a yoga membership' guide. 2 free courses. Nothing on video yet."
+      - name: content_formats
+        label: "What content formats can you realistically produce? Select all that apply."
+        type: checkbox-group
+        options: [Written blog posts, Long-form guides or pillar pages, Video, Podcast, Email newsletter, Downloadable resources or templates, Webinars or live sessions]
+      - name: team_resources
+        label: "What resources do you have for content creation?"
+        type: textarea
+        placeholder: "e.g. Solo founder writing 1-2 posts per month, no budget for freelancers, comfortable recording video but not editing..."
+      - name: specific_deliverable
+        label: "What do you want from this skill?"
+        type: radio
+        options: [Content pillars and topic clusters, Priority content calendar for next 90 days, Keyword research analysis and gap opportunities, All of the above — full content strategy]
 ---
 
 # Content Strategy

@@ -2,10 +2,108 @@
 name: Ideal Member Profile
 slug: ideal-member-profile
 category: Strategy
-one_shot: false
+one_shot: true
 uses_profile: true
 description: Builds a vivid, specific ideal member profile through a structured interview — covering who they are, where they are now, what they want, what stops them, and what makes them buy and stay. Output can be used to sharpen all other skills and to refine your context profile.
 keywords: [ideal member, buyer persona, member profile, target audience, ICP, ideal customer, audience research, membership marketing, customer avatar]
+feature: strategy
+quiz:
+  - step: 1
+    heading: "The Real Person"
+    hint: "Think of your single best current member — or the person you'd most love to clone. Give them a name."
+    inputs:
+      - name: member_name
+        label: "Give your ideal member a first name."
+        type: text
+        placeholder: "e.g. Sarah"
+      - name: member_age_life
+        label: "How old are they, and what's their life situation — job, family, daily context?"
+        type: textarea
+        placeholder: "e.g. 38, yoga teacher in Austin, two kids, runs a small studio part-time..."
+      - name: money_relationship
+        label: "What's their relationship with money? Describe their income situation and what financial success would actually feel like to them."
+        type: textarea
+        placeholder: "e.g. Earns $40-60k teaching, wants to break $100k without burning out — success feels like paying herself a real salary..."
+      - name: tech_comfort
+        label: "How tech-comfortable are they?"
+        type: radio
+        options: [Non-technical — avoids anything complicated, Can follow tutorials and use AI to unblock themselves, Dangerously capable — troubleshoots independently, Developer / highly technical]
+  - step: 2
+    heading: "Where They Are Right Now"
+    hint: "Describe their current situation — what they're doing, what's working, and where they're stuck."
+    inputs:
+      - name: current_situation
+        label: "What are they currently doing to solve the problem your membership addresses? Tools, platforms, approaches they're trying."
+        type: textarea
+        placeholder: "e.g. Piecing together free YouTube tutorials and a generic business coach who doesn't understand yoga..."
+      - name: whats_working
+        label: "What have they already figured out on their own? What's working for them?"
+        type: textarea
+        placeholder: "e.g. Great at the teaching itself, has a loyal small student base, good word of mouth..."
+      - name: whats_stuck
+        label: "Where are they frustrated, stuck, or plateaued? What keeps not working?"
+        type: textarea
+        placeholder: "e.g. No idea how to price memberships, burns out during slow seasons, inconsistent income..."
+      - name: measurable_goal
+        label: "What is their primary measurable goal — the specific outcome, number, or milestone they're chasing?"
+        type: textarea
+        placeholder: "e.g. $5,000/month in recurring revenue from an online membership"
+      - name: emotional_goal
+        label: "What do they actually want to feel — not just achieve? The emotional goal behind the number."
+        type: textarea
+        placeholder: "e.g. Stability and confidence that she can sustain this career long-term without sacrificing her teaching..."
+  - step: 3
+    heading: "Blockers, Beliefs & Buying"
+    hint: "This is where we find the real reasons people hesitate — and what finally makes them act."
+    inputs:
+      - name: top_fear
+        label: "What is their #1 fear or hesitation — the thing that keeps them from moving forward even when they know what to do?"
+        type: textarea
+        placeholder: "e.g. Fear that her audience is too small, or that no one will pay for online content when they can get it free on YouTube..."
+      - name: overthinking_pattern
+        label: "How does overthinking or self-sabotage show up for them? What do they do instead of taking action?"
+        type: textarea
+        placeholder: "e.g. Researches tools obsessively instead of launching, waits until she 'has more content ready'..."
+      - name: what_stopped_best_members
+        label: "What almost stopped your best current members from joining? What were they on the fence about?"
+        type: textarea
+        placeholder: "e.g. Price felt high, thought they needed to be more established first, worried they wouldn't have time..."
+      - name: limiting_belief
+        label: "What do they believe right now that's true but limiting? The mindset or assumption keeping them stuck."
+        type: textarea
+        placeholder: "e.g. 'My students won't pay for online — they come for the in-person experience'..."
+      - name: what_unlocks_action
+        label: "What reframe or permission do they need to hear to unlock action?"
+        type: textarea
+        placeholder: "e.g. Seeing a yoga teacher exactly like them successfully running a $3k/month online membership..."
+  - step: 4
+    heading: "Buying Triggers, Retention & Messaging"
+    hint: "The final pieces: what makes them join, stay, and leave — and the exact words they use."
+    inputs:
+      - name: buying_triggers
+        label: "What triggers them to finally buy? Describe the 2-3 moments or circumstances when they become a customer."
+        type: textarea
+        placeholder: "e.g. After a bad month of income, when they see a peer launch successfully, or after a specific insight from your content..."
+      - name: what_keeps_them
+        label: "What keeps them paying and coming back after they join?"
+        type: textarea
+        placeholder: "e.g. The community accountability, live Q&A calls, feeling like they're not figuring it out alone..."
+      - name: churn_triggers
+        label: "What causes them to cancel or disengage?"
+        type: textarea
+        placeholder: "e.g. If life gets busy and they feel behind, or if they don't see progress in the first 30 days..."
+      - name: where_they_hang_out
+        label: "Where do they spend time online — platforms, communities, search habits?"
+        type: textarea
+        placeholder: "e.g. Instagram, yoga business Facebook groups, YouTube tutorials, Google searches for 'how to make money teaching yoga online'..."
+      - name: their_words
+        label: "What exact phrases or words do they use to describe their problem? Quotes from real people are gold."
+        type: textarea
+        placeholder: "e.g. 'I love teaching but I can't scale this', 'I feel like I'm trading hours for dollars', 'I need passive income but I don't know where to start'..."
+      - name: transformation
+        label: "Complete this transformation: 'Before joining, members are ___. After joining, they ___.' Use their language."
+        type: textarea
+        placeholder: "e.g. Before: overwhelmed yoga teachers trading time for dollars. After: running a sustainable online membership that pays them consistently..."
 ---
 
 # Ideal Member Profile

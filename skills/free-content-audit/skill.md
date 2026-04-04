@@ -2,10 +2,64 @@
 name: Free Content Audit
 slug: free-content-audit
 category: Strategy
-one_shot: false
+one_shot: true
 uses_profile: true
 description: Audits the free-facing content on a membership site to evaluate whether it's attracting the right visitors, building enough trust to convert, and creating a clear path from free to paid.
 keywords: [free content, content audit, membership conversion, content strategy, free to paid, content review, SEO, trust building, membership marketing]
+feature: strategy
+quiz:
+  - step: 1
+    heading: "About Your Site"
+    hint: "The audit evaluates your free content against who it should be attracting. The more detail you share, the more specific the recommendations."
+    inputs:
+      - name: site_url
+        label: "Your website URL"
+        type: url
+        placeholder: "e.g. https://yogabusinessacademy.com"
+      - name: membership_type
+        label: "What type of membership site is this?"
+        type: select
+        options: [Blog / News, Courses and Coaching, Paid Community, Paid Newsletter, Association / NPO, Podcast, Video Library, Member Directory, Hybrid]
+      - name: site_age
+        label: "How established is the site?"
+        type: radio
+        options: [Brand new — less than 6 months, Growing — 6 to 24 months, Established — 2 or more years]
+      - name: content_inventory
+        label: "Roughly how much free content exists? List what you have and approximately how much."
+        type: textarea
+        placeholder: "e.g. 45 blog posts (mix of short and long-form), 3 free podcast episodes, 1 free introductory course, no video content..."
+      - name: free_tier_exists
+        label: "Do you have a free membership level, or is content either fully public or fully gated?"
+        type: radio
+        options: [Yes — we have a free membership level with limited gated access, No — content is either completely public or completely gated]
+  - step: 2
+    heading: "Goals & What You Already Know"
+    hint: "Tell us what you're trying to accomplish and what you already suspect. This sharpens the audit."
+    inputs:
+      - name: primary_goal
+        label: "What's the primary job of your free content right now?"
+        type: radio
+        options: [Attract search traffic and new visitors (SEO), Build trust and demonstrate expertise, Convert visitors to paying members, All three equally]
+      - name: traffic_sources
+        label: "Where do most new visitors come from? Select all that apply."
+        type: checkbox-group
+        options: [Organic search (Google), Social media, Email marketing, Word of mouth / referrals, Paid ads, Direct traffic]
+      - name: conversion_rate
+        label: "Free-to-paid conversion rate, if known"
+        type: text
+        placeholder: "e.g. 6%, or 'I don't know'"
+      - name: whats_performing
+        label: "Any content you know is performing well — traffic, shares, or conversions?"
+        type: textarea
+        placeholder: "e.g. Our pricing guide gets the most traffic from Google. Our case study posts seem to convert visitors to members at a higher rate."
+      - name: content_gaps
+        label: "Any content types or topics you've been avoiding that might be worth adding?"
+        type: textarea
+        placeholder: "e.g. We've never done comparison content or SEO-focused how-to guides. We mostly write opinion pieces."
+      - name: ideal_member_context
+        label: "Who is your ideal member? (If you've completed the Ideal Member Profile skill, paste a summary here.)"
+        type: textarea
+        placeholder: "e.g. Independent yoga teachers 2-10 years in, earning $2-4k/month, who want to build online recurring income..."
 ---
 
 # Free Content Audit

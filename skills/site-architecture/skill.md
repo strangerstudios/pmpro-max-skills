@@ -6,6 +6,52 @@ one_shot: true
 uses_profile: true
 description: Plans website structure — page hierarchy, navigation, URL patterns, and internal linking — producing an ASCII tree, Mermaid sitemap, URL map, and navigation spec.
 keywords: [site architecture, sitemap, information architecture, website structure, navigation design, URL structure, internal linking, page hierarchy]
+feature: planning
+quiz:
+  - step: 1
+    heading: "Business & Site Context"
+    hint: "Architecture decisions are driven by goals. A site built for SEO looks different from one built for conversions."
+    inputs:
+      - name: business_description
+        label: "What does your site/business do, and who are the primary audiences?"
+        type: textarea
+        placeholder: "e.g. Yoga Business Academy — we help independent yoga teachers build online memberships. Audiences: yoga teachers considering joining, and current members accessing content..."
+      - name: site_type
+        label: "What type of site is this?"
+        type: select
+        options: [Membership site, SaaS marketing site, Content / blog site, E-commerce, Documentation site, Hybrid (membership + content or SaaS + blog), Small business / local, Other]
+      - name: primary_goals
+        label: "What are the top goals for this site? Select all that apply."
+        type: checkbox-group
+        options: [Drive signups or paid memberships, Attract organic search traffic (SEO), Educate and build trust with cold visitors, Support and retain existing members, Build an email list]
+      - name: new_or_restructure
+        label: "Is this a new site or are you restructuring an existing one?"
+        type: radio
+        options: [Building a brand new site, Restructuring or reorganizing an existing site]
+  - step: 2
+    heading: "Current State & Pages"
+    hint: "The more specific you are about what exists and what matters most, the more actionable the architecture plan."
+    inputs:
+      - name: important_pages
+        label: "What are the 5 most important pages on your site (or planned)? List each with a note on why it matters."
+        type: textarea
+        placeholder: "Homepage — first impression for cold visitors\nMembership sales page — primary conversion page\nCourse library — main member destination\nPricing / levels page — where decisions are made\nBlog — SEO and trust building"
+      - name: page_count
+        label: "Approximately how many pages exist or are planned?"
+        type: text
+        placeholder: "e.g. 8 pages today, planning to add a blog with 20+ posts"
+      - name: existing_nav
+        label: "What's currently in your main navigation? (Or what sections do you know you need?)"
+        type: textarea
+        placeholder: "e.g. Home, About, Courses, Community, Pricing, Blog, Login"
+      - name: whats_broken
+        label: "(If restructuring) What's not working? What are visitors struggling to find?"
+        type: textarea
+        placeholder: "e.g. Members can't find the course library, pricing page is buried, blog isn't connected to the membership offer at all..."
+      - name: existing_urls
+        label: "(If restructuring) List any existing URLs that must be preserved — these will need redirects."
+        type: textarea
+        placeholder: "e.g. /yoga-business-courses/ (ranks well in Google), /about-kim/ (linked from 50+ external sites)..."
 ---
 
 # Site Architecture

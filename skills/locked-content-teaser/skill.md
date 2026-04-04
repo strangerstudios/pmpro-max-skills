@@ -6,6 +6,52 @@ one_shot: true
 uses_profile: true
 description: Writes the teaser message and signup prompt non-members see when they land on protected content — turning a blocked page into a conversion opportunity.
 keywords: [locked content, content protection, teaser message, member signup prompt, PMPro protection, gated content, content upgrade, conversion]
+feature: copywriting
+quiz:
+  - step: 1
+    heading: "Content & Membership Info"
+    hint: "What are they trying to access, and what do they need to unlock it?"
+    inputs:
+      - name: content_type
+        label: "What type of content is locked?"
+        type: select
+        options: [Course lesson or module, Community / forum post, Newsletter issue or archive, Podcast episode, Resource / download / template, Video, Other]
+      - name: content_hook
+        label: "What's the most compelling thing about this specific content? What would genuinely make someone want access?"
+        type: textarea
+        placeholder: "e.g. This lesson shows exactly how to price a membership offer for a yoga teacher audience — with real numbers and three pricing models to choose from..."
+      - name: level_name
+        label: "Which membership level unlocks this content?"
+        type: text
+        placeholder: "e.g. Member, Studio Pro, Annual"
+      - name: level_price
+        label: "Price of that membership level"
+        type: text
+        placeholder: "e.g. $49/month, $397/year"
+      - name: join_url
+        label: "URL where visitors can join or see pricing"
+        type: url
+        placeholder: "e.g. https://yoursite.com/membership-account/levels/"
+  - step: 2
+    heading: "Visitor Context & Tone"
+    hint: "Who is seeing this teaser, and what do they already know? The right teaser for a cold search visitor is different from one for a warm email subscriber."
+    inputs:
+      - name: visitor_context
+        label: "How did most visitors likely arrive at this page?"
+        type: radio
+        options: [Found via Google search (cold visitor), Clicked from a free preview or excerpt, Came from social media or email, Came from elsewhere on your site (warm visitor)]
+      - name: has_excerpt
+        label: "Is a free excerpt or preview showing above the teaser?"
+        type: radio
+        options: [Yes — the teaser follows a free excerpt or preview, No — the teaser is the first thing they see]
+      - name: tone
+        label: "Tone of the teaser message"
+        type: select
+        options: [Warm and inviting, Direct and informational, Exclusive and premium]
+      - name: login_url
+        label: "URL for existing members to log in"
+        type: url
+        placeholder: "e.g. https://yoursite.com/membership-account/"
 ---
 
 # Locked Content Teaser

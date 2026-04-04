@@ -2,10 +2,52 @@
 name: Paywall and Upgrade Screen CRO
 slug: paywall-upgrade-cro
 category: CRO
-one_shot: false
+one_shot: true
 uses_profile: true
 description: Designs and optimizes in-app paywalls, upgrade modals, feature gates, and trial expiration screens to convert free users to paid at the right moment with the right message.
 keywords: [paywall, upgrade screen, freemium conversion, upsell, feature gate, trial expiration, in-app upgrade, CRO]
+feature: strategy
+quiz:
+  - step: 1
+    heading: "Upgrade Context"
+    hint: "Paywall copy has to match the exact moment the user is in — what they were trying to do, and why the upgrade unlocks it. Context shapes everything."
+    inputs:
+      - name: upgrade_type
+        label: "What type of upgrade or paywall situation are you optimizing?"
+        type: select
+        options: [Free tier → paid membership (freemium), Free trial → paid (trial expiration), Lower tier → higher tier (tier upgrade), Locked content or feature gate, Usage limit hit (e.g. ran out of credits), Add-on or optional upsell]
+      - name: what_they_want
+        label: "What was the member trying to do when they hit the paywall or upgrade prompt?"
+        type: textarea
+        placeholder: "e.g. They clicked on a locked course module. They tried to download a template. They tried to access the live call schedule..."
+      - name: what_they_get
+        label: "What specifically does the upgrade unlock? Be concrete."
+        type: textarea
+        placeholder: "e.g. Full access to all 12 courses, the private community, and monthly live Q&A calls. OR: The VIP tier adds weekly 1-on-1 coaching sessions..."
+      - name: membership_levels
+        label: "What are your membership levels? List name and price for each."
+        type: textarea
+        placeholder: "Free — limited access\nMember — $49/month\nVIP — $149/month"
+  - step: 2
+    heading: "Current State & Goals"
+    hint: "What's already in place and what would you like to improve? The more specific the problem, the sharper the recommendation."
+    inputs:
+      - name: current_upgrade_copy
+        label: "What does your current paywall or upgrade screen say? Paste the copy or describe it."
+        type: textarea
+        placeholder: "e.g. 'This content is for members only. Join today!' with a Join button. Or: nothing at all — it just redirects to the pricing page..."
+      - name: conversion_rate
+        label: "Current free-to-paid or upgrade conversion rate, if known"
+        type: text
+        placeholder: "e.g. 4%, or 'I don't know'"
+      - name: biggest_friction
+        label: "What do you think is the biggest reason free members don't upgrade?"
+        type: radio
+        options: [Price — it feels too expensive for where they are, Trust — they haven't experienced enough value yet, Timing — the prompt appears too early, Clarity — they don't understand what they'd get, We're not sure — we haven't asked]
+      - name: output_goal
+        label: "What do you want from this skill?"
+        type: radio
+        options: [Write the copy for my upgrade screen or paywall, Recommend where and when to show upgrade prompts, Both — copy and placement strategy, Audit what I have and suggest improvements]
 ---
 
 # Paywall and Upgrade Screen CRO

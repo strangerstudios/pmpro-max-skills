@@ -6,6 +6,56 @@ one_shot: true
 uses_profile: true
 description: Generates a styled HTML/CSS call-to-action block for promoting your membership anywhere on your site — with instructions for saving it as a WordPress Synced Pattern for easy reuse.
 keywords: [CTA block, call to action, membership promotion, HTML CTA, WordPress CTA, synced pattern, membership widget, conversion block, inline promotion]
+feature: copywriting
+quiz:
+  - step: 1
+    heading: "Your Membership & Message"
+    hint: "This block gets dropped into blog posts, resource pages, and anywhere you want to invite visitors to join. The headline and copy should feel native to whatever page it appears on."
+    inputs:
+      - name: membership_name
+        label: "Membership name"
+        type: text
+        placeholder: "e.g. Yoga Business Academy"
+      - name: target_audience
+        label: "Who are you writing to in this block? One sentence."
+        type: textarea
+        placeholder: "e.g. Yoga teachers who want to build recurring online income without burning out..."
+      - name: headline
+        label: "Headline for this CTA block — OR describe the context and we'll write one for you."
+        type: textarea
+        placeholder: "e.g. 'Ready to build a yoga membership that pays you consistently?' OR 'leave blank and write something for a yoga business blog post about pricing'"
+      - name: value_proposition
+        label: "What do members get or what problem does this solve? 1-3 key points."
+        type: textarea
+        placeholder: "40+ courses on building a yoga business online\nMonthly live Q&A calls with real feedback\nA private community of 400+ yoga teachers"
+      - name: price
+        label: "(Optional) Price to show in the block — including this significantly increases clicks"
+        type: text
+        placeholder: "e.g. From $49/month"
+  - step: 2
+    heading: "Style & Links"
+    hint: "The visual details that make this block match your brand."
+    inputs:
+      - name: cta_button_text
+        label: "CTA button text"
+        type: text
+        placeholder: "e.g. Join Now, Become a Member, See Plans, Get Started"
+      - name: cta_url
+        label: "CTA button URL"
+        type: url
+        placeholder: "e.g. https://yoursite.com/membership-account/levels/"
+      - name: secondary_cta
+        label: "(Optional) Secondary CTA text — typically a login link or a softer next step"
+        type: text
+        placeholder: "e.g. Already a member? Log in here."
+      - name: visual_style
+        label: "Visual style"
+        type: radio
+        options: [Minimal / clean — understated, lots of white space, Bold / high-contrast — attention-grabbing, Warm / inviting — friendly and approachable]
+      - name: brand_color
+        label: "Primary brand color hex code (for button and accent)"
+        type: text
+        placeholder: "e.g. #006799"
 ---
 
 # Membership CTA Block

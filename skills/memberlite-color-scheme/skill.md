@@ -6,6 +6,40 @@ one_shot: true
 uses_profile: false
 description: Extracts a color palette from your logo and outputs a complete custom Memberlite color scheme — all 17 color values ready to enter in the WordPress Customizer or apply via CSS custom properties.
 keywords: [Memberlite, color scheme, CSS, branding, PMPro theme, logo colors, custom CSS, WordPress theme, color palette, customizer]
+feature: design
+quiz:
+  - step: 1
+    heading: "Your Brand Colors"
+    hint: "Provide as much color detail as you can. Hex codes produce the most accurate results. A logo URL works too if the image is publicly accessible."
+    inputs:
+      - name: brand_name
+        label: "Your brand or site name"
+        type: text
+        placeholder: "e.g. Yoga Business Academy"
+      - name: primary_color
+        label: "Primary brand color — the dominant color in your logo or brand"
+        type: text
+        placeholder: "e.g. #1a4a8e or 'deep navy blue'"
+      - name: secondary_color
+        label: "Secondary color — supporting or complementary tone"
+        type: text
+        placeholder: "e.g. #4a9a6e or 'warm sage green'"
+      - name: action_color
+        label: "(Optional) Accent / action color — used for CTAs and highlights, often the most saturated"
+        type: text
+        placeholder: "e.g. #f5a623 or 'bright amber orange'"
+      - name: logo_url
+        label: "(Optional) Logo URL — paste a publicly accessible link and colors will be extracted directly"
+        type: url
+        placeholder: "e.g. https://yoursite.com/wp-content/uploads/logo.png"
+      - name: header_style
+        label: "What style of site header do you want?"
+        type: radio
+        options: [Light header (dark text on white or light background), Dark header (light text on dark or colored background), Brand-colored header (brand primary as background)]
+      - name: footer_style
+        label: "What style of footer do you want?"
+        type: radio
+        options: [Dark footer, Light footer, Brand-colored footer]
 ---
 
 # Memberlite Color Scheme

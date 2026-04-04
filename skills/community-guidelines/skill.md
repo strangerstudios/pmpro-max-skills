@@ -6,6 +6,56 @@ one_shot: true
 uses_profile: true
 description: Writes a community guidelines and code of conduct page for a membership community — covering expectations, participation norms, enforcement, and the principles that make a community worth being in.
 keywords: [community guidelines, code of conduct, community rules, membership community, forum rules, community standards, member agreement, community norms]
+feature: copywriting
+quiz:
+  - step: 1
+    heading: "Community Info"
+    hint: "Good community guidelines start with purpose — who is this community for, and what is it trying to create?"
+    inputs:
+      - name: community_name
+        label: "Community name"
+        type: text
+        placeholder: "e.g. The Yoga Business Community, SENsible SENCO Forum"
+      - name: membership_type
+        label: "What type of community is this?"
+        type: select
+        options: [Professional Association, Course-based Community, Peer Network, Interest / Hobby Community, Local Community, Business / Founder Community, Other]
+      - name: community_platform
+        label: "Where does the community live?"
+        type: select
+        options: [Forum (PMPro + bbPress or similar), Slack, Discord, Circle, Facebook Group, Mighty Networks, Other]
+      - name: community_purpose
+        label: "Why does this community exist? What's it trying to create or enable?"
+        type: textarea
+        placeholder: "e.g. A space where yoga teachers share what's actually working in their businesses — not polished presentations, but honest conversations about the hard parts..."
+      - name: who_its_for
+        label: "Who is this community for? Describe your ideal member in 1-2 sentences."
+        type: textarea
+        placeholder: "e.g. Independent yoga teachers who are 2-10 years into teaching and want to build a sustainable business without feeling isolated..."
+      - name: community_size
+        label: "Approximate current member count (helps calibrate tone and enforcement detail)"
+        type: text
+        placeholder: "e.g. 150 members, just launching, 1,200 members"
+  - step: 2
+    heading: "Norms, Rules & Enforcement"
+    hint: "Specific rules are more effective than vague ones. 'Don't personally attack other members' is a rule. 'Be respectful' is not."
+    inputs:
+      - name: tone
+        label: "Tone of the guidelines document"
+        type: select
+        options: [Professional and formal, Warm and collegial, Casual and relaxed]
+      - name: specific_behaviors
+        label: "Any specific behaviors you've already seen or anticipate needing rules around?"
+        type: textarea
+        placeholder: "e.g. People DMing members to sell their services, political arguments, members sharing content outside the community, self-promotion without contributing first..."
+      - name: off_limits_topics
+        label: "Any topics that should be off-limits?"
+        type: textarea
+        placeholder: "e.g. Political discussions, competitor mentions, medical or legal advice, content unrelated to [topic]..."
+      - name: moderation_approach
+        label: "Who moderates, and what happens when someone breaks the rules? Describe your enforcement philosophy."
+        type: textarea
+        placeholder: "e.g. I moderate personally with help from 2 volunteer moderators. First offense: private message. Second: public warning. Third: removal. We prioritize education over punishment..."
 ---
 
 # Community Guidelines

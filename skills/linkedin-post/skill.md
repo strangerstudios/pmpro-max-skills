@@ -6,6 +6,36 @@ one_shot: true
 uses_profile: true
 description: Writes a LinkedIn post for a membership site owner — thoughtful, first-person, experience-based — using proven post structures that build authority and resonate with your audience.
 keywords: [LinkedIn, LinkedIn post, social media, thought leadership, founder content, membership site, recurring business, social writing]
+feature: copywriting
+quiz:
+  - step: 1
+    heading: "Topic & Category"
+    hint: "The best LinkedIn posts come from a specific observation, story, or tension — not a broad topic. The more concrete the input, the more specific and authentic the post."
+    inputs:
+      - name: topic_or_idea
+        label: "What do you want to write about? Be specific — a story, observation, tension, or insight."
+        type: textarea
+        placeholder: "e.g. I noticed that every yoga teacher I know who is actually making $3k+/month online launched with fewer than 500 followers. The bottleneck isn't audience size. It's the willingness to start before you feel ready..."
+      - name: content_category
+        label: "What category does this content fall into?"
+        type: select
+        options: [Leadership, Business Strategy, Personal Growth, Processes and Systems, Product and Member Stories, Life Parallels and Observations]
+      - name: source_material
+        label: "(Optional) Paste a draft, blog excerpt, or raw notes you want to adapt."
+        type: textarea
+        placeholder: "e.g. a rough draft, bullet points, or a blog post section..."
+  - step: 2
+    heading: "Length & Structure"
+    hint: "Medium is the default — it works for most ideas. Long posts are for deep stories or multi-part thinking."
+    inputs:
+      - name: post_length
+        label: "Post length"
+        type: radio
+        options: [Short (100-200 words) — a punchy single insight, Medium (200-400 words) — the default, Long (400-600 words) — a story or layered argument]
+      - name: post_structure
+        label: "Post structure"
+        type: radio
+        options: [Let the skill decide, Quick Insight Post (bold statement + context + insight), Story-to-Lesson Post (something happened + what I learned), Process or How-To Post (named steps or framework), Reflective or Personal Post (observation + deeper meaning)]
 ---
 
 # LinkedIn Post

@@ -2,10 +2,64 @@
 name: Generate an Email Course Value Proposition
 slug: generate-an-email-course-value-proposition
 category: Lead Magnets
-one_shot: false
+one_shot: true
 uses_profile: true
 description: Guides a one-question-at-a-time interview to determine the best email course approach (Unbundling vs. Buffet), then produces 3–5 complete email course concepts with day-by-day outlines.
 keywords: [email course, lead magnet, value proposition, email sequence, list building, opt-in, freebie, course concept]
+feature: planning
+quiz:
+  - step: 1
+    heading: "Your Paid Offer"
+    hint: "An email course lead magnet only works when it's strategically aligned to what you sell. The course should solve the problem right before your paid offer."
+    inputs:
+      - name: paid_offer
+        label: "What is your main paid offer? Describe it — what it is, who it's for, and the primary outcome it delivers."
+        type: textarea
+        placeholder: "e.g. A $49/month membership for yoga teachers with 12 courses, a private community, and monthly live Q&A calls. Members build sustainable online income — typically going from $2-4k/month to $4-7k/month within 6 months..."
+      - name: paid_offer_price
+        label: "What does your paid offer cost?"
+        type: text
+        placeholder: "e.g. $49/month, $497 one-time, $1,200/quarter"
+      - name: existing_content
+        label: "Do you have existing courses, content, or expertise that could be 'unbundled' into a free email course?"
+        type: radio
+        options: [Yes — I have substantial content I could pull from, Some — I have a few things that could work, No — I'd be creating this from scratch]
+      - name: existing_content_detail
+        label: "If yes, briefly describe the content or expertise you could draw from."
+        type: textarea
+        placeholder: "e.g. I have a 12-module paid course. The first two modules on finding your niche and pricing are the most fundamental — those could work as a free version..."
+  - step: 2
+    heading: "Your Audience & Transformation"
+    hint: "The best email courses are built around a specific person at a specific moment. The more precisely you can describe your reader, the better the concept."
+    inputs:
+      - name: target_audience
+        label: "Who is your ideal subscriber? Describe them specifically — their role, experience level, and current situation."
+        type: textarea
+        placeholder: "e.g. Independent yoga teachers, 2-10 years into teaching, earning $2-4k/month from in-person classes. They want to build online income but feel overwhelmed by where to start..."
+      - name: biggest_problem
+        label: "What is the #1 problem or frustration your audience has right now — before they even consider buying from you?"
+        type: textarea
+        placeholder: "e.g. They feel stuck trading hours for dollars. They're scared that slow seasons will derail everything. They don't know if online income is realistic for someone without a huge following..."
+      - name: desired_outcome
+        label: "What specific outcome do you want subscribers to achieve by the end of the email course?"
+        type: textarea
+        placeholder: "e.g. By the end of the 5-day course, they should have a clear niche, a validated idea for their first online offer, and a pricing framework. They should feel ready to build..."
+  - step: 3
+    heading: "Content & Constraints"
+    hint: "Now let's scope the email course itself — how long, what format, and what you're hoping it does for your business."
+    inputs:
+      - name: course_length
+        label: "How many days or emails do you want the course to be?"
+        type: radio
+        options: [3 days / 3 emails, 5 days / 5 emails, 7 days / 7 emails, Let the skill decide based on the topic]
+      - name: content_format
+        label: "What format do you want for each email?"
+        type: radio
+        options: [Text-only emails (fastest to produce), Emails with worksheets or templates to download, Emails with short video lessons, Emails with interactive exercises or prompts, Let the skill decide]
+      - name: business_goal
+        label: "What's the primary business goal for this email course?"
+        type: radio
+        options: [Build my email list with qualified leads, Warm up cold audiences before a launch, Nurture existing subscribers who haven't bought, Serve as the first step in an automated sales funnel, All of the above]
 ---
 
 # Generate An Email Course Value Proposition

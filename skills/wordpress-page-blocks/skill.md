@@ -2,10 +2,36 @@
 name: WordPress Page Blocks
 slug: wordpress-page-blocks
 category: PMPro
-one_shot: false
+one_shot: true
 uses_profile: false
 description: Converts page copy — from the Membership Sales Page skill or any other source — into WordPress block editor code view HTML, ready to paste directly into the WordPress editor.
 keywords: [WordPress blocks, block editor, code view, Gutenberg, page builder, WordPress copy, block editor HTML, WordPress page]
+feature: design
+quiz:
+  - step: 1
+    heading: "Your Page Copy & Settings"
+    hint: "Paste your page copy and describe the layout. Output is block editor code view HTML — paste it directly into WordPress via the Code Editor (⋮ menu → Code editor)."
+    inputs:
+      - name: page_copy
+        label: "Paste the full page copy you want to convert. Include all sections — headlines, body, bullets, testimonials, FAQs, CTAs."
+        type: textarea
+        placeholder: "HERO\nHeadline: Build a Yoga Membership That Pays You Consistently\nSubheadline: Join 400+ yoga teachers inside Yoga Business Academy...\n\nTHE PROBLEM\n..."
+      - name: section_structure
+        label: "Describe the sections and any layout notes. Which sections are present?"
+        type: textarea
+        placeholder: "Full-width hero section, 3-column benefits grid, testimonial quote, PMPro levels shortcode, accordion FAQ, centered CTA at bottom"
+      - name: pmpro_shortcode
+        label: "Which PMPro shortcode goes in the levels / pricing section?"
+        type: radio
+        options: [[pmpro_levels], [advanced_levels_page], No PMPro shortcode needed]
+      - name: brand_color
+        label: "Primary brand color hex code (for CTA button styling)"
+        type: text
+        placeholder: "e.g. #006799"
+      - name: layout_notes
+        label: "(Optional) Any multi-column sections, special blocks, or layout preferences?"
+        type: textarea
+        placeholder: "e.g. The benefits section should be 3 columns on desktop. The hero should have a dark overlay. The FAQ should be collapsible if possible."
 ---
 
 # WordPress Page Blocks

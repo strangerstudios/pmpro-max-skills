@@ -6,6 +6,60 @@ one_shot: true
 uses_profile: true
 description: Writes a 3-email proactive renewal sequence (30 days, 7 days, expiry day) to reduce passive churn before a membership expires — warm, value-focused, not alarming.
 keywords: [renewal email, membership renewal, expiring membership, renewal reminder, retention email, subscription renewal, PMPro renewal, membership expiry]
+feature: copywriting
+quiz:
+  - step: 1
+    heading: "Membership Details"
+    hint: "Annual renewals are high-stakes; monthly are lower-stakes. The output changes based on what's expiring."
+    inputs:
+      - name: membership_name
+        label: "Membership name"
+        type: text
+        placeholder: "e.g. Yoga Business Academy"
+      - name: level_name
+        label: "Which membership level is expiring?"
+        type: text
+        placeholder: "e.g. Member, Studio Pro, Annual"
+      - name: membership_type
+        label: "What type of membership is this?"
+        type: select
+        options: [Online Courses / Training, Paid Community, Association or NPO, Paid Newsletter, Coaching Program, Podcast Membership, Member Directory, Hybrid]
+      - name: billing_period
+        label: "Billing period for this level"
+        type: radio
+        options: [Monthly, Annual]
+      - name: renewal_price
+        label: "Price at renewal"
+        type: text
+        placeholder: "e.g. $49/month or $397/year"
+      - name: renewal_url
+        label: "URL where members go to renew"
+        type: url
+        placeholder: "e.g. https://yoursite.com/membership-account/"
+      - name: auto_vs_manual
+        label: "Is billing automatic, or do members need to take action to renew?"
+        type: radio
+        options: [Auto-renew — billing is automatic (focus is preventing cancellations and failed payments), Manual renewal — members must take action to renew (focus is motivating the click)]
+      - name: output_mode
+        label: "What do you need?"
+        type: radio
+        options: [Single improved renewal email (better than the PMPro default), Full 3-email sequence (30 days out, 7 days out, expiry day)]
+  - step: 2
+    heading: "Value & Messaging"
+    hint: "Renewal emails that reinforce value outperform ones that just warn about losing access."
+    inputs:
+      - name: most_valuable_thing
+        label: "The most valuable thing about this membership — what would members miss most if they let it lapse?"
+        type: textarea
+        placeholder: "e.g. The monthly live Q&A calls — that direct feedback on their specific business is irreplaceable. The private community they've built relationships in over the past year..."
+      - name: recent_additions
+        label: "Any notable new content, improvements, or features added since they joined? (Reinforces value)"
+        type: textarea
+        placeholder: "e.g. Added 8 new courses on pricing and email marketing, launched a members-only podcast feed, upgraded the community platform..."
+      - name: tone
+        label: "Tone of the renewal emails"
+        type: select
+        options: [Warm and personal — like a note from a friend, Matter-of-fact and practical — informational and clear, Celebratory — they're hitting a membership milestone]
 ---
 
 # Renewal Reminder Email Sequence

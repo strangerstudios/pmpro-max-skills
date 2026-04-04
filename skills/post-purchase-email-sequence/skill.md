@@ -2,10 +2,56 @@
 name: Post-Purchase Email Sequence
 slug: post-purchase-email-sequence
 category: Email
-one_shot: false
+one_shot: true
 uses_profile: true
 description: Writes a 6-email post-purchase sequence covering onboarding, obstacle removal, feature discovery, feedback collection, and upsell — focused on customer success over sales.
 keywords: [post-purchase email, customer onboarding, retention, customer success, email sequence, LTV, refund reduction, follow-up emails]
+feature: copywriting
+quiz:
+  - step: 1
+    heading: "Product & Onboarding"
+    hint: "The best post-purchase sequences are built around member success — not sales. Tell us about what they just bought and what winning looks like."
+    inputs:
+      - name: product_type
+        label: "What did they purchase?"
+        type: select
+        options: [Online course or curriculum, Paid community membership, Coaching program, Paid newsletter or publication, Association or NPO membership, Hybrid membership (course + community), Physical product or subscription box, Service package or retainer]
+      - name: product_name
+        label: "What's the name of the product or membership?"
+        type: text
+        placeholder: "e.g. Yoga Business Academy, The Freelance OS, The Inner Circle"
+      - name: core_outcome
+        label: "What's the main outcome or transformation a member should experience? What does success look like?"
+        type: textarea
+        placeholder: "e.g. A yoga teacher who joins should go from inconsistent $2-4k/month income to a stable $4-7k/month within 6 months, primarily from online recurring income..."
+      - name: time_to_value
+        label: "How long does it typically take before a new member experiences real value?"
+        type: radio
+        options: [Immediately — value starts on day one, Within the first week, 2–4 weeks, A month or more]
+      - name: first_action
+        label: "What's the single most important first action a new member should take?"
+        type: textarea
+        placeholder: "e.g. Log in and complete the Welcome module. Join the community and post their intro. Book their onboarding call. Download the starter toolkit..."
+  - step: 2
+    heading: "Customer Journey & Business Context"
+    hint: "Tell us about your members — who they are, what gets in their way, and what you'd love to achieve through this sequence."
+    inputs:
+      - name: audience_description
+        label: "Who is your typical new member? Describe them specifically."
+        type: textarea
+        placeholder: "e.g. Independent yoga teachers, 2-10 years into their career, who are great at teaching but completely new to building an online business. Often overwhelmed by the tech side..."
+      - name: common_obstacles
+        label: "What are the most common reasons new members struggle or fall off early?"
+        type: textarea
+        placeholder: "e.g. They get overwhelmed by the amount of content and don't know where to start. They're skeptical that online income can work for them. They stop logging in after week 1..."
+      - name: best_success_story
+        label: "What's your best member success story? The more specific, the better."
+        type: textarea
+        placeholder: "e.g. Sarah joined in March. Within 90 days she'd launched a $47/month online yoga membership and had 22 founding members. She went from $2,800/month to $4,800/month..."
+      - name: upsell_or_next_step
+        label: "Is there a natural next step, upgrade, or referral opportunity after this purchase?"
+        type: textarea
+        placeholder: "e.g. Members can upgrade to VIP for coaching calls. We have an affiliate program paying 30%. We run a live cohort twice a year for advanced members..."
 ---
 
 # 6-Email Post-Purchase Sequence

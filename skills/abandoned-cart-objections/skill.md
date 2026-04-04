@@ -6,6 +6,56 @@ one_shot: true
 uses_profile: true
 description: Identifies and ranks the 10 most impactful objections holding back warm leads who visited a sales page but didn't buy, with reframe strategies and email frameworks for each.
 keywords: [abandoned cart, objection handling, sales hesitation, warm leads, conversion, email sequence, cart recovery, sales page]
+feature: copywriting
+quiz:
+  - step: 1
+    heading: "Your Offer"
+    hint: "We're building this for warm leads — people who visited your sales page multiple times but didn't buy. The more specific your offer details, the more targeted and useful the objections."
+    inputs:
+      - name: product_type
+        label: "What type of product or membership are you selling?"
+        type: select
+        options: [Membership site, Online course, Coaching program, Paid community, Paid newsletter, Association, Other]
+      - name: product_description
+        label: "Describe the membership or product specifically. What is it?"
+        type: textarea
+        placeholder: "e.g. Yoga Business Academy — a $49/month membership for yoga teachers who want to build an online income. Includes 40+ courses, monthly live Q&A, and a private community of 400+ teachers..."
+      - name: price_model
+        label: "Price and billing model"
+        type: textarea
+        placeholder: "e.g. $49/month or $397/year (save 30%). One-time purchase option available at $297."
+      - name: transformation
+        label: "What transformation or outcome does it provide? Be specific."
+        type: textarea
+        placeholder: "e.g. Within 6 months, members typically add $1,500-3,000/month in recurring online income without teaching more in-person classes..."
+      - name: time_to_value
+        label: "How long does it typically take to see real results?"
+        type: text
+        placeholder: "e.g. Most members see their first paying online members within 30 days, meaningful income within 90 days"
+  - step: 2
+    heading: "Your Audience"
+    hint: "The objections we surface need to match the real hesitations this specific audience has."
+    inputs:
+      - name: ideal_customer
+        label: "Who is your ideal customer? Describe their role, situation, and goals."
+        type: textarea
+        placeholder: "e.g. Yoga teachers 2-10 years into their career, earning $2-4k/month from in-person teaching, who love what they do but feel financially capped..."
+      - name: experience_level
+        label: "Experience level of your typical prospect"
+        type: radio
+        options: [Complete beginner — new to this topic, Intermediate — some experience but struggling, Advanced — already practicing with some success, Mixed]
+      - name: known_fears
+        label: "What fears or objections have previous customers mentioned? What almost stopped your best buyers?"
+        type: textarea
+        placeholder: "e.g. 'I thought I needed a bigger audience', 'I was worried I wasn't experienced enough to charge', 'I didn't think I'd have time to maintain it'..."
+      - name: competing_solutions
+        label: "What alternatives are prospects considering? Competitors, DIY approaches, doing nothing?"
+        type: textarea
+        placeholder: "e.g. Other yoga business courses, general business coaches, free YouTube content, building their own program from scratch..."
+      - name: purchase_urgency
+        label: "How urgent is this problem for your prospects?"
+        type: radio
+        options: [High urgency — they need to solve this now, Medium urgency — it matters but isn't pressing, Low urgency — nice to have someday]
 ---
 
 # Abandoned Cart Objection Identification

@@ -2,10 +2,52 @@
 name: Signup Flow CRO
 slug: signup-flow-cro
 category: CRO
-one_shot: false
+one_shot: true
 uses_profile: true
 description: Optimizes signup, registration, and trial activation flows by reducing friction, improving field design, and increasing completion rates through audits and experiment recommendations.
 keywords: [signup optimization, registration flow, CRO, conversion rate, trial signup, account creation, signup friction, form optimization]
+feature: strategy
+quiz:
+  - step: 1
+    heading: "Your Signup Flow"
+    hint: "Walk us through what a new member sees from the moment they click 'Join' to the moment they land inside your membership."
+    inputs:
+      - name: flow_type
+        label: "What type of signup are you optimizing?"
+        type: select
+        options: [Free trial signup (credit card required), Free trial signup (no card required), Free membership or freemium account, Paid membership signup, Waitlist or early access signup, Guest checkout or one-time purchase]
+      - name: current_steps
+        label: "Describe the steps in your current signup flow. What does each screen or page ask for?"
+        type: textarea
+        placeholder: "e.g. Step 1: Pricing page — they choose a level. Step 2: PMPro checkout — email, password, billing fields. Step 3: Stripe payment. Step 4: Redirect to a thank-you page with next steps..."
+      - name: fields_collected
+        label: "What information do you collect during signup? List every field."
+        type: textarea
+        placeholder: "e.g. First name, last name, email, password, billing address, card number. We also ask 'How did you hear about us?' on the checkout page..."
+      - name: platform
+        label: "What platform or tools power your signup flow?"
+        type: checkbox-group
+        options: [Paid Memberships Pro (PMPro), WooCommerce, Stripe, PayPal, Custom checkout, LearnDash or LifterLMS, Other WordPress plugin]
+  - step: 2
+    heading: "Current Performance & Constraints"
+    hint: "Where are people dropping off? What do you know about the friction points? The data and your instincts both matter here."
+    inputs:
+      - name: completion_rate
+        label: "Current signup completion rate, if known (% who start checkout and complete it)"
+        type: text
+        placeholder: "e.g. 62%, or 'I don't know'"
+      - name: drop_off_point
+        label: "Where do you think (or know) people drop off most in the flow?"
+        type: radio
+        options: [At the pricing or plan selection page, During the account creation step, At the billing or payment step, After the confirmation — they don't activate, We're not sure — we haven't measured this]
+      - name: known_friction
+        label: "Any specific friction points you've noticed or heard feedback about?"
+        type: textarea
+        placeholder: "e.g. People get confused by the billing address fields. We've had complaints that the form is too long. A few people have emailed saying they couldn't complete checkout on mobile..."
+      - name: output_goal
+        label: "What do you want from this skill?"
+        type: radio
+        options: [Audit my current flow and identify friction points, Recommend specific tests to run, Write better copy for my signup pages, All of the above — full optimization plan]
 ---
 
 # Signup Flow CRO

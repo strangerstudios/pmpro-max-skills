@@ -2,10 +2,52 @@
 name: Onboarding CRO
 slug: onboarding-cro
 category: CRO
-one_shot: false
+one_shot: true
 uses_profile: true
 description: Optimizes post-signup onboarding to reduce time-to-value, increase activation rates, and build habits that lead to long-term retention through flow design, empty states, and email triggers.
 keywords: [onboarding, user activation, time-to-value, aha moment, CRO, onboarding flow, activation rate, user retention]
+feature: strategy
+quiz:
+  - step: 1
+    heading: "Product & Activation"
+    hint: "Good onboarding optimization starts with knowing what 'success' looks like for a new member. Be specific about your aha moment."
+    inputs:
+      - name: product_type
+        label: "What type of membership or product are you onboarding new members into?"
+        type: select
+        options: [Online course or curriculum, Paid community, Coaching program, Paid newsletter, Association or NPO, SaaS or software tool, Hybrid membership]
+      - name: aha_moment
+        label: "What is the 'aha moment' — the specific action or experience that signals a new member 'gets it'?"
+        type: textarea
+        placeholder: "e.g. A new member completes the first module and posts their intro in the community. That's when we see the biggest spike in 90-day retention..."
+      - name: time_to_value
+        label: "How long does it currently take a new member to reach that aha moment?"
+        type: radio
+        options: [Same day they join, Within the first week, 2–4 weeks in, A month or more, We're not sure — we haven't measured this]
+      - name: current_drop_off
+        label: "Where do new members drop off or disengage most? What's your biggest activation problem?"
+        type: textarea
+        placeholder: "e.g. Most people log in once, don't finish the welcome module, and we never see them again. We have a 40% churn rate in month 1..."
+  - step: 2
+    heading: "Current Onboarding & What You Have"
+    hint: "Tell us what your onboarding looks like today — even if it's minimal. We'll identify what to fix and what to add."
+    inputs:
+      - name: current_onboarding
+        label: "Describe your current post-signup onboarding. What happens immediately after someone joins?"
+        type: textarea
+        placeholder: "e.g. They get a welcome email from PMPro, then a manual welcome email from me 2 days later. There's no onboarding checklist or guided tour. The dashboard is pretty bare..."
+      - name: onboarding_emails
+        label: "Do you have a post-purchase or onboarding email sequence?"
+        type: radio
+        options: [Yes — a full automated sequence (3+ emails), Yes — just a welcome email or two, No — only the default PMPro confirmation email, No — nothing automated at all]
+      - name: platform_tools
+        label: "What tools or platforms are you working with? Select all that apply."
+        type: checkbox-group
+        options: [Paid Memberships Pro (PMPro), LearnDash or LifterLMS, BuddyBoss or PeepSo community, Mailchimp or Klaviyo, ActiveCampaign or ConvertKit, Custom WordPress theme or plugin]
+      - name: specific_goal
+        label: "What's the specific outcome you want from this optimization? What does success look like for you?"
+        type: textarea
+        placeholder: "e.g. Reduce month-1 churn from 40% to under 20%. Get more members actually completing the first module. Increase the percentage who post in the community within their first week..."
 ---
 
 # Onboarding CRO

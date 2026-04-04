@@ -6,6 +6,76 @@ one_shot: true
 uses_profile: true
 description: Writes a complete membership sales page — hero, problem, solution, what's included, social proof, FAQ, and CTA — with a shortcode placeholder for the PMPro levels table. One-shot output ready to build in WordPress.
 keywords: [membership sales page, sales page copy, landing page, membership page, PMPro levels, conversion copy, membership marketing]
+feature: copywriting
+quiz:
+  - step: 1
+    heading: "Your Membership"
+    hint: "The basics about what you offer and who it's for. Be as specific as possible — vague inputs produce generic copy."
+    inputs:
+      - name: membership_name
+        label: "Membership name"
+        type: text
+        placeholder: "e.g. The Photography Guild, SENsible SENCO, Yoga Business Academy"
+      - name: membership_type
+        label: "What type of membership is this?"
+        type: select
+        options: [Online Courses / Training, Paid Community, Association or NPO, Paid Newsletter, Coaching Program, Podcast Membership, Member Directory, Hybrid]
+      - name: target_audience
+        label: "Who is this specifically for? One sentence describing your ideal member."
+        type: textarea
+        placeholder: "e.g. Independent yoga instructors 2-10 years into teaching who want to grow their income without burning out..."
+      - name: core_problem
+        label: "What problem do they have before they join? Describe their frustration in their own words."
+        type: textarea
+        placeholder: "e.g. They're trading hours for dollars, love teaching but can't figure out how to build recurring income online..."
+      - name: transformation
+        label: "What does life look like after joining? Your 'From → To' transformation."
+        type: textarea
+        placeholder: "e.g. From: overwhelmed, inconsistent income, no community. To: a sustainable membership business with $3-5k/month in recurring revenue..."
+      - name: prices_and_billing
+        label: "What are your prices and billing periods?"
+        type: textarea
+        placeholder: "e.g. Monthly: $49/mo, Annual: $397/yr, Free tier available"
+      - name: levels_shortcode
+        label: "Which shortcode will display your pricing/levels table?"
+        type: radio
+        options: [[pmpro_levels], [advanced_levels_page]]
+  - step: 2
+    heading: "What's Included"
+    hint: "What members actually get. Specifics sell — 'a private community of 400+ yoga teachers' beats 'access to our community'."
+    inputs:
+      - name: primary_benefit
+        label: "Your headline offer — the single most compelling thing included. Be specific."
+        type: textarea
+        placeholder: "e.g. 40+ on-demand courses on pricing, marketing, and building online income as a yoga teacher..."
+      - name: supporting_benefits
+        label: "List 3-6 additional benefits. One per line."
+        type: textarea
+        placeholder: "Monthly live Q&A calls every first Tuesday\nPrivate member forum with 400+ teachers\nDone-for-you email and social templates\nAccess to the full resource library..."
+      - name: who_its_not_for
+        label: "(Optional but powerful) Who is this NOT for? 2-3 honest exclusions."
+        type: textarea
+        placeholder: "e.g. Not for yoga studios (this is for individual teachers), not for beginners in their first year of teaching..."
+  - step: 3
+    heading: "Social Proof & Objections"
+    hint: "The evidence that makes fence-sitters join, and the questions that need answering before they'll pull out their card."
+    inputs:
+      - name: social_proof
+        label: "Member count, years in business, or other trust signals."
+        type: textarea
+        placeholder: "e.g. Join 800+ members, Running since 2019, 4.9/5 average member rating..."
+      - name: testimonials
+        label: "Paste 1-2 member testimonials — name, context, and quote. If none yet, describe notable results."
+        type: textarea
+        placeholder: "Sarah M., yoga teacher in Portland: 'I went from $800/month to $3,200/month in recurring income within 6 months of joining...'"
+      - name: faqs
+        label: "List 3-5 FAQs or known objections. One per line."
+        type: textarea
+        placeholder: "Can I cancel anytime?\nIs this right for beginners?\nHow much time does this take each week?\nDo you cover [specific topic]?"
+      - name: brand_color
+        label: "Your primary brand color hex code (used for CTA buttons)"
+        type: text
+        placeholder: "e.g. #006799"
 ---
 
 # Membership Sales Page

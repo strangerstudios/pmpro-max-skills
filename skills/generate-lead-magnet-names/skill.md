@@ -2,10 +2,48 @@
 name: Generate Lead Magnet Names
 slug: generate-lead-magnet-names
 category: Lead Magnets
-one_shot: false
+one_shot: true
 uses_profile: true
 description: Generates 10–15 high-converting lead magnet names organized by naming strategy — outcome-driven, mechanism-driven, and specificity-driven — optimized for clarity over cleverness.
 keywords: [lead magnet name, freebie title, opt-in name, lead magnet title, naming, copywriting, conversion, A/B testing]
+feature: copywriting
+quiz:
+  - step: 1
+    heading: "Lead Magnet Details"
+    hint: "A name that converts needs to make someone feel like it was made for them. Tell us exactly what this lead magnet is and who it serves."
+    inputs:
+      - name: target_audience
+        label: "Who is this lead magnet for? Be specific about their role and situation."
+        type: textarea
+        placeholder: "e.g. Independent yoga teachers who want to build online income. Freelance designers trying to land higher-paying clients. First-time landlords managing their first rental property..."
+      - name: problem_solved
+        label: "What single problem does this lead magnet solve for them?"
+        type: textarea
+        placeholder: "e.g. They don't know how to price their first online offer. They're not sure where to start with building an email list. They can't figure out how to get clients without relying on referrals..."
+      - name: outcome_delivered
+        label: "What outcome or result does someone get from using this lead magnet?"
+        type: textarea
+        placeholder: "e.g. A clear pricing framework they can apply immediately. A 5-step checklist for their first launch. A fully customized content calendar they can start using this week..."
+      - name: lead_magnet_format
+        label: "What format is this lead magnet?"
+        type: select
+        options: [Checklist, PDF guide or ebook, Email course (multi-day), Template or swipe file, Worksheet or workbook, Webinar or training, Quiz or assessment, Toolkit (bundle of resources), Mini-course or video series, Other]
+  - step: 2
+    heading: "Format & Next Step"
+    hint: "The name should match how the lead magnet will be used — and set up the transition to your paid offer."
+    inputs:
+      - name: paid_offer_connection
+        label: "What paid offer does this lead magnet lead into? How do they connect?"
+        type: textarea
+        placeholder: "e.g. After downloading the pricing guide, subscribers get a 5-email sequence leading to our $49/month membership. The guide gives them a framework; the membership gives them the full system..."
+      - name: naming_preference
+        label: "What naming style feels most on-brand for you?"
+        type: radio
+        options: [Outcome-driven — 'The [Result] in [Timeframe]', Mechanism-driven — 'The [Method] for [Person]', Specificity-driven — numbers and concrete details, Simple and descriptive — no clever framing, Let the skill generate a mix of all styles]
+      - name: names_to_avoid
+        label: "(Optional) Any lead magnet names you've already used or want to avoid?"
+        type: textarea
+        placeholder: "e.g. Already have 'The Ultimate Guide to...' so avoid that framing. Don't want anything with 'blueprint' or 'roadmap'..."
 ---
 
 # Generate Lead Magnet Names

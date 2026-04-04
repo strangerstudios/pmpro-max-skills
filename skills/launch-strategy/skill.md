@@ -2,10 +2,72 @@
 name: Launch Strategy
 slug: launch-strategy
 category: Strategy
-one_shot: false
+one_shot: true
 uses_profile: true
 description: Plans product launches and feature announcements using the ORB framework (Owned, Rented, Borrowed channels) and a five-phase launch approach from internal testing to full public release.
 keywords: [product launch, launch strategy, go-to-market, feature announcement, Product Hunt, early access, waitlist, GTM]
+feature: strategy
+quiz:
+  - step: 1
+    heading: "What You're Launching"
+    hint: "A product launch and a feature announcement require different strategies. Be specific about what this is."
+    inputs:
+      - name: launch_type
+        label: "What are you launching?"
+        type: select
+        options: [New product or membership (first time to market), Major new feature or content addition, Minor update or announcement, Beta or early access launch, Live event or cohort, Re-launch or rebranding]
+      - name: launch_description
+        label: "Describe what you're launching. What is it, and why does it matter to your audience?"
+        type: textarea
+        placeholder: "e.g. Yoga Business Academy — a membership for yoga teachers who want to build online recurring income. Launching publicly for the first time after 6 months of beta with 40 founding members..."
+      - name: launch_timeline
+        label: "When are you planning to launch? Specific date or timeframe."
+        type: text
+        placeholder: "e.g. April 28th, or 'within the next 60 days'"
+  - step: 2
+    heading: "Your Audience & Channels"
+    hint: "What you have access to shapes which launch phases are realistic. Be honest about your starting point."
+    inputs:
+      - name: audience_size
+        label: "What's your current audience? Be specific — email list, social followers, existing members."
+        type: textarea
+        placeholder: "e.g. Email list: 1,200 subscribers. Instagram: 3,400 followers. Existing beta members: 40. No YouTube or podcast."
+      - name: owned_channels
+        label: "Which owned channels do you have active? Select all that apply."
+        type: checkbox-group
+        options: [Email list, Blog or content site, Podcast, Private community (Slack, Discord, Circle, Facebook Group), YouTube channel]
+      - name: rented_channels
+        label: "Which social platforms are you active on? Select all that apply."
+        type: checkbox-group
+        options: [Instagram, LinkedIn, Twitter / X, Facebook, YouTube, TikTok, Reddit]
+      - name: existing_list_or_waitlist
+        label: "Do you have a warm list or waitlist for this launch?"
+        type: radio
+        options: [Yes — we have an existing waitlist or early access list, We have existing customers or members who could be re-engaged, Starting from scratch — no warm audience yet]
+      - name: past_launches
+        label: "Have you launched something before? What worked and what didn't?"
+        type: textarea
+        placeholder: "e.g. Launched a course 2 years ago — email outperformed social by 10:1. Social posts got likes but didn't convert. The urgency of a launch deadline helped a lot."
+  - step: 3
+    heading: "Goals & Approach"
+    hint: "A great launch plan is specific — it tells you what to do in what order, not just principles to follow."
+    inputs:
+      - name: launch_goal
+        label: "What does a successful launch look like? Primary metric."
+        type: textarea
+        placeholder: "e.g. 50 paying members at $49/month within the first 2 weeks. Or: 500 waitlist signups before opening cart."
+      - name: product_hunt
+        label: "Are you considering a Product Hunt launch?"
+        type: radio
+        options: [Yes — planning a Product Hunt launch, No — not relevant for this product, Considering it but unsure]
+      - name: borrowed_channels
+        label: "(Optional) Any influencer partnerships, podcast guest opportunities, collaborations, or press lined up or in mind?"
+        type: textarea
+        placeholder: "e.g. Interview coming up on the Yoga Entrepreneur Podcast (8,000 listeners). Considering partnering with a yoga teacher certification program."
+      - name: biggest_challenge
+        label: "What's your biggest concern or unknown about this launch?"
+        type: textarea
+        placeholder: "e.g. Not sure if my email list is warm enough, worried the timing conflicts with school breaks, don't know how to create urgency without a big discount..."
 ---
 
 # Launch Strategy

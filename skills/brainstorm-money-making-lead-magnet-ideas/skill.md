@@ -2,10 +2,48 @@
 name: Brainstorm Money-Making Lead Magnet Ideas
 slug: brainstorm-money-making-lead-magnet-ideas
 category: Lead Magnets
-one_shot: false
+one_shot: true
 uses_profile: true
 description: Generates strategically aligned lead magnet ideas that attract buyers, not freebie-seekers, by identifying precursor problems that bridge directly to a paid offer.
 keywords: [lead magnet, list building, opt-in, freebie, sales funnel, lead generation, buyer personas, email list]
+feature: planning
+quiz:
+  - step: 1
+    heading: "Your Paid Offer"
+    hint: "Money-making lead magnets solve the problem that comes right BEFORE the problem your paid offer solves. Start with what you sell."
+    inputs:
+      - name: paid_offer_description
+        label: "What is your main paid offer? Describe it in detail — what it is, who it's for, and what outcome it delivers."
+        type: textarea
+        placeholder: "e.g. A $49/month membership for yoga teachers that includes 12 courses on building online income, a private community, and monthly live Q&A calls. Members typically go from $2-4k/month to $4-7k/month within 6 months..."
+      - name: paid_offer_price
+        label: "What does your paid offer cost?"
+        type: text
+        placeholder: "e.g. $49/month, $497 one-time, $1,200 for 3-month coaching"
+      - name: target_audience
+        label: "Who is your ideal buyer? Describe them specifically — their role, experience level, and situation right now."
+        type: textarea
+        placeholder: "e.g. Independent yoga teachers, 2-10 years teaching, earning $2-4k/month mostly from in-person classes. They want to build online income but don't know where to start..."
+      - name: existing_lead_magnets
+        label: "(Optional) What lead magnets do you already have? We'll make sure the new ideas don't overlap."
+        type: textarea
+        placeholder: "e.g. A free '5 Days to Your First Online Class' email course. Nothing else..."
+  - step: 2
+    heading: "Audience Pain Points"
+    hint: "The precursor problem is what your audience needs to solve right before they need your paid offer. Help us understand what comes before."
+    inputs:
+      - name: biggest_frustrations
+        label: "What are the biggest frustrations or fears your ideal buyer has right now, before they even consider buying from you?"
+        type: textarea
+        placeholder: "e.g. They feel stuck trading hours for dollars. They're worried about slow seasons. They don't know if an online offer would work for their specific audience. They're overwhelmed by the tech..."
+      - name: common_questions
+        label: "What questions do they ask most before deciding to buy? What do they need to believe before they'll pay?"
+        type: textarea
+        placeholder: "e.g. 'Can this really work for someone with a small audience?' 'How long before I see results?' 'Is this right for me if I don't teach hot yoga?'"
+      - name: content_effort
+        label: "How much effort can you realistically put into creating the lead magnet?"
+        type: radio
+        options: [Minimal — a checklist, template, or short guide (1-2 hours), Moderate — an email course, short video series, or multi-page guide (1-2 days), Significant — a mini-course, webinar, or in-depth resource (1+ week)]
 ---
 
 # Brainstorm Money-Making Lead Magnet Ideas

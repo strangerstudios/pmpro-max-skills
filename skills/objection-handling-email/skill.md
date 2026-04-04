@@ -6,6 +6,68 @@ one_shot: true
 uses_profile: true
 description: Writes a single 400–600 word objection-handling email using a proven 7-step framework that acknowledges, reframes, and overcomes a specific sales hesitation.
 keywords: [objection handling, sales email, conversion email, email copywriting, price objection, hesitation, email marketing, sales funnel]
+feature: copywriting
+quiz:
+  - step: 1
+    heading: "Your Product & The Objection"
+    hint: "Each email addresses one specific objection. Pick the one that kills the most sales for you."
+    inputs:
+      - name: product_name
+        label: "Product or membership name"
+        type: text
+        placeholder: "e.g. Yoga Business Academy"
+      - name: product_type
+        label: "What type of product is this?"
+        type: select
+        options: [Membership site, Online course, Coaching program, Paid community, Paid newsletter, Other]
+      - name: price
+        label: "Price"
+        type: text
+        placeholder: "e.g. $297, $97/month, $49/month"
+      - name: objection
+        label: "Which objection does this email address?"
+        type: radio
+        options: [It's too expensive, I don't have time for this, I'm not sure it'll work for me, I'm not ready yet — I need to get a few things in place first, I've tried things like this before and it didn't work, Other]
+      - name: objection_custom
+        label: "(If 'Other') Write the objection in your prospect's exact words"
+        type: textarea
+        placeholder: "e.g. 'I only have 50 Instagram followers — I don't have an audience to sell to yet'..."
+      - name: target_audience
+        label: "Who is your target audience? Describe who is most likely to have this objection."
+        type: textarea
+        placeholder: "e.g. Yoga teachers in years 2-10 of their career, earning under $4,000/month, who love teaching but feel stuck on the income ceiling..."
+  - step: 2
+    heading: "Benefits & Customer Story"
+    hint: "The social proof that makes the reframe believable."
+    inputs:
+      - name: benefit_1
+        label: "Key benefit #1 — a specific outcome your product delivers"
+        type: textarea
+        placeholder: "e.g. A proven system for building a $3-5k/month membership from scratch, even if you have a tiny audience..."
+      - name: benefit_2
+        label: "Key benefit #2"
+        type: textarea
+        placeholder: "e.g. Monthly live Q&A calls where you get direct feedback on your specific business..."
+      - name: benefit_3
+        label: "Key benefit #3"
+        type: textarea
+        placeholder: "e.g. A private community of 400+ yoga teachers who are actually building this — not just talking about it..."
+      - name: customer_name
+        label: "Name of a real customer for the success story"
+        type: text
+        placeholder: "e.g. Maria K."
+      - name: customer_background
+        label: "Their situation before finding you — relatable to your audience"
+        type: textarea
+        placeholder: "e.g. Maria had the exact same objection — she thought she needed 10,000 followers before she could charge for anything online. She had 340..."
+      - name: customer_transformation
+        label: "What changed? Specific results and timeframe."
+        type: textarea
+        placeholder: "e.g. 6 months after joining with 340 followers, she had 58 paying members at $49/month — $2,842/month in recurring income. No ads, no viral content."
+      - name: customer_quote
+        label: "(Optional) A direct quote from this customer"
+        type: textarea
+        placeholder: "e.g. 'I wish I'd stopped waiting and just started. The audience I needed was already there — I just didn't know how to reach them.'"
 ---
 
 # Objection Handling Email (7-Step Framework)

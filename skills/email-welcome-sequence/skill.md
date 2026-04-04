@@ -6,6 +6,72 @@ one_shot: true
 uses_profile: true
 description: Generate a complete 5-email welcome sequence for new subscribers using a proven framework that builds trust, agitates pain, demonstrates value, and drives sales.
 keywords: [email, welcome, onboarding, subscribers, newsletter, drip, sequence, nurture]
+feature: copywriting
+quiz:
+  - step: 1
+    heading: "Your Details"
+    hint: "The basics about you and your offer. These details will appear throughout all 5 emails."
+    inputs:
+      - name: your_name
+        label: "Your name (as it will appear in emails)"
+        type: text
+        placeholder: "e.g. Jane Smith"
+      - name: membership_type
+        label: "What type of membership or product do you sell?"
+        type: select
+        options: [Online Courses / Training, Paid Community, Association or NPO, Paid Newsletter, Coaching Program, Podcast Membership, Hybrid]
+      - name: product_name
+        label: "Product or membership name"
+        type: text
+        placeholder: "e.g. Yoga Business Academy"
+      - name: price_point
+        label: "Price point"
+        type: text
+        placeholder: "e.g. $497 one-time, $97/month, $249/year"
+      - name: lead_magnet_name
+        label: "What did subscribers download to join your list? (Your lead magnet name)"
+        type: text
+        placeholder: "e.g. The 5-Day Membership Launch Checklist"
+  - step: 2
+    heading: "Your Audience & Offer"
+    hint: "The deeper context that makes these emails feel personal and specific."
+    inputs:
+      - name: target_audience
+        label: "Describe your target audience — who they are, what they're trying to accomplish."
+        type: textarea
+        placeholder: "e.g. Yoga teachers 2-10 years in who want to build recurring online income without burning out or becoming a full-time content creator..."
+      - name: core_problem
+        label: "The main pain point your audience experiences — the central struggle they face."
+        type: textarea
+        placeholder: "e.g. They love teaching but feel trapped trading hours for dollars, with no idea how to build predictable income online..."
+      - name: unique_method
+        label: "Your unique method, framework, or approach — what makes how you solve this different from everything else out there?"
+        type: textarea
+        placeholder: "e.g. The Sustainable Studio Method — build a $3-5k/month membership using only 3 hours/week of content creation..."
+      - name: guarantee
+        label: "Your guarantee or refund policy"
+        type: text
+        placeholder: "e.g. 30-day money-back guarantee, no questions asked"
+  - step: 3
+    heading: "Your Success Story"
+    hint: "A real customer story for Email 3 — the more specific and relatable, the better it converts."
+    inputs:
+      - name: customer_name
+        label: "Name of a real customer for the success story"
+        type: text
+        placeholder: "e.g. Maria K."
+      - name: customer_background
+        label: "Their situation before finding you — make it as relatable as possible to your audience."
+        type: textarea
+        placeholder: "e.g. Maria was a 12-year veteran yoga teacher making $2,100/month from private clients, working 45 hours a week and exhausted..."
+      - name: customer_transformation
+        label: "What changed after using your product? Specific results, metrics, and timeframes."
+        type: textarea
+        placeholder: "e.g. Within 90 days she had 47 paying members at $49/month, added $2,300/month in recurring income, and reduced her in-person hours by 30%..."
+      - name: customer_quote
+        label: "(Optional) A direct quote from this customer"
+        type: textarea
+        placeholder: "e.g. 'I can't believe I waited so long. This paid for itself in the first month and I finally feel like I have a real business.'"
 ---
 
 # 5-Day Welcome Email Sequence

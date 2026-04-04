@@ -6,6 +6,52 @@ one_shot: true
 uses_profile: true
 description: Writes the post-checkout confirmation message members see immediately after joining — turning a transactional moment into a warm welcome that sets expectations and drives the first action.
 keywords: [confirmation message, PMPro confirmation, post-checkout message, member welcome, level settings, onboarding, first impression]
+feature: copywriting
+quiz:
+  - step: 1
+    heading: "Membership Level Info"
+    hint: "This message appears the moment someone completes checkout. It's their very first experience inside your membership."
+    inputs:
+      - name: level_name
+        label: "Which membership level is this for?"
+        type: text
+        placeholder: "e.g. Member, Studio Pro, Annual Member, Founding Member"
+      - name: membership_type
+        label: "What type of membership is this?"
+        type: select
+        options: [Online Courses / Training, Paid Community, Association or NPO, Paid Newsletter, Coaching Program, Podcast Membership, Member Directory, Hybrid]
+      - name: tone
+        label: "Tone of the confirmation message"
+        type: radio
+        options: [Warm and celebratory, Professional and matter-of-fact, Calm and practical]
+      - name: brand_color
+        label: "Primary brand color hex code (for the button style)"
+        type: text
+        placeholder: "e.g. #006799"
+  - step: 2
+    heading: "Next Steps & Expectations"
+    hint: "Be specific. A new member who sees 'check your email' when they expected to start a course is frustrated. Tell them exactly where to go."
+    inputs:
+      - name: primary_next_step
+        label: "The single most important thing they should do right now. One action."
+        type: textarea
+        placeholder: "e.g. Head to Module 1 of the Foundations Course and watch the first 3 lessons — that's where everything starts."
+      - name: primary_next_step_url
+        label: "URL for that primary next step"
+        type: url
+        placeholder: "e.g. https://yoursite.com/membership-account/courses/foundations/"
+      - name: secondary_steps
+        label: "(Optional) 2-3 additional helpful links or actions. One per line with the URL."
+        type: textarea
+        placeholder: "Join the community forum → https://yoursite.com/community/\nDownload your member welcome kit → https://yoursite.com/welcome-kit/\nBook your onboarding call → https://yoursite.com/book/"
+      - name: expectations
+        label: "Anything important to set expectations about right now? Timing, cadence, what happens next."
+        type: textarea
+        placeholder: "e.g. Your first monthly live Q&A call is the first Tuesday of each month at noon ET. New lessons drop every Monday."
+      - name: extra_context
+        label: "Anything else they need to know immediately? (e.g., how to access the app, where to get support)"
+        type: textarea
+        placeholder: "e.g. If you have any questions, email us at support@yoursite.com — we typically reply within 1 business day."
 ---
 
 # Level Confirmation Message
