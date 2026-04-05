@@ -20,6 +20,7 @@ quiz:
         label: "Who are you writing to in this block? One sentence."
         type: textarea
         placeholder: "e.g. Yoga teachers who want to build recurring online income without burning out..."
+        from_profile: audience
       - name: headline
         label: "Headline for this CTA block — OR describe the context and we'll write one for you."
         type: textarea

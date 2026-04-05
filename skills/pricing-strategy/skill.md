@@ -20,6 +20,7 @@ quiz:
         label: "What's your current pricing, if any? Include plan names, prices, and billing periods."
         type: textarea
         placeholder: "e.g. Free tier (limited access)\nMember — $49/month or $397/year\nVIP — $149/month\n\nOR: No pricing yet — launching from scratch"
+        from_profile: levels
       - name: target_market
         label: "Who are you primarily selling to?"
         type: radio

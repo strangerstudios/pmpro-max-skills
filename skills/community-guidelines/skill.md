@@ -32,6 +32,7 @@ quiz:
         label: "Who is this community for? Describe your ideal member in 1-2 sentences."
         type: textarea
         placeholder: "e.g. Independent yoga teachers who are 2-10 years into teaching and want to build a sustainable business without feeling isolated..."
+        from_profile: audience
       - name: community_size
         label: "Approximate current member count (helps calibrate tone and enforcement detail)"
         type: text

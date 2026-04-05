@@ -24,6 +24,7 @@ quiz:
         label: "Who is this specifically for? One sentence describing your ideal member."
         type: textarea
         placeholder: "e.g. Independent yoga instructors 2-10 years into teaching who want to grow their income without burning out..."
+        from_profile: audience
       - name: core_problem
         label: "What problem do they have before they join? Describe their frustration in their own words."
         type: textarea
@@ -36,6 +37,7 @@ quiz:
         label: "What are your prices and billing periods?"
         type: textarea
         placeholder: "e.g. Monthly: $49/mo, Annual: $397/yr, Free tier available"
+        from_profile: levels
       - name: levels_shortcode
         label: "Which shortcode will display your pricing/levels table?"
         type: radio

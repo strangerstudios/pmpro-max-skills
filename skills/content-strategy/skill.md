@@ -16,10 +16,12 @@ quiz:
         label: "What does your membership or site do, and what problem does it solve?"
         type: textarea
         placeholder: "e.g. Yoga Business Academy helps independent yoga teachers build sustainable online memberships. We solve the 'trading hours for dollars' problem by teaching them how to build recurring income without burning out..."
+        from_profile: site_about
       - name: ideal_customer
         label: "Who is your ideal member or customer? Be specific — their role, situation, and goal."
         type: textarea
         placeholder: "e.g. Independent yoga teachers 2-10 years into their career, earning $2-4k/month from in-person teaching, who love what they do but feel financially capped..."
+        from_profile: audience
       - name: content_goal
         label: "What's the primary goal for your content?"
         type: radio

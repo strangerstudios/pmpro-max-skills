@@ -40,6 +40,7 @@ quiz:
         label: "Who is your typical new member? Describe them specifically."
         type: textarea
         placeholder: "e.g. Independent yoga teachers, 2-10 years into their career, who are great at teaching but completely new to building an online business. Often overwhelmed by the tech side..."
+        from_profile: audience
       - name: common_obstacles
         label: "What are the most common reasons new members struggle or fall off early?"
         type: textarea

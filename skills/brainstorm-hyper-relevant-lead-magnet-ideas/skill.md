@@ -24,6 +24,7 @@ quiz:
         label: "Who is this content written for? Describe your ideal reader specifically."
         type: textarea
         placeholder: "e.g. Independent yoga teachers who want to build online income. Freelance designers trying to move from project work to retainers..."
+        from_profile: audience
   - step: 2
     heading: "Business Context"
     hint: "Lead magnets need to connect to how you make money. Tell us what you sell so the ideas are built to convert — not just to collect emails."
@@ -36,6 +37,7 @@ quiz:
         label: "What's your main paid offer? Briefly describe it."
         type: textarea
         placeholder: "e.g. A $49/month membership for yoga teachers with courses, community, and monthly live calls. OR: 1-on-1 business coaching at $500/month..."
+        from_profile: main_offer
       - name: existing_lead_magnets
         label: "(Optional) What lead magnets do you already have? We'll make sure the new ideas don't overlap."
         type: textarea

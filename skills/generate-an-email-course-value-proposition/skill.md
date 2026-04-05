@@ -16,6 +16,7 @@ quiz:
         label: "What is your main paid offer? Describe it — what it is, who it's for, and the primary outcome it delivers."
         type: textarea
         placeholder: "e.g. A $49/month membership for yoga teachers with 12 courses, a private community, and monthly live Q&A calls. Members build sustainable online income — typically going from $2-4k/month to $4-7k/month within 6 months..."
+        from_profile: main_offer
       - name: paid_offer_price
         label: "What does your paid offer cost?"
         type: text
@@ -36,6 +37,7 @@ quiz:
         label: "Who is your ideal subscriber? Describe them specifically — their role, experience level, and current situation."
         type: textarea
         placeholder: "e.g. Independent yoga teachers, 2-10 years into teaching, earning $2-4k/month from in-person classes. They want to build online income but feel overwhelmed by where to start..."
+        from_profile: audience
       - name: biggest_problem
         label: "What is the #1 problem or frustration your audience has right now — before they even consider buying from you?"
         type: textarea

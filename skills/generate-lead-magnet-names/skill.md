@@ -16,6 +16,7 @@ quiz:
         label: "Who is this lead magnet for? Be specific about their role and situation."
         type: textarea
         placeholder: "e.g. Independent yoga teachers who want to build online income. Freelance designers trying to land higher-paying clients. First-time landlords managing their first rental property..."
+        from_profile: audience
       - name: problem_solved
         label: "What single problem does this lead magnet solve for them?"
         type: textarea
@@ -36,6 +37,7 @@ quiz:
         label: "What paid offer does this lead magnet lead into? How do they connect?"
         type: textarea
         placeholder: "e.g. After downloading the pricing guide, subscribers get a 5-email sequence leading to our $49/month membership. The guide gives them a framework; the membership gives them the full system..."
+        from_profile: main_offer
       - name: naming_preference
         label: "What naming style feels most on-brand for you?"
         type: radio

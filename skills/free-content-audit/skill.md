@@ -60,6 +60,7 @@ quiz:
         label: "Who is your ideal member? (If you've completed the Ideal Member Profile skill, paste a summary here.)"
         type: textarea
         placeholder: "e.g. Independent yoga teachers 2-10 years in, earning $2-4k/month, who want to build online recurring income..."
+        from_profile: audience
 ---
 
 # Free Content Audit

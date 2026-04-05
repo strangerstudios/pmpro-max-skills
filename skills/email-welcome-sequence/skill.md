@@ -40,6 +40,7 @@ quiz:
         label: "Describe your target audience — who they are, what they're trying to accomplish."
         type: textarea
         placeholder: "e.g. Yoga teachers 2-10 years in who want to build recurring online income without burning out or becoming a full-time content creator..."
+        from_profile: audience
       - name: core_problem
         label: "The main pain point your audience experiences — the central struggle they face."
         type: textarea

@@ -32,6 +32,7 @@ quiz:
         label: "What is your membership price and billing period?"
         type: text
         placeholder: "e.g. $49/month or $397/year"
+        from_profile: main_offer
   - step: 2
     heading: "Billing & What You Want to Build"
     hint: "Your billing setup determines which dunning and save-offer strategies are technically possible. Tell us what you're working with."

@@ -28,6 +28,7 @@ quiz:
         label: "What are your membership levels? List name and price for each."
         type: textarea
         placeholder: "Free — limited access\nMember — $49/month\nVIP — $149/month"
+        from_profile: levels
   - step: 2
     heading: "Current State & Goals"
     hint: "What's already in place and what would you like to improve? The more specific the problem, the sharper the recommendation."

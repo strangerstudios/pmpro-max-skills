@@ -16,6 +16,7 @@ quiz:
         label: "What is your main paid offer? Describe it in detail — what it is, who it's for, and what outcome it delivers."
         type: textarea
         placeholder: "e.g. A $49/month membership for yoga teachers that includes 12 courses on building online income, a private community, and monthly live Q&A calls. Members typically go from $2-4k/month to $4-7k/month within 6 months..."
+        from_profile: main_offer
       - name: paid_offer_price
         label: "What does your paid offer cost?"
         type: text
@@ -24,6 +25,7 @@ quiz:
         label: "Who is your ideal buyer? Describe them specifically — their role, experience level, and situation right now."
         type: textarea
         placeholder: "e.g. Independent yoga teachers, 2-10 years teaching, earning $2-4k/month mostly from in-person classes. They want to build online income but don't know where to start..."
+        from_profile: audience
       - name: existing_lead_magnets
         label: "(Optional) What lead magnets do you already have? We'll make sure the new ideas don't overlap."
         type: textarea

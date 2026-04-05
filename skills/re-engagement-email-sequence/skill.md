@@ -20,10 +20,12 @@ quiz:
         label: "Main pain point your audience has — what they're struggling with"
         type: textarea
         placeholder: "e.g. inconsistent income from teaching, not knowing how to charge for online content..."
+        from_profile: audience
       - name: audience_goal
         label: "Primary goal your audience wants to achieve"
         type: textarea
         placeholder: "e.g. build a sustainable yoga membership that generates $3-5k/month consistently..."
+        from_profile: audience
       - name: sign_off_name
         label: "Your name or business name (for email sign-off)"
         type: text

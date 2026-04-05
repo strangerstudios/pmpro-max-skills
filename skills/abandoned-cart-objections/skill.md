@@ -20,6 +20,7 @@ quiz:
         label: "Describe the membership or product specifically. What is it?"
         type: textarea
         placeholder: "e.g. Yoga Business Academy — a $49/month membership for yoga teachers who want to build an online income. Includes 40+ courses, monthly live Q&A, and a private community of 400+ teachers..."
+        from_profile: main_offer
       - name: price_model
         label: "Price and billing model"
         type: textarea
@@ -40,6 +41,7 @@ quiz:
         label: "Who is your ideal customer? Describe their role, situation, and goals."
         type: textarea
         placeholder: "e.g. Yoga teachers 2-10 years into their career, earning $2-4k/month from in-person teaching, who love what they do but feel financially capped..."
+        from_profile: audience
       - name: experience_level
         label: "Experience level of your typical prospect"
         type: radio

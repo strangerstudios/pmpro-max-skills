@@ -40,6 +40,7 @@ quiz:
         label: "Who is the ideal person reading this page? Describe them specifically — their role, situation, and what they're struggling with."
         type: textarea
         placeholder: "e.g. Independent yoga teachers 2-10 years in, earning $2-4k/month from in-person classes, who love teaching but feel financially capped and want to build recurring online income..."
+        from_profile: audience
       - name: primary_pain
         label: "What is the #1 problem or frustration they're experiencing right now?"
         type: textarea

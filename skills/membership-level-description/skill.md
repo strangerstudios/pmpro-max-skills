@@ -20,6 +20,7 @@ quiz:
         label: "Who is your ideal member? One sentence describing who this is for."
         type: textarea
         placeholder: "e.g. Independent yoga teachers who want to build a sustainable online income without burning out..."
+        from_profile: audience
       - name: level_count
         label: "How many membership levels are you describing?"
         type: radio
@@ -32,6 +33,7 @@ quiz:
         label: "For each level: Name, Price + billing period, Who it's specifically for, What's included (list features, content, access), What the next tier adds (if any), The one thing that makes this tier worth it. Separate levels with a blank line."
         type: textarea
         placeholder: "LEVEL 1: Free\nPrice: Free\nFor: Anyone curious about yoga business\nIncludes: 3 starter lessons, newsletter access, community read-only\nBest reason: Get a taste before committing\n\nLEVEL 2: Member — $49/month\nFor: Teachers actively building their business\nIncludes: 40+ courses, monthly live calls, full community access, template library\nBest reason: The monthly live Q&A — bring your real questions and get real answers\n\nLEVEL 3: Studio Pro — $149/month\nFor: Teachers ready to scale with private support\nIncludes: Everything in Member + monthly 1:1 strategy call, private Slack channel, done-for-you content reviewed\nBest reason: The 1:1 monthly strategy call — your own advisor who knows your business"
+        from_profile: levels
 ---
 
 # Membership Level Description

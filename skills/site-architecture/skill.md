@@ -16,6 +16,7 @@ quiz:
         label: "What does your site/business do, and who are the primary audiences?"
         type: textarea
         placeholder: "e.g. Yoga Business Academy — we help independent yoga teachers build online memberships. Audiences: yoga teachers considering joining, and current members accessing content..."
+        from_profile: site_about
       - name: site_type
         label: "What type of site is this?"
         type: select

@@ -36,6 +36,7 @@ quiz:
         label: "Who is your target audience? Describe who is most likely to have this objection."
         type: textarea
         placeholder: "e.g. Yoga teachers in years 2-10 of their career, earning under $4,000/month, who love teaching but feel stuck on the income ceiling..."
+        from_profile: audience
   - step: 2
     heading: "Benefits & Customer Story"
     hint: "The social proof that makes the reframe believable."

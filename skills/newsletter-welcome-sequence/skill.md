@@ -40,6 +40,7 @@ quiz:
         label: "Describe your ideal subscriber — who they are and what they're trying to accomplish."
         type: textarea
         placeholder: "e.g. Yoga teachers 2-10 years into their career who want to build an online income without burning out or becoming a full-time content creator..."
+        from_profile: audience
       - name: audience_pain_points
         label: "Top 2-3 main challenges your audience faces"
         type: textarea
@@ -76,6 +77,7 @@ quiz:
         label: "What's the paid offer you'll soft-pitch in Email 5? Brief description."
         type: textarea
         placeholder: "e.g. Yoga Business Academy — a $49/month membership with 40+ courses, monthly live calls, and a private community for yoga teachers building online income..."
+        from_profile: main_offer
       - name: email_1_action
         label: "A special action to ask subscribers to take in Email 1 (creates engagement signal)"
         type: text

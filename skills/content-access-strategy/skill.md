@@ -20,6 +20,7 @@ quiz:
         label: "List your membership levels — name, price, and billing period for each."
         type: textarea
         placeholder: "Free — no cost\nMember — $29/month or $249/year\nVIP — $99/month (includes coaching calls)"
+        from_profile: levels
       - name: has_free_tier
         label: "Do you have a free access option?"
         type: radio
