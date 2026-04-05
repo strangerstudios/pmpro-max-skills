@@ -44,7 +44,7 @@ quiz:
 
 # Memberlite Color Scheme
 
-Extract your brand colors from a logo and generate a complete, ready-to-apply Memberlite color scheme — all 17 color values assigned, with instructions for applying them in WordPress.
+Extract your brand colors from a logo and generate a complete, ready-to-apply Memberlite color scheme: all 17 color values assigned, with instructions for applying them in WordPress.
 
 ## How to Provide Your Logo
 
@@ -142,7 +142,7 @@ Footer Widgets Background:    [hex without #]
 Footer Widgets:               [hex without #]
 ```
 
-**Note:** The Customizer "Color Scheme" dropdown has a "Custom" option — select that before entering individual values, or your custom values may be overwritten when a preset scheme is applied.
+**Note:** The Customizer "Color Scheme" dropdown has a "Custom" option. Select that before entering individual values, or your custom values may be overwritten when a preset scheme is applied.
 
 ---
 
@@ -179,7 +179,7 @@ For child themes or additional CSS that needs to override Memberlite's generated
 
 ## Step 4: Closest Built-In Scheme Reference
 
-Memberlite ships with 10 preset color schemes. After generating the custom palette, note which built-in scheme it's closest to — useful if the user wants a starting point before customizing:
+Memberlite ships with 10 preset color schemes. After generating the custom palette, note which built-in scheme it's closest to. This is useful if the user wants a starting point before customizing:
 
 | Scheme | Character |
 |--------|-----------|

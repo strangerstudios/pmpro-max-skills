@@ -149,7 +149,7 @@ For each email, produce exactly this structure:
 
 - Lead with the customer's before state (make it relatable)
 - Walk through their transformation narrative with a timeline
-- Include their initial skepticism — then what changed their mind
+- Include their initial skepticism, then what changed their mind
 - Share specific, measurable results
 - Soft-introduce the product with a link to learn more
 
@@ -184,7 +184,7 @@ For each email, produce exactly this structure:
 
 **Voice**
 - Conversational, like writing to a friend
-- Specific over generic — use exact numbers, names, timeframes
+- Specific over generic: use exact numbers, names, timeframes
 - Emotion first, logic second
 - No hype language; let results speak
 

@@ -10,13 +10,13 @@ keywords: [lead magnet, content analysis, content audit, lead generation, opt-in
 
 # Analyze My Content And Brainstorm 10 Lead Magnet Ideas
 
-Mine your existing content to find the lead magnet ideas hiding in plain sight — based on what's already proven to resonate with your audience.
+Mine your existing content to find the lead magnet ideas hiding in plain sight, based on what's already proven to resonate with your audience.
 
 ---
 
 ## Why This Works
 
-Your best lead magnet ideas already exist — hidden in content that's already proven to work. Most creators sit with a blank page trying to "come up with" lead magnet ideas from scratch. But when you start with content that's already gotten engagement, you're building on validated demand instead of guessing. This skill analyzes your content patterns and turns them into actionable lead magnet ideas.
+Your best lead magnet ideas already exist, hidden in content that's already proven to work. Most creators sit with a blank page trying to "come up with" lead magnet ideas from scratch. But when you start with content that's already gotten engagement, you're building on validated demand instead of guessing. This skill analyzes your content patterns and turns them into actionable lead magnet ideas.
 
 ---
 
@@ -32,7 +32,7 @@ When triggered, ask the user for:
 > 4. **Your paid offer** — What do you sell? (so lead magnets can bridge to it)
 > 5. **Your audience** — Who follows you?
 
-If they don't have analytics, that's okay — you can analyze content quality and themes without metrics.
+If they don't have analytics, that's okay. You can analyze content quality and themes without metrics.
 
 ---
 

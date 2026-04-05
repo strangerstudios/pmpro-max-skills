@@ -137,7 +137,7 @@ Price should be based on value delivered, not cost to serve:
 
 ### What is a Value Metric?
 
-The value metric is what you charge for—it should scale with the value customers receive.
+The value metric is what you charge for. It should scale with the value customers receive.
 
 **Good value metrics:**
 - Align price with value delivered

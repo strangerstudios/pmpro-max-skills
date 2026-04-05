@@ -4,7 +4,7 @@ slug: content-access-strategy
 category: Strategy
 one_shot: true
 uses_profile: true
-description: Designs a content access strategy — what to keep free, what to gate, and how to structure gating across membership levels — so your free content builds trust and your gated content drives and keeps memberships.
+description: Designs a content access strategy around what to keep free, what to gate, and how to structure gating across membership levels. You want your free content to build trust and your gated content to drive and retain memberships.
 keywords: [content access, content gating, free vs paid content, membership levels, content strategy, content protection, PMPro access, member content]
 feature: strategy
 quiz:
@@ -17,9 +17,9 @@ quiz:
         type: select
         options: [Blog / News, Courses and Coaching, Paid Community, Paid Newsletter, Association / NPO, Podcast, Video Library, Member Directory, Hybrid]
       - name: level_details
-        label: "List your membership levels — name, price, and billing period for each."
+        label: "List your membership levels, including the name, price, and billing period for each."
         type: textarea
-        placeholder: "Free — no cost\nMember — $29/month or $249/year\nVIP — $99/month (includes coaching calls)"
+        placeholder: "Free - no cost\nMember - $29/month or $249/year\nVIP - $99/month (includes coaching calls)"
         from_profile: levels
       - name: has_free_tier
         label: "Do you have a free access option?"
@@ -69,7 +69,7 @@ quiz:
 
 # Content Access Strategy
 
-Design what's free, what's gated, and how access is structured across your membership levels — so your free content builds trust and your paid content justifies the investment.
+Design what's free, what's gated, and how access is structured across your membership levels so your free content builds trust and your paid content justifies the investment.
 
 This is one of the most consequential decisions a membership site makes. Get it wrong and your free content gives too much away (nothing left to sell), or too little (nothing to build trust or organic traffic). Most membership sites evolve their access strategy by accident. This skill makes it intentional.
 
@@ -134,7 +134,7 @@ A healthy free-to-paid ratio depends on membership type:
 
 Think of content in three zones:
 
-**Zone 1 — Free & Discoverable**
+**Zone 1: Free & Discoverable**
 Optimized for search and social. Builds your reputation. Attracts strangers.
 - Long-form how-to guides, explainers, introductory posts
 - Public podcast episodes
@@ -142,13 +142,13 @@ Optimized for search and social. Builds your reputation. Attracts strangers.
 - Preview issues of the newsletter
 - Publicly visible directory listings (limited info)
 
-**Zone 2 — Free but Gated (Email Capture)**
+**Zone 2: Free but Gated (Email Capture)**
 Valuable enough to exchange an email for. Bridges strangers to subscribers.
 - Lead magnets (guides, templates, email courses)
 - Free preview of a course
 - Free member level with limited access
 
-**Zone 3 — Members Only**
+**Zone 3: Members Only**
 Worth paying for. Deep, ongoing, specific, exclusive.
 - The core content library (full courses, all episodes, premium articles)
 - Community and interaction
@@ -201,7 +201,7 @@ After gathering context, produce a content access map:
 ### Access Map Format
 
 ```
-CONTENT ACCESS MAP — [Membership Name]
+CONTENT ACCESS MAP: [Membership Name]
 Generated: [date]
 
 FREE (PUBLIC)
@@ -214,12 +214,12 @@ FREE (EMAIL CAPTURE)
 [Content type]     → [Lead magnet or free tier]
 [Content type]     → [Lead magnet or free tier]
 
-[LEVEL 1 NAME] — $[price]/[period]
+[LEVEL 1 NAME]: $[price]/[period]
 ─────────────────────────────────────────
 [Content type]     → [Rationale]
 [Content type]     → [Rationale]
 
-[LEVEL 2 NAME] — $[price]/[period] (if applicable)
+[LEVEL 2 NAME]: $[price]/[period] (if applicable)
 ─────────────────────────────────────────
 [Content type]     → [Rationale] (adds to Level 1)
 ```

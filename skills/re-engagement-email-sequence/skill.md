@@ -95,7 +95,7 @@ Must include:
 - 3-5 best content pieces with titles, brief descriptions (one line each), and links
 - Each resource tied to a pain point or goal they care about
 - Low-pressure CTA: "Pick the one that's most useful to you right now"
-- No mention of unsubscribing or list removal — that comes later
+- No mention of unsubscribing or list removal. That comes later.
 
 ### Email 2 — The Lead Magnet Bribe
 **Purpose:** Offer a high-value bonus resource to incentivize re-engagement
@@ -107,7 +107,7 @@ Must include:
 - 2-3 bullet points on what they'll get / be able to do with it
 - Clear, single CTA to download or access the resource
 - A brief, non-threatening note: "Grab this and I'll know you're still interested"
-- Keep it short — this email lives or dies on the offer's appeal
+- Keep it short: this email lives or dies on the offer's appeal
 
 ### Email 3 — The Quick Question
 **Purpose:** Direct ask — do you want to stay or go?
@@ -122,7 +122,7 @@ Must include:
 - A brief, honest reason why you're asking (list hygiene, relevance)
 - No guilt, no begging — matter-of-fact and respectful tone
 - Firm but friendly deadline or consequence ("If I don't hear from you by [date], I'll remove you")
-- Keep it under 150 words — brevity is the point
+- Keep it under 150 words: brevity is the point
 
 ---
 

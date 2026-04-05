@@ -38,7 +38,7 @@ quiz:
 
 # Membership Level Description
 
-Write membership level names, taglines, and benefit descriptions that make the value of each tier immediately clear — to the right person, at the right price.
+Write membership level names, taglines, and benefit descriptions that make the value of each tier immediately clear, to the right person, at the right price.
 
 ## Before Writing
 
@@ -73,7 +73,7 @@ You can write descriptions for one level or all tiers at once. If there are mult
 For each level, produce all of the following:
 
 ### Level Name
-If the current name is generic (e.g., "Basic," "Pro," "Premium"), suggest 2-3 alternatives that communicate identity or outcome. Examples: "Member," "Practitioner," "Founding Member," "Insider," "All Access." Keep it short — one or two words.
+If the current name is generic (e.g., "Basic," "Pro," "Premium"), suggest 2-3 alternatives that communicate identity or outcome. Examples: "Member," "Practitioner," "Founding Member," "Insider," "All Access." Keep it short: one or two words.
 
 ### Tagline (1 sentence)
 The level's value in a single sentence. Format: who it's for + what they get or achieve.

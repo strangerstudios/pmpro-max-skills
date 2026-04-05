@@ -19,9 +19,9 @@ quiz:
       - name: churn_rate
         label: "What's your current monthly churn rate, if known? Voluntary and involuntary separately if you have it."
         type: text
-        placeholder: "e.g. ~8% monthly (voluntary ~5%, involuntary ~3%) — OR 'I don't know'"
+        placeholder: "e.g. ~8% monthly (voluntary ~5%, involuntary ~3%) OR 'I don't know'"
       - name: cancel_flow
-        label: "Do you have a cancel flow today — anything that happens before a member successfully cancels?"
+        label: "Do you have a cancel flow today? Anything that happens before a member successfully cancels?"
         type: radio
         options: [Yes — a multi-step cancel flow with save offers, Yes — a simple cancellation confirmation page, No — cancellation happens immediately with no friction, Members have to contact us to cancel]
       - name: cancel_reasons
@@ -302,7 +302,7 @@ Health Score = (
 | Trigger | Intervention |
 |---------|-------------|
 | Usage drop >50% for 2 weeks | "We noticed you haven't used [feature]. Need help?" email |
-| Approaching plan limit | Upgrade nudge (not a wall — paywall-upgrade-cro handles this) |
+| Approaching plan limit | Upgrade nudge (not a wall, paywall-upgrade-cro handles this) |
 | No login for 14 days | Re-engagement email with recent product updates |
 | NPS detractor (0-6) | Personal follow-up within 24 hours |
 | Support ticket unresolved >48h | Escalation + proactive status update |
@@ -334,7 +334,7 @@ Not all failures are the same. Retry strategy by decline type:
 | Decline Type | Examples | Retry Strategy |
 |-------------|----------|----------------|
 | Soft decline (temporary) | Insufficient funds, processor timeout | Retry 3-5 times over 7-10 days |
-| Hard decline (permanent) | Card stolen, account closed | Don't retry — ask for new card |
+| Hard decline (permanent) | Card stolen, account closed | Don't retry. Ask for new card |
 | Authentication required | 3D Secure, SCA | Send customer to update payment |
 
 **Retry timing best practices:**
@@ -351,7 +351,7 @@ Not all failures are the same. Retry strategy by decline type:
 | Email | Timing | Tone | Content |
 |-------|--------|------|---------|
 | 1 | Day 0 (failure) | Friendly alert | "Your payment didn't go through. Update your card." |
-| 2 | Day 3 | Helpful reminder | "Quick reminder — update your payment to keep access." |
+| 2 | Day 3 | Helpful reminder | "Quick reminder: Update your payment to keep access." |
 | 3 | Day 7 | Urgency | "Your account will be paused in 3 days. Update now." |
 | 4 | Day 10 | Final warning | "Last chance to keep your account active." |
 
@@ -410,7 +410,7 @@ Test one variable at a time:
 | Offer presentation (modal vs full page) | Full page gets more attention | Save rate |
 | Copy tone (empathetic vs direct) | Empathetic reduces friction | Save rate |
 
-**How to run cancel flow experiments:** Use the **ab-test-setup** skill to design statistically rigorous tests. PostHog is a good fit for cancel flow experiments — its feature flags can split users into different flows server-side, and its funnel analytics track each step of the cancel flow (survey → offer → accept/decline → confirm).
+**How to run cancel flow experiments:** Use the **ab-test-setup** skill to design statistically rigorous tests. PostHog is a good fit for cancel flow experiments. Its feature flags can split users into different flows server-side, and its funnel analytics track each step of the cancel flow (survey → offer → accept/decline → confirm).
 
 ---
 

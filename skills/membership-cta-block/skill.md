@@ -61,7 +61,7 @@ quiz:
 
 # Membership CTA Block
 
-Generate a drop-in HTML/CSS call-to-action block to promote your membership on any page — blog posts, resource pages, the homepage, anywhere. Built to paste into WordPress and saved as a Synced Pattern so you can reuse and update it sitewide from one place.
+Generate a drop-in HTML/CSS call-to-action block to promote your membership on any page: blog posts, resource pages, the homepage, anywhere. Built to paste into WordPress and saved as a Synced Pattern so you can reuse and update it sitewide from one place.
 
 ## What This Is (and Isn't)
 
@@ -146,7 +146,7 @@ Fill in all color placeholders with real hex values from the brand.
 
 ## Step 4: WordPress Synced Pattern Instructions
 
-A **Synced Pattern** (formerly "Reusable Block") lets you save this CTA once and insert it anywhere on your site. Update it once, and every instance updates automatically — perfect for a membership CTA you want on dozens of posts.
+A **Synced Pattern** (formerly "Reusable Block") lets you save this CTA once and insert it anywhere on your site. Update it once, and every instance updates automatically. Perfect for a membership CTA you want on dozens of posts.
 
 **To save as a Synced Pattern:**
 

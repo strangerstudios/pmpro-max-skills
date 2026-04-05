@@ -65,7 +65,7 @@ quiz:
 
 # Free Content Audit
 
-Audit the free content on your membership site — blog posts, public pages, podcast episodes, videos, social profiles — to answer one question: **Is your free content doing its job?**
+Audit the free content on your membership site (blog posts, public pages, podcast episodes, videos, social profiles) to answer one question: **Is your free content doing its job?**
 
 Free content has three jobs for a membership site:
 1. **Attract** the right visitor (search, social, referral)
@@ -79,7 +79,7 @@ Most membership sites are inconsistent on all three. This audit surfaces the gap
 ## Before Starting
 
 **Check for context profile first:**
-If a context profile is available, read it to understand the membership type, audience, and offer. The audit evaluates content *against* the ideal member — knowing who that is shapes every recommendation.
+If a context profile is available, read it to understand the membership type, audience, and offer. The audit evaluates content *against* the ideal member, and knowing who that is shapes every recommendation.
 
 **Ideal member profile:**
 If an **ideal-member-profile** has been completed, ask for it or reference it from the context profile. The audit is more useful when we know exactly who the free content should be attracting and convincing.
@@ -109,7 +109,7 @@ Gather this context before auditing:
 
 ## Step 2: Review the Free Content
 
-Work through the free-facing content — either by crawling the URL or reviewing a list they provide. Evaluate across five dimensions:
+Work through the free-facing content (either by crawling the URL or reviewing a list they provide). Evaluate across five dimensions:
 
 ---
 
@@ -117,7 +117,7 @@ Work through the free-facing content — either by crawling the URL or reviewing
 
 **Questions to answer:**
 - Do the titles and topics match what the ideal member would search for or share?
-- Is there a clear content focus — or does the site publish on too many topics to build authority with anyone specific?
+- Is there a clear content focus, or does the site publish on too many topics to build authority with anyone specific?
 - Is the most valuable free content optimized for search (long-form guides, how-to posts, comparison content) or only for social?
 - Are there any obvious keyword gaps — topics the ideal member cares about that aren't covered at all?
 
@@ -128,9 +128,9 @@ Work through the free-facing content — either by crawling the URL or reviewing
 ### Dimension 2: Trust — Does it demonstrate expertise worth paying for?
 
 **Questions to answer:**
-- Does the free content show genuine depth of knowledge — or is it surface-level?
+- Does the free content show genuine depth of knowledge, or is it surface-level?
 - Is there a consistent point of view, or does it feel like generic information anyone could publish?
-- Are there real examples, specific outcomes, or original perspectives — or just recapped advice from elsewhere?
+- Are there real examples, specific outcomes, or original perspectives, or just recapped advice from elsewhere?
 - Does the author/brand come across as credible and human? Or anonymous and corporate?
 
 **Flag:** Content that's technically correct but indistinguishable from 100 other sites. Missing voice, missing specificity, missing proof.
@@ -141,7 +141,7 @@ Work through the free-facing content — either by crawling the URL or reviewing
 
 **Questions to answer:**
 - Do free content pages include a CTA to join or learn more about the membership?
-- Is the CTA specific to the content — ("Want to go deeper on this? Members get the full course / community / library") — or generic ("Join our membership")?
+- Is the CTA specific to the content (e.g., "Want to go deeper on this? Members get the full course / community / library"), or generic ("Join our membership")?
 - Is there a lead magnet or free offer capturing email addresses from visitors not ready to pay?
 - Is the levels/pricing page easy to find from free content?
 
@@ -152,7 +152,7 @@ Work through the free-facing content — either by crawling the URL or reviewing
 ### Dimension 4: Alignment — Does the free content match what's behind the paywall?
 
 **Questions to answer:**
-- Does the free content preview the value inside the membership — does a visitor reading it understand what they'd get by joining?
+- Does the free content preview the value inside the membership? Would a visitor reading it understand what they'd get by joining?
 - Is there a coherent content funnel: free content introduces a topic → membership goes deeper?
 - Or does the free content feel disconnected from what the membership actually delivers?
 
@@ -163,11 +163,11 @@ Work through the free-facing content — either by crawling the URL or reviewing
 ### Dimension 5: Volume and Freshness — Is there enough, and is it current?
 
 **Questions to answer:**
-- Is there enough free content to build trust with a cold visitor — or does the site look thin?
+- Is there enough free content to build trust with a cold visitor, or does the site look thin?
 - Is there recent content (within the last 3-6 months), or does the site look abandoned?
-- Are there cornerstone/pillar pieces — long-form authoritative content — or only short posts and social reposts?
+- Are there cornerstone/pillar pieces (long-form authoritative content), or only short posts and social reposts?
 
-**Flag:** A membership sales page with only 3 blog posts behind it. A blog that hasn't published in 8 months. No pillar content — only fragmented short-form.
+**Flag:** A membership sales page with only 3 blog posts behind it. A blog that hasn't published in 8 months. No pillar content, only fragmented short-form.
 
 ---
 
@@ -212,7 +212,7 @@ Is it doing its job, partially, or not at all?]
 
 ## Audit Scoring (Internal Reference)
 
-Use this to calibrate recommendations — not to produce a report card, but to prioritize what matters most:
+Use this to calibrate recommendations. The goal is not to produce a report card, but to prioritize what matters most:
 
 | Dimension | Weak | Adequate | Strong |
 |-----------|------|----------|--------|
@@ -222,7 +222,7 @@ Use this to calibrate recommendations — not to produce a report card, but to p
 | **Alignment** | Free and paid feel unrelated | Some connection | Free content is a clear preview of paid |
 | **Volume/Freshness** | Thin or stale | Decent volume, some recent content | Rich archive, regular publishing |
 
-Prioritize the weakest dimension first — that's where fixing one thing produces the most lift.
+Prioritize the weakest dimension first: that's where fixing one thing produces the most lift.
 
 ---
 

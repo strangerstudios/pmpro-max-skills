@@ -157,7 +157,7 @@ Create a short script:
 
 **Include one mid-reel CTA.** A strong template: "Hey, I'm [Your Name]. I help [your audience] [core outcome]. [Follow / like / check the link in bio if that resonates.]"
 
-Keep it short, direct, and grounded — not hype-driven.
+Keep it short, direct, and grounded. Not hype-driven.
 
 ### Story-only
 

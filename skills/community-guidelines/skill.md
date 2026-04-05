@@ -4,13 +4,13 @@ slug: community-guidelines
 category: PMPro
 one_shot: true
 uses_profile: true
-description: Writes a community guidelines and code of conduct page for a membership community — covering expectations, participation norms, enforcement, and the principles that make a community worth being in.
+description: Writes a community guidelines and code of conduct page for a membership community that covers expectations, participation norms, enforcement, and the principles that make a community worth being in.
 keywords: [community guidelines, code of conduct, community rules, membership community, forum rules, community standards, member agreement, community norms]
 feature: copywriting
 quiz:
   - step: 1
     heading: "Community Info"
-    hint: "Good community guidelines start with purpose — who is this community for, and what is it trying to create?"
+    hint: "Good community guidelines start with purpose. Who is this community for, and what is it trying to create?"
     inputs:
       - name: community_name
         label: "Community name"
@@ -27,7 +27,7 @@ quiz:
       - name: community_purpose
         label: "Why does this community exist? What's it trying to create or enable?"
         type: textarea
-        placeholder: "e.g. A space where yoga teachers share what's actually working in their businesses — not polished presentations, but honest conversations about the hard parts..."
+        placeholder: "e.g. A space where yoga teachers share what's actually working in their businesses, not polished presentations, but honest conversations about the hard parts..."
       - name: who_its_for
         label: "Who is this community for? Describe your ideal member in 1-2 sentences."
         type: textarea
@@ -63,7 +63,7 @@ quiz:
 
 Write a community guidelines page that sets clear expectations, protects the space you've built, and makes the right members want to participate.
 
-Most membership communities copy a generic code of conduct and call it done. A good community guidelines page does more: it articulates *why* the community exists, *who* it's for, and what kind of behavior makes it worth belonging to — not just what will get you kicked out.
+Most membership communities copy a generic code of conduct and call it done. A good community guidelines page does more: it articulates *why* the community exists, *who* it's for, and what kind of behavior makes it worth belonging to, not just what will get you kicked out.
 
 ---
 
@@ -95,7 +95,7 @@ If a context profile is available, read it to understand the membership type, co
 ```
 [1. Why this community exists]
 [2. Who this is for]
-[3. Our norms — what we expect from everyone]
+[3. Our norms / what we expect from everyone]
 [4. What's not allowed]
 [5. How we handle violations]
 [6. How to participate well / how to get help]
@@ -105,26 +105,26 @@ If a context profile is available, read it to understand the membership type, co
 
 ### Section 1: Why This Community Exists (2-3 paragraphs)
 
-State the purpose. This is the "constitution" of the community — it answers the question "why are we here together?"
+State the purpose. This is the "constitution" of the community. It answers the question "why are we here together?"
 
 Don't rush to the rules. Lead with aspiration. What kind of space are you trying to create? What's possible here that isn't possible elsewhere?
 
 Examples by type:
-- **Professional association:** "This is a space for [role] professionals to share what's actually working — not polished presentations, but honest conversations about the hard parts of this work."
-- **Course community:** "This community exists to make sure no one goes through [course name] alone — to answer your questions, celebrate your progress, and push you to actually do the work."
+- **Professional association:** "This is a space for [role] professionals to share what's actually working, not polished presentations, but honest conversations about the hard parts of this work."
+- **Course community:** "This community exists to make sure no one goes through [course name] alone. To answer your questions, celebrate your progress, and push you to actually do the work."
 - **Interest community:** "We built this community because [topic] deserves better than a Reddit thread. This is a place to go deeper."
 
 ---
 
 ### Section 2: Who This Is For
 
-A short, clear statement of the intended member. This helps self-selection and makes enforcement easier — "this community is for X" is a more effective standard than a list of rules.
+A short, clear statement of the intended member. This helps self-selection and makes enforcement easier: "this community is for X" is a more effective standard than a list of rules.
 
 ---
 
 ### Section 3: Community Norms (Positive expectations)
 
-Write norms as aspirational behaviors — what great participation looks like. These aren't rules (rules are in Section 4) — they're expectations.
+Write norms as aspirational behaviors. What does great participation look like? These aren't rules (rules are in Section 4), they're expectations.
 
 Common norms for membership communities:
 - **Be specific.** Vague questions get vague answers. Tell us what you've tried, where you're stuck, what you're actually working on.
@@ -167,7 +167,7 @@ Be clear about what happens when guidelines are violated. Vague consequences und
 4. Egregious behavior: Permanent removal from the community and potentially from the membership
 
 **Who moderates:**
-Name the moderator(s) — or describe how to contact them. An anonymous moderation team feels less accountable.
+Name the moderator(s) or describe how to contact them. An anonymous moderation team feels less accountable.
 
 **How to report:**
 Make it easy: "If you see something that violates these guidelines, [reply to the thread and tag @moderator / send a message to [email] / use the Report button]."
@@ -176,7 +176,7 @@ Make it easy: "If you see something that violates these guidelines, [reply to th
 
 ### Section 6: How to Participate Well
 
-Close with a positive, practical note — how to get the most out of the community, especially for new members.
+Close with a positive, practical note about how to get the most out of the community, especially for new members.
 
 - Where to start (the welcome/introduction thread)
 - How to ask a good question
@@ -204,7 +204,7 @@ A casual interest community should feel different from a professional associatio
 ## Output Format
 
 ```
-## Community Guidelines — [Community Name]
+## Community Guidelines - [Community Name]
 
 [Full guidelines page, section by section]
 

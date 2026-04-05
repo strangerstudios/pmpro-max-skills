@@ -82,7 +82,7 @@ quiz:
 
 # Membership Sales Page
 
-Write a complete membership sales page from scratch — every section, in order, ready to build in WordPress. The levels/pricing table uses a PMPro shortcode placeholder; this skill doesn't rebuild what PMPro already does well.
+Write a complete membership sales page from scratch: every section, in order, ready to build in WordPress. The levels/pricing table uses a PMPro shortcode placeholder; this skill doesn't rebuild what PMPro already does well.
 
 **Two ways to use this output:**
 1. **Paste and format manually** — use the copy as your source, build the page in the WordPress block editor or your page builder.
@@ -142,7 +142,7 @@ Produce all sections in order. Each section is clearly labeled for easy building
 **Purpose:** Establish who this is for, what they get, and make them want to keep reading.
 
 Components:
-- **Headline** (H1): Outcome-first or audience-first. Not the membership name — that goes in the subheadline.
+- **Headline** (H1): Outcome-first or audience-first. Not the membership name (that goes in the subheadline).
 - **Subheadline** (H2 or large paragraph): Expand the headline. Name the membership. Invite the right person.
 - **Hero CTA button**: "Join [Membership Name]" or "See Membership Options" → links to the levels section
 - **Social proof line** (optional but strong): "[X] members" or "Trusted by [audience type] since [year]"
@@ -184,7 +184,7 @@ Components:
 
 ### SECTION 5 — Levels / Pricing Table
 
-**Purpose:** Let the member choose their tier. This uses PMPro — don't rebuild it.
+**Purpose:** Let the member choose their tier. This uses PMPro. Don't rebuild it.
 
 Output for this section:
 
@@ -231,7 +231,7 @@ Components:
 
 Components:
 - 4-6 Q&A pairs covering: price/value, cancellation, what's included, who it's for, how it works
-- Keep answers honest and direct — don't over-reassure
+- Keep answers honest and direct. Don't over-reassure.
 
 ---
 

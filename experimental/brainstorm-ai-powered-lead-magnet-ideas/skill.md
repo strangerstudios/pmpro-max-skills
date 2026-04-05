@@ -10,13 +10,13 @@ keywords: [lead magnet, AI lead magnet, freebie ideas, AI prompts, opt-in, lead 
 
 # Brainstorm AI-Powered Lead Magnet Ideas
 
-Unbundle your paid offer into a free lead magnet that solves a smaller precursor problem — with the twist that every idea either solves the problem USING AI or teaches your audience how to use AI to solve it faster.
+Unbundle your paid offer into a free lead magnet that solves a smaller precursor problem, with the twist that every idea either solves the problem USING AI or teaches your audience how to use AI to solve it faster.
 
 ---
 
 ## Why This Works
 
-Most paid products solve a "big" problem. But before your ideal customers can tackle that big problem, they need to tackle smaller problems first. A lead magnet that solves one of those precursor problems builds trust and opens a loop that the full offer completes. Adding an AI component (prompts, custom GPTs, AI-powered tools) makes the lead magnet feel modern, faster, and more valuable — because your audience gets a shortcut, not just information.
+Most paid products solve a "big" problem. But before your ideal customers can tackle that big problem, they need to tackle smaller problems first. A lead magnet that solves one of those precursor problems builds trust and opens a loop that the full offer completes. Adding an AI component (prompts, custom GPTs, AI-powered tools) makes the lead magnet feel modern, faster, and more valuable, because your audience gets a shortcut, not just information.
 
 ---
 

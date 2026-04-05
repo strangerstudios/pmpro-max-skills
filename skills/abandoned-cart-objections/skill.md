@@ -10,7 +10,7 @@ feature: copywriting
 quiz:
   - step: 1
     heading: "Your Offer"
-    hint: "We're building this for warm leads — people who visited your sales page multiple times but didn't buy. The more specific your offer details, the more targeted and useful the objections."
+    hint: "We're building this for warm leads: the people who visited your sales page multiple times but didn't buy. The more specific your offer details, the more targeted and useful the objections."
     inputs:
       - name: product_type
         label: "What type of product or membership are you selling?"
@@ -19,7 +19,7 @@ quiz:
       - name: product_description
         label: "Describe the membership or product specifically. What is it?"
         type: textarea
-        placeholder: "e.g. Yoga Business Academy — a $49/month membership for yoga teachers who want to build an online income. Includes 40+ courses, monthly live Q&A, and a private community of 400+ teachers..."
+        placeholder: "e.g. Yoga Business Academy: a $49/month membership for yoga teachers who want to build an online income. Includes 40+ courses, monthly live Q&A, and a private community of 400+ teachers..."
         from_profile: main_offer
       - name: price_model
         label: "Price and billing model"
@@ -45,7 +45,7 @@ quiz:
       - name: experience_level
         label: "Experience level of your typical prospect"
         type: radio
-        options: [Complete beginner — new to this topic, Intermediate — some experience but struggling, Advanced — already practicing with some success, Mixed]
+        options: [Complete beginner who is new to this topic, Intermediate level prospect with some experience but struggling, Advanced prospect already practicing with some success, Mixed]
       - name: known_fears
         label: "What fears or objections have previous customers mentioned? What almost stopped your best buyers?"
         type: textarea
@@ -57,14 +57,14 @@ quiz:
       - name: purchase_urgency
         label: "How urgent is this problem for your prospects?"
         type: radio
-        options: [High urgency — they need to solve this now, Medium urgency — it matters but isn't pressing, Low urgency — nice to have someday]
+        options: [High urgency. They need to solve this now, Medium urgenc. It matters but isn't pressing, Low urgency. Nice to have someday]
 ---
 
 # Abandoned Cart Objection Identification
 
 ## Overview
 
-Abandoned cart sequences can boost launch sales by 15–20% by targeting warm leads — people who visited a sales page 2+ times but didn't buy. These prospects have high interest but high hesitation. The goal of this skill is to surface the 10 most impactful objections holding them back, ranked by impact, so the user can select 4 to build their sequence around.
+[Abandoned cart sequences](https://www.paidmembershipspro.com/add-ons/abandoned-cart-recovery/) can boost launch sales by 15–20% by targeting warm leads (people who visited a sales page 2+ times but didn't buy). These prospects have high interest but high hesitation. The goal of this skill is to surface the 10 most impactful objections holding them back, ranked by impact, so the user can select 4 to build their sequence around.
 
 ## Before Starting
 
@@ -114,7 +114,7 @@ Use these categories to guide brainstorming. Draw from whichever are most releva
 
 ## Step 3: Generate 10 Objections, Ranked by Impact
 
-Produce 10 objections tailored to the user's specific product and audience. Rank them from highest to lowest impact — meaning: objections that, once resolved, are most likely to convert the prospect.
+Produce 10 objections tailored to the user's specific product and audience. Rank them from highest to lowest impact, meaning: objections that, once resolved, are most likely to convert the prospect.
 
 For each objection, use the following structure:
 

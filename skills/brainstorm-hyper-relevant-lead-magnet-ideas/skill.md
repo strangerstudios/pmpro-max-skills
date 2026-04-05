@@ -4,16 +4,16 @@ slug: brainstorm-hyper-relevant-lead-magnet-ideas
 category: Lead Magnets
 one_shot: true
 uses_profile: true
-description: Analyze a piece of content and generate 10 lead magnet ideas that feel like the natural next step — organized by effort level.
+description: Analyze a piece of content and generate 10 lead magnet ideas that feel like the natural next step, organized by effort level.
 keywords: [lead magnet, content, opt-in, freebie, list building, subscribers, conversion]
 feature: planning
 quiz:
   - step: 1
     heading: "Your Content"
-    hint: "The best lead magnets feel custom-built for someone who just read that specific piece of content. Paste what you've got — the more complete, the better."
+    hint: "The best lead magnets feel custom-built for someone who just read that specific piece of content. Paste what you've got, the more complete, the better."
     inputs:
       - name: content_paste
-        label: "Paste your content here — blog post, newsletter, transcript, article, or outline."
+        label: "Paste your content here (blog post, newsletter, transcript, article, or outline)."
         type: textarea
         placeholder: "Paste the full text of your post, email, or transcript here. If it's very long, paste the main body (not the intro/outro)..."
       - name: content_type
@@ -27,7 +27,7 @@ quiz:
         from_profile: audience
   - step: 2
     heading: "Business Context"
-    hint: "Lead magnets need to connect to how you make money. Tell us what you sell so the ideas are built to convert — not just to collect emails."
+    hint: "Lead magnets need to connect to how you make money. Tell us what you sell so the ideas are built to convert, not just to collect emails."
     inputs:
       - name: business_model
         label: "How does your email list connect to revenue? What do you sell?"
@@ -46,13 +46,13 @@ quiz:
 
 # Brainstorm Hyper-Relevant Lead Magnet Ideas
 
-Analyze any piece of content and generate 10 lead magnet ideas so specifically relevant that they feel like the natural next step — not a generic afterthought. Uses the Greg Isenberg approach of hyper-congruent offers that convert at 3x higher opt-in rates.
+Analyze any piece of content and generate 10 lead magnet ideas so specifically relevant that they feel like the natural next step, not a generic afterthought. Uses the Greg Isenberg approach of hyper-congruent offers that convert at 3x higher opt-in rates.
 
 ---
 
 ## Why This Works
 
-Most lead magnets fail because they're generic. Someone reads your post about email subject lines and gets offered a "Complete Email Marketing Guide." The disconnect kills conversions. But when the lead magnet feels custom-built for someone who just consumed THAT exact piece of content — matching the language, the angle, the specific insights — it feels like the obvious next step. That's what drives 3x higher opt-in rates: hyper-congruence between content and offer.
+Most lead magnets fail because they're generic. Someone reads your post about email subject lines and gets offered a "Complete Email Marketing Guide." The disconnect kills conversions. But when the lead magnet feels custom-built for someone who just consumed THAT exact piece of content, matching the language, the angle, the specific insights, it feels like the obvious next step. That's what drives 3x higher opt-in rates: hyper-congruence between content and offer.
 
 ---
 
@@ -113,7 +113,7 @@ For each lead magnet:
 - No generic "ultimate guides" or "complete toolkits" unless hyper-specific to the content
 - No lead magnets that require the reader to have context beyond this single piece of content
 - Don't suggest repackaged versions of what was already shared in the content
-- No bait-and-switch — the lead magnet must deliver on the content's specific promise
+- No bait-and-switch. The lead magnet must deliver on the content's specific promise
 - No lead magnets requiring expensive tools, large teams, or months to create (unless marked as Premium Asset)
 
 **Quality filters:**
@@ -127,7 +127,7 @@ For each lead magnet:
 ## Quality Criteria
 
 Each lead magnet idea must:
-- **Feel custom-built** for this exact piece of content — not transplantable to a different post
+- **Feel custom-built** for this exact piece of content, not transplantable to a different post
 - **Use the content's language** — Mirror the terminology and frameworks discussed
 - **Answer the "what's next?" question** — What would a reader naturally want after consuming this content?
 - **Be immediately actionable** — The reader should be able to use it right away

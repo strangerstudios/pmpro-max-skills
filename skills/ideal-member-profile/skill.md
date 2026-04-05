@@ -108,7 +108,7 @@ quiz:
 
 # Ideal Member Profile
 
-Build a vivid, specific profile of the person your membership is built for — not a demographic sketch, but a real portrait: who they are, what they're struggling with, what they want, what's stopping them, and what finally makes them join and stay.
+Build a vivid, specific profile of the person your membership is built for. Not a demographic sketch, but a real portrait: who they are, what they're struggling with, what they want, what's stopping them, and what finally makes them join and stay.
 
 Every other skill in this library works better when it knows who it's writing for. This skill produces that foundation.
 
@@ -127,7 +127,7 @@ If a context profile is available, read it before asking questions. Use what's a
 
 ## How This Works
 
-This is a structured interview — not a form. Ask questions in small groups (2-3 at a time), listen to the answers, and follow up where details are thin. The goal is specificity: a profile nobody could confuse with someone else's.
+This is a structured interview, not a form. Ask questions in small groups (2-3 at a time), listen to the answers, and follow up where details are thin. The goal is specificity: a profile nobody could confuse with someone else's.
 
 Work through the 7 sections below, in order.
 
@@ -137,7 +137,7 @@ Work through the 7 sections below, in order.
 
 Ask these together:
 
-> To build a profile we can actually use, I want to describe your ideal member as a specific, real person — not just a demographic. Let's start here:
+> To build a profile we can actually use, I want to describe your ideal member as a specific, real person (not just a demographic). Let's start here:
 >
 > 1. Give them a name. How old are they? Where do they live? What's their life situation — job, family, daily context?
 > 2. What's their relationship with money? What's their income situation, and what would "financial success" actually feel like to them?
@@ -169,7 +169,7 @@ Ask together:
 > 8. What's the emotional goal behind that? What do they actually want to *feel* — not just achieve?
 > 9. If everything worked out, what does their life or work look like in 12 months?
 
-**What to listen for:** The measurable goal is what they say they want. The emotional goal is what they actually want. Both matter — but the emotional goal drives buying decisions. If they only give a measurable goal ("$5k/month"), push for the feeling: "Why does that number matter — what does hitting it change for them?"
+**What to listen for:** The measurable goal is what they say they want. The emotional goal is what they actually want. Both matter, but the emotional goal drives buying decisions. If they only give a measurable goal ("$5k/month"), push for the feeling: "Why does that number matter — what does hitting it change for them?"
 
 ---
 
@@ -181,7 +181,7 @@ Ask together:
 > 11. How does overthinking or self-sabotage show up for them? What do they do instead of shipping?
 > 12. What almost stopped your best members from joining? What were they on the fence about?
 
-**What to listen for:** The blocker is usually fear of failure or fear of commitment — but it often looks like "I need to research more" or "I need to get X right first." The overthinking pattern is often more honest than the stated fear.
+**What to listen for:** The blocker is usually fear of failure or fear of commitment, but it often looks like "I need to research more" or "I need to get X right first." The overthinking pattern is often more honest than the stated fear.
 
 ---
 
@@ -303,7 +303,7 @@ Once the profile is complete, offer two things:
 **1. Context profile update:**
 > "Want to add this to your PMPro Max context profile? Here's the section to paste in:"
 
-Produce a condensed "Ideal Member" section formatted for the context profile — 150-250 words summarizing the key points.
+Produce a condensed "Ideal Member" section formatted for the context profile, 150-250 words summarizing the key points.
 
 **2. What to run next:**
 > "Now that we have your ideal member profile, these skills will use it automatically:

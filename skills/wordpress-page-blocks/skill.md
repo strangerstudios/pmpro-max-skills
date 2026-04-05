@@ -36,7 +36,7 @@ quiz:
 
 # WordPress Page Blocks
 
-Take page copy — from the **membership-sales-page** skill, a draft doc, or anywhere else — and convert it into WordPress block editor code view HTML, ready to paste into WordPress.
+Take page copy (from the **membership-sales-page** skill, a draft doc, or anywhere else) and convert it into WordPress block editor code view HTML, ready to paste into WordPress.
 
 ## How to Use This Skill
 
@@ -197,7 +197,7 @@ Work section by section. For each section of the provided copy:
 
 1. Identify the content type (heading, body, list, quote, CTA, shortcode)
 2. Wrap it in the appropriate block markup
-3. Preserve the copy exactly — don't rewrite
+3. Preserve the copy exactly. Don't rewrite.
 4. Use the two-column block for any side-by-side layouts
 5. Place the PMPro shortcode block where the levels table belongs
 

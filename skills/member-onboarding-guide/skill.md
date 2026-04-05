@@ -64,7 +64,7 @@ quiz:
 
 # Member Onboarding Guide
 
-Write the "Start Here" welcome page new members land on after joining your membership. This is the first page inside the member experience — the orientation that turns a fresh checkout into an engaged member.
+Write the "Start Here" welcome page new members land on after joining your membership. This is the first page inside the member experience: the orientation that turns a fresh checkout into an engaged member.
 
 Most membership sites skip this page. Members land on their account page, stare at a list of links, and don't know where to begin. A good Start Here page changes that: it creates momentum, sets expectations, and makes the membership feel alive from the first login.
 
@@ -116,7 +116,7 @@ Keep it simple: "Welcome to [Membership Name]" or "Start Here" or "You're in —
 - Welcome them warmly
 - Acknowledge that they made a decision and you're glad they did
 - Orient them: "This page will get you started in [the next 10 minutes / your first session / etc.]"
-- Don't re-sell or summarize everything — they joined, they trust you, now orient them
+- Don't re-sell or summarize everything. They joined, they trust you, now orient them.
 
 **First Step (the ONE thing)**
 State the single best first action, clearly. One link. One instruction.
@@ -140,7 +140,7 @@ Examples:
 4. **Download [key resource or welcome kit]** → [link]
 
 **What's Inside (brief overview)**
-A short summary of what the membership contains — not a sales pitch, but an orientation map.
+A short summary of what the membership contains. Not a sales pitch, but an orientation map.
 
 Use a simple list or short paragraphs. 4-6 items. Think: "here's the terrain."
 

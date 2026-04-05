@@ -66,15 +66,15 @@ quiz:
 
 # Generate An Email Course Value Proposition
 
-Brainstorm the best value proposition for your free email course lead magnet through a guided interview — one question at a time — then get a strategic recommendation on the right approach plus 3-5 complete email course concepts with day-by-day outlines.
+Brainstorm the best value proposition for your free email course lead magnet through a guided interview (one question at a time), then get a strategic recommendation on the right approach plus 3-5 complete email course concepts with day-by-day outlines.
 
-**How this differs from the "Email Course Idea Generator":** This skill walks you through a guided one-question-at-a-time conversation and recommends the best approach (Unbundling vs Buffet) FOR you based on your answers. The Generator version gathers all context upfront and lets you pick the approach yourself. Same framework, different experience — use this one when you want a guided consultation.
+**How this differs from the "Email Course Idea Generator":** This skill walks you through a guided one-question-at-a-time conversation and recommends the best approach (Unbundling vs Buffet) FOR you based on your answers. The Generator version gathers all context upfront and lets you pick the approach yourself. Same framework, different experience: use this one when you want a guided consultation.
 
 ---
 
 ## Why This Works
 
-The #1 thing to optimize for in an email course lead magnet is congruence — the free content needs to naturally align with what you're selling at the end. When the email course solves a precursor problem or gives a taste of the full transformation, subscribers self-select as future buyers. This skill guides you through the strategic thinking first (which approach fits YOUR offer), then brainstorms specific ideas based on your real situation — not generic templates.
+The #1 thing to optimize for in an email course lead magnet is congruence — the free content needs to naturally align with what you're selling at the end. When the email course solves a precursor problem or gives a taste of the full transformation, subscribers self-select as future buyers. This skill guides you through the strategic thinking first (which approach fits YOUR offer), then brainstorms specific ideas based on your real situation, not generic templates.
 
 ---
 
@@ -111,7 +111,7 @@ Suggested question flow (adapt based on responses):
 
 Take your paid offer and "unbundle" ONE specific module or component (usually something foundational). Give a compressed but complete version of that ONE piece through a 5-day email course.
 
-This creates a natural curiosity gap — once they master this first piece, they realize they need the other pieces too.
+This creates a natural curiosity gap: once they master this first piece, they realize they need the other pieces too.
 
 **Works best when:**
 - That module is a "gateway concept" everyone can relate to

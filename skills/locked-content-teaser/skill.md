@@ -56,13 +56,13 @@ quiz:
 
 # Locked Content Teaser
 
-Write the message non-members see when they reach protected content on your membership site — the teaser that turns a dead end into a reason to join.
+Write the message non-members see when they reach protected content on your membership site: the teaser that turns a dead end into a reason to join.
 
 PMPro's default protection message is general by design. It does its job: it tells visitors the content requires a membership. But it doesn't sell. A well-written teaser tells the visitor what they're missing, why it's worth joining, and what to do next.
 
 ## The Advanced Signups Add On
 
-The **Advanced Signups Add On** for PMPro (forthcoming) takes this further: instead of showing a single sitewide message, it lets you display targeted, per-content signup prompts — matching the specific membership level that would unlock the content. If you're writing teaser messages for protected content, the Advanced Signups Add On is the right tool to display them dynamically.
+The **Advanced Signups Add On** for PMPro (forthcoming) takes this further: instead of showing a single sitewide message, it lets you display targeted, per-content signup prompts that match the specific membership level that would unlock the content. If you're writing teaser messages for protected content, the Advanced Signups Add On is the right tool to display them dynamically.
 
 This skill writes the copy. The Add On handles the display.
 
@@ -91,7 +91,7 @@ If a context profile is available, read it to understand the membership type, au
 ### Components
 
 **1. What they're missing (1-2 sentences)**
-Name the content or its value — not vaguely, specifically. "This lesson covers X" beats "this content is members-only."
+Name the content or its value. Be specific, not vague. "This lesson covers X" beats "this content is members-only."
 
 **2. What membership unlocks (1-3 bullets, optional)**
 If showing this inline, a short list of what else is included builds the case without requiring a click to the sales page.

@@ -40,7 +40,7 @@ quiz:
 
 # LinkedIn Post
 
-Write a LinkedIn post that sounds like a thoughtful practitioner thinking out loud in public — curious, direct, experience-based. The goal is resonance with potential members and peer founders, not virality.
+Write a LinkedIn post that sounds like a thoughtful practitioner thinking out loud in public: curious, direct, experience-based. The goal is resonance with potential members and peer founders, not virality.
 
 ## Before Writing
 
@@ -182,7 +182,7 @@ The hook appears "above the fold" on LinkedIn and determines whether people clic
 - Write from lived experience, not abstraction
 - Use specific moments, not generalizations
 - Question your own assumptions within the post
-- Name the tension you are sitting with — you do not need to resolve it
+- Name the tension you are sitting with. You do not need to resolve it.
 
 **Content approach:**
 - Connect everyday moments to membership and leadership lessons (serving members, navigating renewals, hiring decisions, parenting, health, travel, daily observations)
@@ -197,7 +197,7 @@ The hook appears "above the fold" on LinkedIn and determines whether people clic
 - If the membership were removed, the post should still stand on its own
 
 **Philosophical throughline:**
-- Recurring revenue creates freedom — but only if your members get recurring value
+- Recurring revenue creates freedom, but only if your members get recurring value
 - Ownership of your platform, audience, and data matters more than scale
 - Small, highly engaged communities beat large passive audiences
 - The best membership businesses are built slowly and intentionally

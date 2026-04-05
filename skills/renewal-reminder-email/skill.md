@@ -64,7 +64,7 @@ quiz:
 
 # Renewal Reminder Email Sequence
 
-Write a 3-email renewal reminder sequence sent before a membership expires — reducing passive churn by reminding members of the value they're about to lose before it disappears.
+Write a 3-email renewal reminder sequence sent before a membership expires, reducing passive churn by reminding members of the value they're about to lose before it disappears.
 
 ## PMPro Context
 
@@ -108,7 +108,7 @@ If a context profile is available, read it before asking questions. Use that con
 Must include:
 - Acknowledge that renewal is coming up (matter-of-fact, not scary)
 - Reinforce one specific piece of value they've had access to
-- Mention what's new or coming up — give them something to look forward to
+- Mention what's new or coming up, and give them something to look forward to
 - One low-pressure CTA: "Your renewal is set automatically" (if auto-renew) or "Renew early if you'd like" (if manual)
 - Don't make them feel like they're about to lose something at this stage
 
@@ -141,7 +141,7 @@ Must include:
 ## Writing Rules
 
 **Reinforce value, not fear.**
-Renewal emails fail when they read like late notices. The member isn't delinquent — their membership is ending. Write to remind them why they joined, not to warn them about what they'll lose.
+Renewal emails fail when they read like late notices. The member isn't delinquent. Their membership is ending. Write to remind them why they joined, not to warn them about what they'll lose.
 
 **Be specific about value.**
 "You'll lose access to the community" is weaker than "You'll lose access to 600+ active members, weekly office hours, and the full course library you've been working through."

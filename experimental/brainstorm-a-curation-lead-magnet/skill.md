@@ -10,7 +10,7 @@ keywords: [lead magnet, curation, swipe file, resource collection, template libr
 
 # Brainstorm A Curation Lead Magnet
 
-Brainstorm 10 curation-based lead magnets that organize existing tools, resources, or examples into high-value collections — so your audience gets value fast and you build trust effortlessly.
+Brainstorm 10 curation-based lead magnets that organize existing tools, resources, or examples into high-value collections, so your audience gets value fast and you build trust effortlessly.
 
 ---
 

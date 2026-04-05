@@ -121,7 +121,7 @@ Collect all fields below. If any are missing, ask before writing.
 | 16 | Reward for taking that action | e.g. "a bonus resource or quick win" |
 
 **Style guidelines (apply to all emails):**
-- Friendly, conversational — speak to ONE reader, not a crowd
+- Friendly, conversational: speak to ONE reader, not a crowd
 - Short paragraphs (1-3 sentences) with plenty of white space
 - Strategic use of **bold** and bullet points for emphasis
 - Clear, compelling CTAs
@@ -163,7 +163,7 @@ Use these frameworks:
 *Goal: Build personal connection, earn trust*
 - Start with a relatable "before" moment from your journey
 - Walk through the key turning points (use your origin story bullets)
-- Show the transformation — what you learned, what changed
+- Show the transformation: what you learned, what changed
 - Connect your story to their current situation
 - End with why you started the newsletter: you want this for them too
 - CTA: soft — invite a reply or share
@@ -171,7 +171,7 @@ Use these frameworks:
 ### Email 5 — The Soft Sales Pitch
 *Goal: Introduce an offer naturally, without pressure*
 - Open by referencing the journey so far (call back to previous emails)
-- Acknowledge their problem one more time — make it feel seen
+- Acknowledge their problem one more time and make it feel seen
 - Introduce the paid offer as the natural next step, not a pitch
 - Briefly describe what it is, who it's for, and the core benefit
 - Keep it low-pressure: "only if it's the right fit for you"
@@ -181,11 +181,11 @@ Use these frameworks:
 
 ## Formatting Rules (All Emails)
 
-- Address the reader as "you" throughout — never "you all" or "subscribers"
+- Address the reader as "you" throughout, never "you all" or "subscribers"
 - **Bold** key phrases and outcomes
 - Bullet lists for any group of 3+ items
 - Emojis: use sparingly (0-2 per email) for warmth, not decoration
-- One primary CTA per email — make it impossible to miss
+- One primary CTA per email: make it impossible to miss
 - Sign off consistently with name + title in every email
 
 ---

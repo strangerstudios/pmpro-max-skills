@@ -13,7 +13,7 @@ quiz:
     hint: "Money-making lead magnets solve the problem that comes right BEFORE the problem your paid offer solves. Start with what you sell."
     inputs:
       - name: paid_offer_description
-        label: "What is your main paid offer? Describe it in detail — what it is, who it's for, and what outcome it delivers."
+        label: "What is your main paid offer? Describe it in detail. What it is, who it's for, and what outcome it delivers."
         type: textarea
         placeholder: "e.g. A $49/month membership for yoga teachers that includes 12 courses on building online income, a private community, and monthly live Q&A calls. Members typically go from $2-4k/month to $4-7k/month within 6 months..."
         from_profile: main_offer
@@ -22,7 +22,7 @@ quiz:
         type: text
         placeholder: "e.g. $49/month, $497 one-time, $1,200 for 3-month coaching"
       - name: target_audience
-        label: "Who is your ideal buyer? Describe them specifically — their role, experience level, and situation right now."
+        label: "Who is your ideal buyer? Describe them specifically, their role, experience level, and situation right now."
         type: textarea
         placeholder: "e.g. Independent yoga teachers, 2-10 years teaching, earning $2-4k/month mostly from in-person classes. They want to build online income but don't know where to start..."
         from_profile: audience
@@ -50,7 +50,7 @@ quiz:
 
 # Brainstorm Money-Making Lead Magnet Ideas
 
-Create lead magnets that actually lead to sales — by first identifying the narrow precursor problem your audience needs solved right before they need your paid offer.
+Create lead magnets that actually lead to sales by first identifying the narrow precursor problem your audience needs solved right before they need your paid offer.
 
 ---
 
@@ -122,7 +122,7 @@ For each chosen precursor problem:
 
 **Lead Magnet Idea #[X]: [Title]**
 - **Format:** [PDF, template, swipe file, checklist, mini-course, etc.]
-- **What's inside:** [Specific components — 3-5 bullets]
+- **What's inside:** [Specific components, 3-5 bullets]
 - **How it solves the precursor problem:** [1-2 sentences]
 - **Bridge to paid offer:** [How solving this problem creates the need for your course/product]
 - **Difficulty to create:** [Easy / Medium / Hard]

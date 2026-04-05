@@ -61,7 +61,7 @@ Guide customers from purchase → success → repeat buyer through a strategic 6
 
 ## Core Philosophy
 
-Most membership site owners think their job ends at the checkout. This sequence is built on the opposite belief: the sale is where the member relationship begins. Every email focuses on member success first — business outcomes (testimonials, LTV, referrals, renewals) follow naturally.
+Most membership site owners think their job ends at the checkout. This sequence is built on the opposite belief: the sale is where the member relationship begins. Every email focuses on member success first. Business outcomes (testimonials, LTV, referrals, renewals) follow naturally.
 
 ---
 
@@ -130,7 +130,7 @@ Must include:
 Must include:
 - A warm, human check-in (did they get started?)
 - 1 actionable tip that helps them succeed faster
-- Acknowledge that getting started can feel overwhelming — normalize it
+- Acknowledge that getting started can feel overwhelming, and normalize it
 - A specific "have you done X yet?" prompt to encourage action
 - Low-friction CTA (reply, not click)
 
@@ -182,11 +182,11 @@ Must include:
 Must include:
 - Acknowledge how far they've come since purchasing
 - Celebrate any wins they may have shared (or speak to the transformation in progress)
-- If a next product exists: introduce it as "the natural next problem to solve" — not a pitch
+- If a next product exists: introduce it as "the natural next problem to solve," not a pitch
 - If no next product: focus purely on deepening the relationship and offering support
 - CTA: conversation-starter or next product link (keep it soft)
 
-**Bridge product rule:** Only introduce a next offer if there's a genuine logical progression. Frame it as solving their *next* likely problem — never as a new sale for its own sake.
+**Bridge product rule:** Only introduce a next offer if there's a genuine logical progression. Frame it as solving their *next* likely problem, never as a new sale for its own sake.
 
 ---
 

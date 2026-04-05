@@ -169,7 +169,7 @@ Questions engage readers and make them think about their own situation.
 Analogies make abstract concepts concrete and memorable.
 
 ### Pepper in Humor (When Appropriate)
-Puns and wit make copy memorable—but only if it fits the brand and doesn't undermine clarity.
+Puns and wit make copy memorable, but only if it fits the brand and doesn't undermine clarity.
 
 ---
 
@@ -289,7 +289,7 @@ Maintain consistency, but adjust intensity:
 
 ## PMPro Implementation
 
-When writing copy for a PMPro-powered site, use native PMPro blocks and shortcodes for CTAs and page structure — and always account for the member/non-member copy split.
+When writing copy for a PMPro-powered site, use native PMPro blocks and shortcodes for CTAs and page structure, and always account for the member/non-member copy split.
 
 ### Checkout CTAs
 
@@ -309,7 +309,7 @@ Customize `text` to match your CTA copy. Default is "Sign Up for {level name} No
 
 ### Pricing / Levels Pages
 
-Don't build a manual pricing table. Use the native levels page — it pulls live pricing, level names, and descriptions from your PMPro settings and stays in sync automatically.
+Don't build a manual pricing table. Use the native levels page: it pulls live pricing, level names, and descriptions from your PMPro settings and stays in sync automatically.
 
 **Block:**
 ```
@@ -325,7 +325,7 @@ When writing copy for a pricing section, write the surrounding content (headline
 
 ### Member vs. Non-Member Copy Split
 
-This is the most important PMPro-specific consideration. Existing members should never see sales copy, pricing tables, or "Join Now" CTAs — it's confusing and feels like a bad experience.
+This is the most important PMPro-specific consideration. Existing members should never see sales copy, pricing tables, or "Join Now" CTAs. It's confusing and feels like a bad experience.
 
 Use the `[membership]` shortcode (or Membership Required block) to show different content to different audiences.
 
@@ -349,7 +349,7 @@ Wrap your checkout CTA in a Membership block set to inverted (shows to non-membe
   <!-- wp:pmpro/checkout-button {"selected_membership_level":"2"} /-->
 <!-- /wp:pmpro/membership -->
 ```
-`"invert_restrictions":"1"` inverts the logic so the nested content shows to visitors/non-members and is hidden from members. Nest any blocks inside — checkout buttons, pricing tables, full copy sections.
+`"invert_restrictions":"1"` inverts the logic so the nested content shows to visitors/non-members and is hidden from members. Nest any blocks inside: checkout buttons, pricing tables, full copy sections.
 
 **Pattern 2 — Upsell members to a higher tier:**
 ```

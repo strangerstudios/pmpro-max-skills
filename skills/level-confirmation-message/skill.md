@@ -56,7 +56,7 @@ quiz:
 
 # Level Confirmation Message
 
-Write the message a new member sees immediately after completing checkout — before they've done anything else. This is PMPro's "Confirmation Message" field in each level's settings.
+Write the message a new member sees immediately after completing checkout, before they've done anything else. This is PMPro's "Confirmation Message" field in each level's settings.
 
 Most sites leave this blank or use a generic message. A good confirmation message does three things: confirms they made a good decision, tells them exactly what to do next, and sets the tone for the experience ahead.
 
@@ -77,7 +77,7 @@ If a context profile is available, read it before asking questions. Use that con
 | Anything to set expectations about? | e.g., "Your first issue arrives Friday," "Calls are every Tuesday at noon ET" |
 | Tone preference | Warm/celebratory, professional, calm/practical |
 
-If the site has multiple levels, collect this info per level — each level often needs a different message.
+If the site has multiple levels, collect this info per level, as each level often needs a different message.
 
 ---
 
@@ -94,7 +94,7 @@ If the site has multiple levels, collect this info per level — each level ofte
 [6. Closing — warm, optional]
 ```
 
-**Length:** 80-200 words. Shorter is better. This is not a sales page — they already joined.
+**Length:** 80-200 words. Shorter is better. This is not a sales page. They already joined.
 
 **Format for PMPro:** HTML is supported in the confirmation message field. Use `<p>`, `<strong>`, `<a href="">`, and `<ul>/<li>` as needed. No complex layouts.
 
@@ -109,7 +109,7 @@ If you give someone five things to do, they'll do none of them. Name one primary
 They already joined. Skip the "you've made a great decision" preamble and move straight to orienting them.
 
 **Match the moment:**
-The confirmation screen is often read while still sitting at the checkout. They're oriented toward "what happens now?" — answer that clearly.
+The confirmation screen is often read while still sitting at the checkout. They're oriented toward "what happens now?" Answer that clearly.
 
 **Vary by membership type:**
 - **Course / training:** "Your first step is [Module 1 / Start Here page]."

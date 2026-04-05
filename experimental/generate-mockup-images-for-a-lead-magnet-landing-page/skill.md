@@ -4,19 +4,19 @@ slug: generate-mockup-images-for-a-lead-magnet-landing-page
 category: Lead Magnets
 one_shot: true
 uses_profile: false
-description: Creates detailed AI image generation prompts (Midjourney, DALL-E, Ideogram) for professional lead magnet mockups — ebook covers, PDF previews, template visuals — in three style variations.
+description: Creates detailed AI image generation prompts (Midjourney, DALL-E, Ideogram) for professional lead magnet mockups (ebook covers, PDF previews, template visuals) in three style variations.
 keywords: [mockup, lead magnet, landing page, ebook cover, product image, Midjourney, DALL-E, Ideogram, visual design, opt-in page]
 ---
 
 # Generate Mockup Images For A Lead Magnet Landing Page
 
-Create professional mockup image prompts that produce clean, conversion-boosting product visuals for your lead magnet landing pages — so your opt-in page looks polished and trustworthy.
+Create professional mockup image prompts that produce clean, conversion-boosting product visuals for your lead magnet landing pages, so your opt-in page looks polished and trustworthy.
 
 ---
 
 ## Why This Works
 
-A professional product mockup on your landing page can significantly increase opt-in rates. When people can SEE what they're getting — even for a free digital product — it feels more tangible and valuable. But most creators either skip the mockup entirely (leaving the page feeling empty) or spend hours trying to design one in Canva. This skill generates precise image prompts optimized for AI image tools that produce clean, professional results.
+A professional product mockup on your landing page can significantly increase opt-in rates. When people can SEE what they're getting (even for a free digital product), it feels more tangible and valuable. But most creators either skip the mockup entirely (leaving the page feeling empty) or spend hours trying to design one in Canva. This skill generates precise image prompts optimized for AI image tools that produce clean, professional results.
 
 ---
 
@@ -113,7 +113,7 @@ When writing the image generation prompts:
 - Specify **"no text"** or **"minimal text"** to avoid garbled AI-generated text
 - Include lighting direction: **"soft studio lighting"** works best for product shots
 - For book covers: **"slight angle"**, **"3D perspective"**, **"hardcover"** or **"softcover"**
-- Avoid overly complex scenes — simple compositions look more professional
+- Avoid overly complex scenes: simple compositions look more professional
 
 ---
 

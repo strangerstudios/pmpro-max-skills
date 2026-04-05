@@ -50,13 +50,13 @@ quiz:
 
 # Generate Lead Magnet Names
 
-Generate 10-15 high-converting lead magnet names that feel specific, outcome-driven, and instantly valuable — organized by naming strategy so you can pick the angle that fits best.
+Generate 10-15 high-converting lead magnet names that feel specific, outcome-driven, and instantly valuable, organized by naming strategy so you can pick the angle that fits best.
 
 ---
 
 ## Why This Works
 
-A lead magnet name is the single biggest factor in whether someone opts in or scrolls past. Most lead magnet names fail because they're vague ("The Ultimate Guide to Marketing"), generic ("Free Email Templates"), or try to be clever at the expense of clarity ("The Inbox Alchemist"). A good lead magnet name should make sense without explanation, feel like a concrete asset (not a blog post), and clearly signal value — all in 6 words or fewer.
+A lead magnet name is the single biggest factor in whether someone opts in or scrolls past. Most lead magnet names fail because they're vague ("The Ultimate Guide to Marketing"), generic ("Free Email Templates"), or try to be clever at the expense of clarity ("The Inbox Alchemist"). A good lead magnet name should make sense without explanation, feel like a concrete asset (not a blog post), and clearly signal value. All in 6 words or fewer.
 
 ---
 
@@ -93,7 +93,7 @@ A good lead magnet name should:
 - Guide
 - Blueprint
 
-These words have been so overused they no longer signal value — they signal generic.
+These words have been so overused they no longer signal value. They signal generic.
 
 ---
 
