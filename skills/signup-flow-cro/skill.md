@@ -262,24 +262,55 @@ Every field reduces conversion. For each field, ask:
 
 ## Output Format
 
-### Audit Findings
-For each issue found:
-- **Issue**: What's wrong
-- **Impact**: Why it matters (with estimated impact if possible)
-- **Fix**: Specific recommendation
-- **Priority**: High/Medium/Low
+Deliver the output directly. No preamble. The format is determined by the goal selected in the quiz. Each goal produces a distinct artifact — do not combine them unless the user selected "All of the above."
 
-### Recommended Changes
-Organized by:
-1. Quick wins (same-day fixes)
-2. High-impact changes (week-level effort)
-3. Test hypotheses (things to A/B test)
+---
 
-### Form Redesign (if requested)
-- Recommended field set with rationale
-- Field order
-- Copy for labels, placeholders, buttons, errors
-- Visual layout suggestions
+**If goal = Audit:**
+```
+## Signup Flow Audit — [Flow Type]
+
+| Issue | Severity | Why it hurts | Recommended fix |
+|-------|----------|-------------|-----------------|
+| [issue] | High/Med/Low | [impact] | [specific fix] |
+
+**Biggest drop-off point:** [Where to focus first and why]
+```
+
+---
+
+**If goal = Recommend specific tests:**
+```
+## Test Recommendations — [Flow Type]
+
+| Hypothesis | Current (control) | Test variant | Metric | Effort |
+|-----------|-------------------|--------------|--------|--------|
+| [hypothesis] | [what exists now] | [what to test] | [metric to watch] | High/Med/Low |
+
+**Run first:** [Which test to prioritize and why]
+```
+
+---
+
+**If goal = Write better copy:**
+```
+## Signup Copy — [Flow Type]
+
+**Page/step: [name]**
+
+| Field | Label | Placeholder | Error state | Notes |
+|-------|-------|-------------|-------------|-------|
+| [field] | [label text] | [placeholder text] | [error message] | [any notes] |
+
+**Button copy:** [CTA text]
+**Supporting microcopy:** [Trust line, privacy note, etc.]
+
+[Repeat per page/step]
+```
+
+---
+
+**If goal = All of the above:** Deliver Audit → Test Recommendations → Copy in that order. Each section clearly labeled.
 
 ---
 

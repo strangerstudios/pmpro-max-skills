@@ -99,6 +99,8 @@ These words have been so overused they no longer signal value. They signal gener
 
 ## Output Format
 
+Deliver the names directly. No preamble, no "here are your lead magnet names." Go straight to Section 1. After all names are delivered, then ask the follow-up questions.
+
 Generate 10-15 names organized into 3 sections:
 
 ### 1. Outcome-Driven Names

@@ -183,6 +183,8 @@ Aim for 300-600 words. A new member who lands on a wall of text will not read it
 
 ## Output Format
 
+Deliver the output directly. No preamble, no "here's your onboarding guide," no commentary after the Notes block. Aim for 300–600 words of page copy total.
+
 ```
 ## Member Onboarding Guide — [Membership Name]
 

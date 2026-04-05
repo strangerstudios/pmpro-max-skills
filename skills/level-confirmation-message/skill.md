@@ -128,11 +128,15 @@ The color should match the site's brand.
 
 ## Output Format
 
+Deliver the output directly. No preamble, no "here's your confirmation message," no commentary after the Notes block.
+
+**Plain text version** is clean copy for reference. **HTML version** is what gets pasted into PMPro > Memberships > Levels > [Level] > Confirmation Message. Both should always be included.
+
 ```
 ## [Level Name] — Confirmation Message
 
 **Plain text version:**
-[Clean copy for reference]
+[Clean copy for reference — no HTML tags]
 
 **HTML version:**
 [HTML formatted, ready to paste into PMPro Level Settings > Confirmation Message]

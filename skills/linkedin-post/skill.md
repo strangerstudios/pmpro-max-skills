@@ -235,4 +235,13 @@ The hook appears "above the fold" on LinkedIn and determines whether people clic
 
 ## Output Format
 
-Deliver the finished post, ready to copy and paste into LinkedIn.
+Deliver the post only. No preamble, no "here's your post," no commentary after.
+
+If the chosen length is Short, aim for 100–200 words. Medium: 200–400 words. Long: 400–600 words. Stay within range.
+
+After the post, on a new line, output only:
+`[Structure used] · [Word count]`
+
+Example: `Story-to-Lesson · 287 words`
+
+If you are uncertain about the hook, offer one alternative hook line below that line. Nothing else.

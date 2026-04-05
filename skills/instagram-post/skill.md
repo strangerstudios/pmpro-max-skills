@@ -254,6 +254,8 @@ Otherwise, let it disappear.
 
 ## Output Specification
 
+Deliver the output directly. No preamble, no "here's your Instagram content," no commentary after the output.
+
 Every output must include:
 
 ```

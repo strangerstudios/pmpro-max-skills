@@ -462,6 +462,97 @@ Test one variable at a time:
 
 ---
 
+## Output Format
+
+Deliver the output directly. No preamble. The format is determined by the goal selected in the quiz.
+
+---
+
+**If goal = Design or improve a cancel flow:**
+```
+## Cancel Flow — [Membership Name]
+
+**Step 1: Exit survey**
+Question: [survey question text]
+Options:
+- [Reason] → triggers [offer type]
+- [Reason] → triggers [offer type]
+- [Reason] → triggers [offer type]
+
+**Step 2: Save offers by reason**
+
+| Cancel reason | Primary offer | Offer copy | Fallback |
+|---------------|---------------|------------|----------|
+| [reason] | [offer type] | [copy] | [fallback] |
+
+**Step 3: Confirmation screen**
+[Copy for when they proceed with cancellation — what to say, what to offer as a reactivation path]
+
+**Step 4: Post-cancel**
+[What email or message triggers, what the reactivation path is]
+```
+
+---
+
+**If goal = Build a dunning sequence:**
+```
+## Dunning Sequence — [Billing Platform]
+
+| Email | Send timing | Subject line | Body summary | CTA |
+|-------|------------|--------------|--------------|-----|
+| 1 | Day 0 (on failure) | [subject] | [what it says] | [button text + URL] |
+| 2 | Day 3 | [subject] | [what it says] | [button text + URL] |
+| 3 | Day 7 | [subject] | [what it says] | [button text + URL] |
+| 4 | Day 10 | [subject] | [what it says] | [button text + URL] |
+
+**Full copy — Email [#]:**
+Subject: [subject line]
+[Body copy]
+
+[Repeat for each email]
+
+**Retry configuration note:**
+[Platform-specific guidance on retry timing based on billing_platform selected]
+```
+
+---
+
+**If goal = Proactive retention strategy:**
+```
+## Proactive Retention Plan — [Membership Name]
+
+**Churn signals to track:**
+| Signal | Risk level | Recommended response |
+|--------|-----------|----------------------|
+| [signal] | High/Med | [intervention] |
+
+**Intervention copy:**
+[Email or in-app message copy for each trigger worth acting on]
+
+**Priority:** [Which signal to instrument first and why]
+```
+
+---
+
+**If goal = Win-back sequence:**
+```
+## Win-Back Sequence — [Membership Name]
+
+| Email | Send timing | Subject line | Body summary | CTA |
+|-------|------------|--------------|--------------|-----|
+| 1 | [X days after cancel] | [subject] | [what it says] | [CTA] |
+
+**Full copy — Email [#]:**
+[Body copy for each email in the sequence]
+```
+
+---
+
+**If goal = Full churn prevention plan:**
+Deliver all four sections above in order: Cancel Flow → Dunning Sequence → Proactive Retention → Win-Back. Add a brief priority note at the top indicating which to implement first based on the user's current churn type and situation.
+
+---
+
 ## Related Skills
 
 - **email-sequence**: For win-back email sequences after cancellation

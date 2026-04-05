@@ -172,6 +172,8 @@ A **Synced Pattern** (formerly "Reusable Block") lets you save this CTA once and
 
 ## Output Format
 
+Deliver the output directly. No preamble, no "here's your CTA block," no commentary after the Setup instructions.
+
 ```
 ## Membership CTA Block
 

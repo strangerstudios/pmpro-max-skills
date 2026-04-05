@@ -226,17 +226,24 @@ FREE (EMAIL CAPTURE)
 
 ### Followed by:
 
+Deliver the output directly. No preamble before the Access Map. After the map, append the following sections in this order:
+
 **Recommendations:**
-- 3-5 specific recommendations based on the audit
-- Flag any content that's currently gated but would perform better as free
-- Flag any content that's currently free but would justify gating
+
+| Priority | Recommendation | Effort | Impact |
+|----------|---------------|--------|--------|
+| 1 | [Specific action] | Low/Med/High | Low/Med/High |
+| 2 | [Specific action] | Low/Med/High | Low/Med/High |
+| 3 | [Specific action] | Low/Med/High | Low/Med/High |
+| 4 | [Specific action] | Low/Med/High | Low/Med/High |
+
+Aim for 4–6 rows. Prioritize by impact-to-effort ratio. If a recommendation needs brief context to be actionable, add one sentence below the row — not a full explanation.
 
 **Free/Paid Ratio Assessment:**
-- Is the free content sufficient to build trust and attract search traffic?
-- Is the gated content compelling enough to justify the membership fee?
+One short paragraph. Answer two questions: Is there enough free content to build trust and attract search traffic? Is the gated content compelling enough to justify the membership fee?
 
-**Quick Win Opportunities:**
-- 1-2 immediate changes that would have the most impact on conversion or retention
+**Top quick win:**
+One sentence. The single change with the best return on effort.
 
 ---
 

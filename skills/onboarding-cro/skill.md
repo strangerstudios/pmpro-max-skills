@@ -211,16 +211,54 @@ Identify biggest drops and focus there.
 
 ## Output Format
 
-### Onboarding Audit
-For each issue: Finding → Impact → Recommendation → Priority
+Deliver the output directly. No preamble. Branch the format based on whether the user has an existing flow to audit or is designing from scratch.
 
-### Onboarding Flow Design
-- Activation goal
-- Step-by-step flow
-- Checklist items (if applicable)
-- Empty state copy
-- Email sequence triggers
-- Metrics plan
+**If they described an existing flow (audit path):**
+```
+## Onboarding Audit — [Membership Name]
+
+| Step | Friction observed | Recommended fix | Priority |
+|------|------------------|-----------------|----------|
+| [step/screen] | [what's wrong] | [specific fix] | High/Med/Low |
+
+**Priority action list:**
+1. [Highest-impact fix — one sentence on why]
+2. [Next fix]
+3. [etc.]
+
+**What's working:** [Any steps or elements worth keeping as-is]
+```
+
+---
+
+**If they're designing a new flow (design path):**
+```
+## Onboarding Flow — [Membership Name]
+
+**Activation goal:** [The specific action that signals a member has reached their aha moment]
+
+**Step-by-step flow:**
+
+Step 1 — [Screen or moment name]
+Goal: [What this step needs to accomplish]
+Copy: [Headline / instruction / CTA]
+[Checklist item text if applicable]
+
+Step 2 — [Screen or moment name]
+Goal: [What this step needs to accomplish]
+Copy: [Headline / instruction / CTA]
+
+[Continue for each step]
+
+**Email triggers:**
+| Trigger | Timing | Purpose |
+|---------|--------|---------|
+| [trigger event] | [when] | [what the email does] |
+```
+
+---
+
+**If they have an existing flow but want a redesign:** Deliver the audit table first, then the new flow design below it.
 
 ---
 

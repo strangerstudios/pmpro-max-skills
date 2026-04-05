@@ -123,6 +123,8 @@ Don't ignore the price in the copy. A good description acknowledges cost implici
 
 ## Output Format
 
+Deliver the output directly. No preamble, no "here are your level descriptions," no commentary between levels. Deliver all levels before the Notes section.
+
 For each level:
 
 ```

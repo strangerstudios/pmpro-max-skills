@@ -254,6 +254,81 @@ What you've accomplished:
 
 ---
 
+## Output Format
+
+Deliver the output directly. No preamble, no "here are your recommendations." The format is determined by the goal selected in the quiz.
+
+---
+
+**If goal = Write the copy:**
+```
+## Paywall Copy — [Upgrade Type]
+
+**Headline:**
+[Benefit-led headline]
+
+**Body copy:**
+[2-4 sentences — what they get, why it's worth it]
+
+**Primary CTA:**
+[Button text] → [URL or placeholder]
+
+**Escape hatch:**
+[Not now / Continue with free text]
+
+---
+
+**Placement note:**
+- When to show: [trigger condition]
+- Where to show: [modal, inline, full page]
+- Frequency: [once per session / after X days / etc.]
+```
+
+---
+
+**If goal = Recommend placement only:**
+```
+## Upgrade Prompt Strategy — [Upgrade Type]
+
+| Trigger | Moment | Format | Frequency |
+|---------|--------|--------|-----------|
+| [trigger] | [what the user was doing] | [modal/inline/page] | [cadence] |
+
+**Priority order:** [which trigger to implement first and why]
+```
+
+---
+
+**If goal = Both (copy + placement):**
+Deliver the copy block first, then the placement strategy table below it. No section break needed.
+
+---
+
+**If goal = Audit:**
+```
+## Paywall Audit — [Current Setup]
+
+| Issue | Why It Hurts | Recommended Fix | Priority |
+|-------|-------------|-----------------|----------|
+| [issue] | [impact] | [fix] | High/Med/Low |
+
+**Rewritten copy (if current copy was shared):**
+[Improved version of their existing paywall copy]
+```
+
+---
+
+**Append a test hypothesis section only if the conversation explicitly moved toward experimentation:**
+```
+## Test Hypotheses
+
+| Hypothesis | Variant A (control) | Variant B (test) | Metric to watch |
+|-----------|--------------------|--------------------|-----------------|
+| [hypothesis] | [current] | [test version] | [metric] |
+```
+
+---
+
 ## Task-Specific Questions
 
 1. What's your current free → paid conversion rate?

@@ -161,14 +161,20 @@ If the locked content requires a higher tier, say so. "Upgrade to [Tier Name] to
 
 ## Output Format
 
+Deliver the output directly. No preamble, no "here's your teaser message," no commentary after the Notes block.
+
+**Plain text version** is for PMPro's Customizer or settings fields that don't render HTML. **HTML version** is for Advanced Signups Add On or any field that renders markup. Always include both.
+
 ```
 **Teaser Message — [Content Type]**
 
-[Plain text version — for Customizer / PMPro settings]
+**Plain text version:**
+[Clean copy — no HTML tags]
 
 ---
 
-[HTML version — ready to paste]
+**HTML version:**
+[HTML formatted, ready to paste]
 
 ---
 
