@@ -3,6 +3,7 @@ name: Membership Sales Page
 slug: membership-sales-page
 category: Copy
 one_shot: true
+processing: prompt
 uses_profile: true
 description: Writes a complete membership sales page — hero, problem, solution, what's included, social proof, FAQ, and CTA — with a shortcode placeholder for the PMPro levels table. One-shot output ready to build in WordPress.
 keywords: [membership sales page, sales page copy, landing page, membership page, PMPro levels, conversion copy, membership marketing]

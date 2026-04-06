@@ -3,6 +3,7 @@ name: Newsletter Welcome Sequence
 slug: newsletter-welcome-sequence
 category: Email
 one_shot: true
+processing: prompt
 uses_profile: true
 description: Writes a 5-email newsletter welcome sequence for a membership site owner — Warm Welcome, Greatest Hits, Biggest Mistake, Origin Story, Soft Pitch — to turn new subscribers into engaged (and eventually paying) members.
 keywords: [welcome email, email sequence, newsletter onboarding, subscriber nurture, email marketing, welcome series, new subscriber, email automation, membership site]

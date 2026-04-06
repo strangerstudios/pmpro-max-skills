@@ -3,6 +3,7 @@ name: Copywriting
 slug: copywriting
 category: Copy
 one_shot: true
+processing: prompt
 uses_profile: true
 description: Writes or rewrites marketing copy for PMPro membership sites — homepage, landing pages, pricing, feature pages — including PMPro-specific CTAs, levels pages, and member vs. non-member copy splits.
 keywords: [copywriting, landing page copy, membership site copy, pricing page, PMPro, checkout button, levels page, member content, conversion copy, CTA]

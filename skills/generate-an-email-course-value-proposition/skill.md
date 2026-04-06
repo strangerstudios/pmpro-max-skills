@@ -3,6 +3,7 @@ name: Generate an Email Course Value Proposition
 slug: generate-an-email-course-value-proposition
 category: Lead Magnets
 one_shot: true
+processing: prompt
 uses_profile: true
 description: Guides a one-question-at-a-time interview to determine the best email course approach (Unbundling vs. Buffet), then produces 3–5 complete email course concepts with day-by-day outlines.
 keywords: [email course, lead magnet, value proposition, email sequence, list building, opt-in, freebie, course concept]

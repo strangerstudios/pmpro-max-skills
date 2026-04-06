@@ -3,6 +3,7 @@ name: Content Strategy
 slug: content-strategy
 category: Content
 one_shot: true
+processing: prompt
 uses_profile: true
 description: Plans a content strategy — pillars, topic clusters, keyword mapping by buyer stage, and prioritization — so content drives traffic, builds authority, and generates leads.
 keywords: [content strategy, content planning, blog strategy, topic clusters, content pillars, editorial calendar, content marketing, content roadmap]

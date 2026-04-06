@@ -3,6 +3,7 @@ name: Email Welcome Sequence
 slug: email-welcome-sequence
 category: Email
 one_shot: true
+processing: prompt
 uses_profile: true
 description: Generate a complete 5-email welcome sequence for new subscribers using a proven framework that builds trust, agitates pain, demonstrates value, and drives sales.
 keywords: [email, welcome, onboarding, subscribers, newsletter, drip, sequence, nurture]

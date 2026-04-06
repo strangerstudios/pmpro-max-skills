@@ -54,6 +54,7 @@ keywords: [email, welcome, onboarding, subscribers, newsletter]
 |---|---|
 | `one_shot` | `true` = give context once, get a complete output. `false` = works better as a back-and-forth conversation. |
 | `uses_profile` | `true` = this skill works best when you include your site/audience context (see below). |
+| `processing` | `site` (default) = the site runs generation and shows output inline. `prompt` = the site assembles the prompt for you to copy and paste into the AI tool of your choice. |
 
 ---
 

@@ -3,6 +3,7 @@ name: Launch Strategy
 slug: launch-strategy
 category: Strategy
 one_shot: true
+processing: prompt
 uses_profile: true
 description: Plans product launches and feature announcements using the ORB framework (Owned, Rented, Borrowed channels) and a five-phase launch approach from internal testing to full public release.
 keywords: [product launch, launch strategy, go-to-market, feature announcement, Product Hunt, early access, waitlist, GTM]

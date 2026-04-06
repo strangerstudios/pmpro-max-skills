@@ -3,6 +3,7 @@ name: Ideal Member Profile
 slug: ideal-member-profile
 category: Strategy
 one_shot: true
+processing: prompt
 uses_profile: true
 description: Builds a vivid, specific ideal member profile through a structured interview — covering who they are, where they are now, what they want, what stops them, and what makes them buy and stay. Output can be used to sharpen all other skills and to refine your context profile.
 keywords: [ideal member, buyer persona, member profile, target audience, ICP, ideal customer, audience research, membership marketing, customer avatar]

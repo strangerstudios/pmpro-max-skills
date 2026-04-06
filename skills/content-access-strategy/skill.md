@@ -3,6 +3,7 @@ name: Content Access Strategy
 slug: content-access-strategy
 category: Strategy
 one_shot: true
+processing: prompt
 uses_profile: true
 description: Designs a content access strategy around what to keep free, what to gate, and how to structure gating across membership levels. You want your free content to build trust and your gated content to drive and retain memberships.
 keywords: [content access, content gating, free vs paid content, membership levels, content strategy, content protection, PMPro access, member content]

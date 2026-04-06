@@ -3,6 +3,7 @@ name: Site Architecture
 slug: site-architecture
 category: Strategy
 one_shot: true
+processing: prompt
 uses_profile: true
 description: Plans website structure — page hierarchy, navigation, URL patterns, and internal linking — producing an ASCII tree, Mermaid sitemap, URL map, and navigation spec.
 keywords: [site architecture, sitemap, information architecture, website structure, navigation design, URL structure, internal linking, page hierarchy]

@@ -3,6 +3,7 @@ name: Pricing Strategy
 slug: pricing-strategy
 category: Strategy
 one_shot: true
+processing: prompt
 uses_profile: true
 description: Helps design value-based pricing, tier structures, and packaging decisions for SaaS or membership products — covering value metrics, price points, and pricing page best practices.
 keywords: [pricing, pricing strategy, tiered pricing, freemium, packaging, value metric, SaaS pricing, monetization]

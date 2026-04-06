@@ -25,6 +25,7 @@ quiz:
         label: "Price and billing model"
         type: textarea
         placeholder: "e.g. $49/month or $397/year (save 30%). One-time purchase option available at $297."
+        from_profile: levels
       - name: transformation
         label: "What transformation or outcome does it provide? Be specific."
         type: textarea

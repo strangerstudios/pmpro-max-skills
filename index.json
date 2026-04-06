@@ -24,7 +24,7 @@
     "category": "Lead Magnets",
     "one_shot": true,
     "uses_profile": true,
-    "description": "Analyze a piece of content and generate 10 lead magnet ideas that feel like the natural next step \u2014 organized by effort level.",
+    "description": "Analyze a piece of content and generate 10 lead magnet ideas that feel like the natural next step, organized by effort level.",
     "keywords": [
       "lead magnet",
       "content",
@@ -40,7 +40,7 @@
     "name": "Brainstorm Money-Making Lead Magnet Ideas",
     "slug": "brainstorm-money-making-lead-magnet-ideas",
     "category": "Lead Magnets",
-    "one_shot": false,
+    "one_shot": true,
     "uses_profile": true,
     "description": "Generates strategically aligned lead magnet ideas that attract buyers, not freebie-seekers, by identifying precursor problems that bridge directly to a paid offer.",
     "keywords": [
@@ -59,7 +59,7 @@
     "name": "Churn Prevention",
     "slug": "churn-prevention",
     "category": "CRO",
-    "one_shot": false,
+    "one_shot": true,
     "uses_profile": true,
     "description": "Builds cancel flows, dynamic save offers, proactive retention strategies, and dunning sequences to reduce both voluntary and involuntary subscription churn.",
     "keywords": [
@@ -80,7 +80,7 @@
     "category": "PMPro",
     "one_shot": true,
     "uses_profile": true,
-    "description": "Writes a community guidelines and code of conduct page for a membership community \u2014 covering expectations, participation norms, enforcement, and the principles that make a community worth being in.",
+    "description": "Writes a community guidelines and code of conduct page for a membership community that covers expectations, participation norms, enforcement, and the principles that make a community worth being in.",
     "keywords": [
       "community guidelines",
       "code of conduct",
@@ -97,9 +97,9 @@
     "name": "Content Access Strategy",
     "slug": "content-access-strategy",
     "category": "Strategy",
-    "one_shot": false,
+    "one_shot": true,
     "uses_profile": true,
-    "description": "Designs a content access strategy \u2014 what to keep free, what to gate, and how to structure gating across membership levels \u2014 so your free content builds trust and your gated content drives and keeps memberships.",
+    "description": "Designs a content access strategy around what to keep free, what to gate, and how to structure gating across membership levels. You want your free content to build trust and your gated content to drive and retain memberships.",
     "keywords": [
       "content access",
       "content gating",
@@ -116,7 +116,7 @@
     "name": "Content Strategy",
     "slug": "content-strategy",
     "category": "Content",
-    "one_shot": false,
+    "one_shot": true,
     "uses_profile": true,
     "description": "Plans a content strategy \u2014 pillars, topic clusters, keyword mapping by buyer stage, and prioritization \u2014 so content drives traffic, builds authority, and generates leads.",
     "keywords": [
@@ -135,7 +135,7 @@
     "name": "Copywriting",
     "slug": "copywriting",
     "category": "Copy",
-    "one_shot": false,
+    "one_shot": true,
     "uses_profile": true,
     "description": "Writes or rewrites marketing copy for PMPro membership sites \u2014 homepage, landing pages, pricing, feature pages \u2014 including PMPro-specific CTAs, levels pages, and member vs. non-member copy splits.",
     "keywords": [
@@ -175,7 +175,7 @@
     "name": "Free Content Audit",
     "slug": "free-content-audit",
     "category": "Strategy",
-    "one_shot": false,
+    "one_shot": true,
     "uses_profile": true,
     "description": "Audits the free-facing content on a membership site to evaluate whether it's attracting the right visitors, building enough trust to convert, and creating a clear path from free to paid.",
     "keywords": [
@@ -195,7 +195,7 @@
     "name": "Generate an Email Course Value Proposition",
     "slug": "generate-an-email-course-value-proposition",
     "category": "Lead Magnets",
-    "one_shot": false,
+    "one_shot": true,
     "uses_profile": true,
     "description": "Guides a one-question-at-a-time interview to determine the best email course approach (Unbundling vs. Buffet), then produces 3\u20135 complete email course concepts with day-by-day outlines.",
     "keywords": [
@@ -214,7 +214,7 @@
     "name": "Generate Lead Magnet Names",
     "slug": "generate-lead-magnet-names",
     "category": "Lead Magnets",
-    "one_shot": false,
+    "one_shot": true,
     "uses_profile": true,
     "description": "Generates 10\u201315 high-converting lead magnet names organized by naming strategy \u2014 outcome-driven, mechanism-driven, and specificity-driven \u2014 optimized for clarity over cleverness.",
     "keywords": [
@@ -233,7 +233,7 @@
     "name": "Ideal Member Profile",
     "slug": "ideal-member-profile",
     "category": "Strategy",
-    "one_shot": false,
+    "one_shot": true,
     "uses_profile": true,
     "description": "Builds a vivid, specific ideal member profile through a structured interview \u2014 covering who they are, where they are now, what they want, what stops them, and what makes them buy and stay. Output can be used to sharpen all other skills and to refine your context profile.",
     "keywords": [
@@ -272,7 +272,7 @@
     "name": "Launch Strategy",
     "slug": "launch-strategy",
     "category": "Strategy",
-    "one_shot": false,
+    "one_shot": true,
     "uses_profile": true,
     "description": "Plans product launches and feature announcements using the ORB framework (Owned, Rented, Borrowed channels) and a five-phase launch approach from internal testing to full public release.",
     "keywords": [
@@ -483,7 +483,7 @@
     "name": "Onboarding CRO",
     "slug": "onboarding-cro",
     "category": "CRO",
-    "one_shot": false,
+    "one_shot": true,
     "uses_profile": true,
     "description": "Optimizes post-signup onboarding to reduce time-to-value, increase activation rates, and build habits that lead to long-term retention through flow design, empty states, and email triggers.",
     "keywords": [
@@ -502,7 +502,7 @@
     "name": "Paywall and Upgrade Screen CRO",
     "slug": "paywall-upgrade-cro",
     "category": "CRO",
-    "one_shot": false,
+    "one_shot": true,
     "uses_profile": true,
     "description": "Designs and optimizes in-app paywalls, upgrade modals, feature gates, and trial expiration screens to convert free users to paid at the right moment with the right message.",
     "keywords": [
@@ -521,7 +521,7 @@
     "name": "Post-Purchase Email Sequence",
     "slug": "post-purchase-email-sequence",
     "category": "Email",
-    "one_shot": false,
+    "one_shot": true,
     "uses_profile": true,
     "description": "Writes a 6-email post-purchase sequence covering onboarding, obstacle removal, feature discovery, feedback collection, and upsell \u2014 focused on customer success over sales.",
     "keywords": [
@@ -540,7 +540,7 @@
     "name": "Pricing Strategy",
     "slug": "pricing-strategy",
     "category": "Strategy",
-    "one_shot": false,
+    "one_shot": true,
     "uses_profile": true,
     "description": "Helps design value-based pricing, tier structures, and packaging decisions for SaaS or membership products \u2014 covering value metrics, price points, and pricing page best practices.",
     "keywords": [
@@ -597,7 +597,7 @@
     "name": "Signup Flow CRO",
     "slug": "signup-flow-cro",
     "category": "CRO",
-    "one_shot": false,
+    "one_shot": true,
     "uses_profile": true,
     "description": "Optimizes signup, registration, and trial activation flows by reducing friction, improving field design, and increasing completion rates through audits and experiment recommendations.",
     "keywords": [
@@ -654,7 +654,7 @@
     "name": "WordPress Page Blocks",
     "slug": "wordpress-page-blocks",
     "category": "PMPro",
-    "one_shot": false,
+    "one_shot": true,
     "uses_profile": false,
     "description": "Converts page copy \u2014 from the Membership Sales Page skill or any other source \u2014 into WordPress block editor code view HTML, ready to paste directly into the WordPress editor.",
     "keywords": [
