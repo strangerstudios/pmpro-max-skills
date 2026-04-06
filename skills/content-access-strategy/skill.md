@@ -25,7 +25,7 @@ quiz:
       - name: has_free_tier
         label: "Do you have a free access option?"
         type: radio
-        options: [Yes — a free membership level with limited access, Yes — a time-limited free trial, Yes — freemium (always free, limited features), No — everything is paid]
+        options: [Yes — a free membership level with limited access, Yes — a time-limited free trial, Yes — freemium (always free with limited features), No — everything is paid]
   - step: 2
     heading: "Content Inventory"
     hint: "You can't design access strategy without knowing what content exists. Be specific about types and volume."
