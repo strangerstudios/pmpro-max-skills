@@ -91,7 +91,7 @@ quiz:
 
 # Newsletter Welcome Sequence
 
-Write a 5-email welcome sequence for new newsletter subscribers: Warm Welcome → Greatest Hits → Biggest Mistake → Origin Story → Soft Sales Pitch.
+Write a 5-email welcome sequence for new newsletter subscribers: Warm Welcome > Greatest Hits > Biggest Mistake > Origin Story > Soft Sales Pitch.
 
 ## Before Writing
 

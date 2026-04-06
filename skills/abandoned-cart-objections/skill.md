@@ -58,7 +58,7 @@ quiz:
       - name: purchase_urgency
         label: "How urgent is this problem for your prospects?"
         type: radio
-        options: [High urgency. They need to solve this now, Medium urgenc. It matters but isn't pressing, Low urgency. Nice to have someday]
+        options: [High urgency. They need to solve this now, Medium urgency. It matters but isn't pressing, Low urgency. Nice to have someday]
 ---
 
 # Abandoned Cart Objection Identification

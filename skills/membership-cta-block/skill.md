@@ -87,7 +87,7 @@ If a context profile is available, read it to understand the membership name, au
 | CTA button text | e.g., "Join Now," "Become a Member," "See Plans," "Get Started" |
 | CTA button URL | Your levels page or a specific landing page |
 | Price (optional) | Including it increases conversions; leaving it out is fine for awareness blocks |
-| Secondary CTA (optional) | e.g., "Learn more →" or "Already a member? Log in." |
+| Secondary CTA (optional) | e.g., "Learn more >" or "Already a member? Log in." |
 | Visual style | Minimal/clean, bold/high-contrast, warm/inviting |
 | Brand primary color | Hex code for button and accent color |
 
@@ -181,7 +181,7 @@ Deliver the output directly. No preamble, no "here's your CTA block," no comment
 Eyebrow: [text]
 Headline: [text]
 Body: [text]
-Button: [text] → [URL]
+Button: [text] > [URL]
 Secondary: [text]
 
 ---

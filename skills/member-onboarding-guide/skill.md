@@ -43,7 +43,7 @@ quiz:
       - name: next_steps
         label: "2-4 next steps after the first action. List each with a short description and URL."
         type: textarea
-        placeholder: "Introduce yourself in the community forum → https://yoursite.com/community/introductions/\nDownload the member resource kit → https://yoursite.com/resources/\nAdd live call dates to your calendar → https://yoursite.com/calls/"
+        placeholder: "Introduce yourself in the community forum > https://yoursite.com/community/introductions/\nDownload the member resource kit > https://yoursite.com/resources/\nAdd live call dates to your calendar > https://yoursite.com/calls/"
       - name: whats_inside
         label: "Brief overview of what the membership contains — 4-6 key elements."
         type: textarea
@@ -122,22 +122,22 @@ Keep it simple: "Welcome to [Membership Name]" or "Start Here" or "You're in —
 State the single best first action, clearly. One link. One instruction.
 
 Vary by membership type:
-- **Courses:** "Start with [Course Name / Module 1]. → [link]"
-- **Community:** "Introduce yourself in [the welcome thread / #introductions channel / the Start Here forum]. → [link]"
-- **Newsletter:** "Read your first issue → [link to latest or best issue]"
-- **Association:** "Complete your member profile → [link to profile page]"
-- **Coaching:** "Book your first call → [link to scheduling]"
-- **Podcast:** "Listen to [recommended first episode] → [link]"
-- **Directory:** "Claim and complete your listing → [link]"
+- **Courses:** "Start with [Course Name / Module 1]. > [link]"
+- **Community:** "Introduce yourself in [the welcome thread / #introductions channel / the Start Here forum]. > [link]"
+- **Newsletter:** "Read your first issue > [link to latest or best issue]"
+- **Association:** "Complete your member profile > [link to profile page]"
+- **Coaching:** "Book your first call > [link to scheduling]"
+- **Podcast:** "Listen to [recommended first episode] > [link]"
+- **Directory:** "Claim and complete your listing > [link]"
 
 **Next Steps (2-4 actions)**
 After the first step, what comes next? Use a numbered list or simple visual format.
 
 Examples:
-1. **Explore the [content library / course catalog / podcast archive]** → [link]
-2. **Join the [community / forum / Slack / Facebook Group]** → [link]
-3. **Add [live call dates / office hours] to your calendar** → [link or iCal download]
-4. **Download [key resource or welcome kit]** → [link]
+1. **Explore the [content library / course catalog / podcast archive]** > [link]
+2. **Join the [community / forum / Slack / Facebook Group]** > [link]
+3. **Add [live call dates / office hours] to your calendar** > [link or iCal download]
+4. **Download [key resource or welcome kit]** > [link]
 
 **What's Inside (brief overview)**
 A short summary of what the membership contains. Not a sales pitch, but an orientation map.

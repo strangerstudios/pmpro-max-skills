@@ -88,9 +88,9 @@ Before creating any lead magnet ideas, identify 7-10 narrow problems that your a
 - It can be solved (or significantly helped) with a free resource
 
 **Example:** If your paid offer is a "Complete Email Marketing System" course:
-- Precursor problem: "I don't know what to write about in my newsletter" → Lead magnet: "52 Newsletter Ideas Generator"
-- Precursor problem: "My subject lines get low open rates" → Lead magnet: "500 High-Converting Subject Line Swipe File"
-- Precursor problem: "I don't have a lead magnet to grow my list" → Lead magnet: "Lead Magnet Brainstorming Framework"
+- Precursor problem: "I don't know what to write about in my newsletter" > Lead magnet: "52 Newsletter Ideas Generator"
+- Precursor problem: "My subject lines get low open rates" > Lead magnet: "500 High-Converting Subject Line Swipe File"
+- Precursor problem: "I don't have a lead magnet to grow my list" > Lead magnet: "Lead Magnet Brainstorming Framework"
 
 Present the 7-10 precursor problems and ask the user to pick the 1-2 they want to focus on.
 

@@ -57,7 +57,7 @@ quiz:
 
 # 6-Email Post-Purchase Sequence
 
-Guide customers from purchase → success → repeat buyer through a strategic 6-email sequence.
+Guide customers from purchase > success > repeat buyer through a strategic 6-email sequence.
 
 ## Core Philosophy
 

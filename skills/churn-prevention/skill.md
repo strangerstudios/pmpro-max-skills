@@ -117,7 +117,7 @@ This skill supports three modes:
 Every cancel flow follows this sequence:
 
 ```
-Trigger → Survey → Dynamic Offer → Confirmation → Post-Cancel
+Trigger > Survey > Dynamic Offer > Confirmation > Post-Cancel
 ```
 
 **Step 1: Trigger**
@@ -238,7 +238,7 @@ The key insight: **match the offer to the reason.** A discount won't save someon
 │  └───────────────────────────────┘  │
 │                                     │
 │  Or switch to [Basic Plan] at       │
-│  $X/month →                         │
+│  $X/month >                         │
 │                                     │
 │  [No thanks, continue cancelling]   │
 └─────────────────────────────────────┘
@@ -317,7 +317,7 @@ Failed payments cause 30-50% of all churn but are the most recoverable.
 ### The Dunning Stack
 
 ```
-Pre-dunning → Smart retry → Dunning emails → Grace period → Hard cancel
+Pre-dunning > Smart retry > Dunning emails > Grace period > Hard cancel
 ```
 
 ### Pre-Dunning (Prevent Failures)
@@ -410,7 +410,7 @@ Test one variable at a time:
 | Offer presentation (modal vs full page) | Full page gets more attention | Save rate |
 | Copy tone (empathetic vs direct) | Empathetic reduces friction | Save rate |
 
-**How to run cancel flow experiments:** Use the **ab-test-setup** skill to design statistically rigorous tests. PostHog is a good fit for cancel flow experiments. Its feature flags can split users into different flows server-side, and its funnel analytics track each step of the cancel flow (survey → offer → accept/decline → confirm).
+**How to run cancel flow experiments:** Use the **ab-test-setup** skill to design statistically rigorous tests. PostHog is a good fit for cancel flow experiments. Its feature flags can split users into different flows server-side, and its funnel analytics track each step of the cancel flow (survey > offer > accept/decline > confirm).
 
 ---
 
@@ -475,9 +475,9 @@ Deliver the output directly. No preamble. The format is determined by the goal s
 **Step 1: Exit survey**
 Question: [survey question text]
 Options:
-- [Reason] → triggers [offer type]
-- [Reason] → triggers [offer type]
-- [Reason] → triggers [offer type]
+- [Reason] > triggers [offer type]
+- [Reason] > triggers [offer type]
+- [Reason] > triggers [offer type]
 
 **Step 2: Save offers by reason**
 
@@ -549,7 +549,7 @@ Subject: [subject line]
 ---
 
 **If goal = Full churn prevention plan:**
-Deliver all four sections above in order: Cancel Flow → Dunning Sequence → Proactive Retention → Win-Back. Add a brief priority note at the top indicating which to implement first based on the user's current churn type and situation.
+Deliver all four sections above in order: Cancel Flow > Dunning Sequence > Proactive Retention > Win-Back. Add a brief priority note at the top indicating which to implement first based on the user's current churn type and situation.
 
 ---
 

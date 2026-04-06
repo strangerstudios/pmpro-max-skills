@@ -115,9 +115,9 @@ You own the channel (though not the audience). Direct access without algorithms 
 - Compound value from content
 
 **Start with 1-2 based on audience:**
-- Industry lacks quality content → Start a blog
-- People want direct updates → Focus on email
-- Engagement matters → Build a community
+- Industry lacks quality content > Start a blog
+- People want direct updates > Focus on email
+- Engagement matters > Build a community
 
 **Example - Superhuman:**
 Built demand through an invite-only waitlist and one-on-one onboarding sessions. Every new user got a 30-minute live demo. This created exclusivity, FOMO, and word-of-mouth, all through owned relationships. Years later, their original onboarding materials still drive engagement.
@@ -140,9 +140,9 @@ Platforms that provide visibility but you don't control. Algorithms shift, rules
 Hacked virality through Twitter, YouTube, and Reddit where productivity enthusiasts were active. Encouraged community to share templates and workflows. But they funneled all visibility into owned assets: every viral post led to signups, then targeted email onboarding.
 
 **Platform-specific tactics:**
-- Twitter/X: Threads that spark conversation → link to newsletter
-- LinkedIn: High-value posts → lead to gated content or email signup
-- Marketplaces (Shopify, Slack): Optimize listing → drive to site for more
+- Twitter/X: Threads that spark conversation > link to newsletter
+- LinkedIn: High-value posts > lead to gated content or email signup
+- Marketplaces (Shopify, Slack): Optimize listing > drive to site for more
 
 Rented channels give speed, not stability. Capture momentum by bringing users into your owned ecosystem.
 

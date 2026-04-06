@@ -37,7 +37,7 @@ quiz:
       - name: best_content
         label: "Your 3-5 best resources — titles, brief descriptions, and links. These go in Email 1 (Greatest Hits)."
         type: textarea
-        placeholder: "How I Built a $3k/month Membership from 47 Students → yoursite.com/post-1\nPricing Your Online Membership: 3 Models That Work → yoursite.com/post-2\nThe 15-Minute Content Calendar for Yoga Teachers → yoursite.com/post-3"
+        placeholder: "How I Built a $3k/month Membership from 47 Students > yoursite.com/post-1\nPricing Your Online Membership: 3 Models That Work > yoursite.com/post-2\nThe 15-Minute Content Calendar for Yoga Teachers > yoursite.com/post-3"
       - name: lead_magnet_name
         label: "Name of the bonus lead magnet to offer in Email 2"
         type: text
@@ -58,7 +58,7 @@ quiz:
 
 # 3-Email Re-Engagement Sequence
 
-Win back cold subscribers (30+ days inactive) with a tight 3-email sequence: Greatest Hits → Lead Magnet Bribe → Quick Question.
+Win back cold subscribers (30+ days inactive) with a tight 3-email sequence: Greatest Hits > Lead Magnet Bribe > Quick Question.
 
 ## Before Writing
 
@@ -117,8 +117,8 @@ Must include:
 - Ultra-short opening — no preamble, get to the point fast
 - One direct question: "Do you still want to hear from me?"
 - Two clear options presented plainly:
-  - Yes → click here to stay on the list (or confirm interest)
-  - No → they'll be removed automatically if they don't click
+  - Yes > click here to stay on the list (or confirm interest)
+  - No > they'll be removed automatically if they don't click
 - A brief, honest reason why you're asking (list hygiene, relevance)
 - No guilt, no begging — matter-of-fact and respectful tone
 - Firm but friendly deadline or consequence ("If I don't hear from you by [date], I'll remove you")

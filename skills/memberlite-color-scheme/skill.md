@@ -4,7 +4,7 @@ slug: memberlite-color-scheme
 category: PMPro
 one_shot: true
 uses_profile: false
-description: Extracts a color palette from your logo and outputs a complete custom Memberlite color scheme — all 17 color values ready to enter in the WordPress Customizer or apply via CSS custom properties.
+description: Extracts a color palette from your logo and outputs a complete custom Memberlite color scheme — all 17 color values ready to enter in the WordPress Customizer.
 keywords: [Memberlite, color scheme, CSS, branding, PMPro theme, logo colors, custom CSS, WordPress theme, color palette, customizer]
 feature: design
 quiz:
@@ -96,29 +96,27 @@ The CSS custom properties these generate follow the pattern `--memberlite--color
 
 | Setting Key | CSS Variable | Label | Assignment Strategy |
 |-------------|-------------|-------|---------------------|
-| `color_primary` | `--memberlite--color--primary` | Primary | → Brand primary |
-| `color_secondary` | `--memberlite--color--secondary` | Secondary | → Brand secondary |
-| `color_action` | `--memberlite--color--action` | Action | → Brand action/accent |
-| `color_button` | `--memberlite--color--button` | Buttons | → Brand primary or action (depends on contrast) |
-| `color_link` | `--memberlite--color--link` | Links | → Brand primary (must pass contrast on white bg) |
-| `color_meta_link` | `--memberlite--color--meta-link` | Meta Links | → Brand secondary or a muted tone of primary |
-| `color_text` | `--memberlite--color--text` | Text | → Dark text (near-black) |
-| `background_color` | `--memberlite--color--site-background` | Site Background | → White or light brand background |
-| `color_borders` | `--memberlite--color--borders` | Borders | → Light gray (e.g., `e0e0e0`) or light tint of primary |
-| `header_textcolor` | `--memberlite--color--header-text` | Header Text | → Dark or light depending on header bg |
-| `bgcolor_header` | `--memberlite--color--header-background` | Header Background | → White, light, or brand primary |
-| `bgcolor_site_navigation` | `--memberlite--color--site-navigation-background` | Site Navigation Background | → Matches or complements header bg |
-| `color_site_navigation` | `--memberlite--color--site-navigation` | Site Navigation | → Readable on nav bg; often dark text or white |
-| `bgcolor_page_masthead` | `--memberlite--color--page-masthead-background` | Page Masthead Background | → Brand primary (strong, rich) |
-| `color_page_masthead` | `--memberlite--color--page-masthead` | Page Masthead | → White or light (for contrast on masthead bg) |
-| `bgcolor_footer_widgets` | `--memberlite--color--footer-widgets-background` | Footer Widgets Background | → Dark, light, or brand color |
-| `color_footer_widgets` | `--memberlite--color--footer-widgets` | Footer Widgets | → Readable on footer bg |
+| `color_primary` | `--memberlite--color--primary` | Primary | > Brand primary |
+| `color_secondary` | `--memberlite--color--secondary` | Secondary | > Brand secondary |
+| `color_action` | `--memberlite--color--action` | Action | > Brand action/accent |
+| `color_button` | `--memberlite--color--button` | Buttons | > Brand primary or action (depends on contrast) |
+| `color_link` | `--memberlite--color--link` | Links | > Brand primary (must pass contrast on white bg) |
+| `color_meta_link` | `--memberlite--color--meta-link` | Meta Links | > Brand secondary or a muted tone of primary |
+| `color_text` | `--memberlite--color--text` | Text | > Dark text (near-black) |
+| `background_color` | `--memberlite--color--site-background` | Site Background | > White or light brand background |
+| `color_borders` | `--memberlite--color--borders` | Borders | > Light gray (e.g., `e0e0e0`) or light tint of primary |
+| `header_textcolor` | `--memberlite--color--header-text` | Header Text | > Dark or light depending on header bg |
+| `bgcolor_header` | `--memberlite--color--header-background` | Header Background | > White, light, or brand primary |
+| `bgcolor_site_navigation` | `--memberlite--color--site-navigation-background` | Site Navigation Background | > Matches or complements header bg |
+| `color_site_navigation` | `--memberlite--color--site-navigation` | Site Navigation | > Readable on nav bg; often dark text or white |
+| `bgcolor_page_masthead` | `--memberlite--color--page-masthead-background` | Page Masthead Background | > Brand primary (strong, rich) |
+| `color_page_masthead` | `--memberlite--color--page-masthead` | Page Masthead | > White or light (for contrast on masthead bg) |
+| `bgcolor_footer_widgets` | `--memberlite--color--footer-widgets-background` | Footer Widgets Background | > Dark, light, or brand color |
+| `color_footer_widgets` | `--memberlite--color--footer-widgets` | Footer Widgets | > Readable on footer bg |
 
 ---
 
 ## Step 3: Output the Color Scheme
-
-### A. Customizer Values (Primary Method)
 
 Apply these in **Appearance > Customize > Colors** in WordPress. Enter each hex value (without the `#`):
 
@@ -140,39 +138,6 @@ Page Masthead Background:     [hex without #]
 Page Masthead:                [hex without #]
 Footer Widgets Background:    [hex without #]
 Footer Widgets:               [hex without #]
-```
-
-**Note:** The Customizer "Color Scheme" dropdown has a "Custom" option. Select that before entering individual values, or your custom values may be overwritten when a preset scheme is applied.
-
----
-
-### B. CSS Custom Properties Override (Advanced / Child Theme)
-
-For child themes or additional CSS that needs to override Memberlite's generated values, use these properties (generated from the same values above):
-
-```css
-/* Memberlite Custom Color Scheme — [Brand Name] */
-/* Apply in: Appearance > Customize > Additional CSS OR child theme style.css */
-
-:root {
-    --memberlite--color--primary:                    #[hex];
-    --memberlite--color--secondary:                  #[hex];
-    --memberlite--color--action:                     #[hex];
-    --memberlite--color--button:                     #[hex];
-    --memberlite--color--link:                       #[hex];
-    --memberlite--color--meta-link:                  #[hex];
-    --memberlite--color--text:                       #[hex];
-    --memberlite--color--site-background:            #[hex];
-    --memberlite--color--borders:                    #[hex];
-    --memberlite--color--header-text:                #[hex];
-    --memberlite--color--header-background:          #[hex];
-    --memberlite--color--site-navigation-background: #[hex];
-    --memberlite--color--site-navigation:            #[hex];
-    --memberlite--color--page-masthead-background:   #[hex];
-    --memberlite--color--page-masthead:              #[hex];
-    --memberlite--color--footer-widgets-background:  #[hex];
-    --memberlite--color--footer-widgets:             #[hex];
-}
 ```
 
 ---
@@ -216,8 +181,4 @@ Action:     #[hex] — [description]
 [Scheme name + brief note]
 
 ### Customizer Values
-[17-row table: Label → hex (no #)]
-
-### CSS Custom Properties Block
-[Full :root { } block, ready to copy]
-```
+[17-row table: Label > hex (no #)]

@@ -10,7 +10,7 @@ feature: design
 quiz:
   - step: 1
     heading: "Your Page Copy & Settings"
-    hint: "Paste your page copy and describe the layout. Output is block editor code view HTML — paste it directly into WordPress via the Code Editor (⋮ menu → Code editor)."
+    hint: "Paste your page copy and describe the layout. Output is block editor code view HTML — paste it directly into WordPress via the Code Editor (⋮ menu > Code editor)."
     inputs:
       - name: page_copy
         label: "Paste the full page copy you want to convert. Include all sections — headlines, body, bullets, testimonials, FAQs, CTAs."
@@ -23,7 +23,7 @@ quiz:
       - name: pmpro_shortcode
         label: "Which PMPro shortcode goes in the levels / pricing section?"
         type: radio
-        options: [[pmpro_levels], [advanced_levels_page], No PMPro shortcode needed]
+        options: [[pmpro_levels], [pmpro_advanced_levels], No PMPro shortcode needed]
       - name: brand_color
         label: "Primary brand color hex code (for CTA button styling)"
         type: text
@@ -44,7 +44,7 @@ Take page copy (from the **membership-sales-page** skill, a draft doc, or anywhe
 2. Describe the layout intent: full-width hero? two-column benefits? accordion FAQ?
 3. This skill outputs block editor code view HTML you can paste directly into WordPress:
    - Go to your page in WordPress
-   - Click the **⋮ options menu** → **Code editor** (or press `Ctrl/Cmd + Shift + Alt + M`)
+   - Click the **⋮ options menu** > **Code editor** (or press `Ctrl/Cmd + Shift + Alt + M`)
    - Paste the output, then switch back to Visual editor to review
 
 ---
@@ -56,7 +56,7 @@ Ask for any missing context:
 - **Page copy:** Full text or section(s) to convert (required)
 - **Section structure:** Which sections are present? (hero, benefits, FAQ, CTA, etc.)
 - **Layout preferences:** Any multi-column sections? Button styles?
-- **PMPro shortcode:** Which shortcode goes in the levels section — `[pmpro_levels]` or `[advanced_levels_page]`?
+- **PMPro shortcode:** Which shortcode goes in the levels section — `[pmpro_levels]` or `[pmpro_advanced_levels]`?
 - **Brand color for buttons:** Hex code (e.g., `#006799`) — used for CTA button background
 
 ---
@@ -144,7 +144,7 @@ Use these block patterns for each content type:
 Or for Advanced Levels Page Add On:
 ```html
 <!-- wp:shortcode -->
-[advanced_levels_page]
+[pmpro_advanced_levels]
 <!-- /wp:shortcode -->
 ```
 
@@ -213,7 +213,7 @@ After the code block, add a brief **Paste Instructions** note:
 PASTE INSTRUCTIONS
 ──────────────────
 1. Open your page in WordPress
-2. Click the ⋮ menu (top right) → "Code editor" (or Ctrl/Cmd + Shift + Alt + M)
+2. Click the ⋮ menu (top right) > "Code editor" (or Ctrl/Cmd + Shift + Alt + M)
 3. Select all existing content and replace with this code
 4. Switch back to Visual editor to review
 5. Update/Publish

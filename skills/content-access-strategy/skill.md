@@ -207,22 +207,22 @@ Generated: [date]
 
 FREE (PUBLIC)
 ─────────────────────────────────────────
-[Content type]     → [Rationale]
-[Content type]     → [Rationale]
+[Content type]     > [Rationale]
+[Content type]     > [Rationale]
 
 FREE (EMAIL CAPTURE)
 ─────────────────────────────────────────
-[Content type]     → [Lead magnet or free tier]
-[Content type]     → [Lead magnet or free tier]
+[Content type]     > [Lead magnet or free tier]
+[Content type]     > [Lead magnet or free tier]
 
 [LEVEL 1 NAME]: $[price]/[period]
 ─────────────────────────────────────────
-[Content type]     → [Rationale]
-[Content type]     → [Rationale]
+[Content type]     > [Rationale]
+[Content type]     > [Rationale]
 
 [LEVEL 2 NAME]: $[price]/[period] (if applicable)
 ─────────────────────────────────────────
-[Content type]     → [Rationale] (adds to Level 1)
+[Content type]     > [Rationale] (adds to Level 1)
 ```
 
 ### Followed by:

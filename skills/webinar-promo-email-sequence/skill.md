@@ -135,7 +135,7 @@ If webinar details are missing, ask before writing.
 
 ### Day 4 — The Social Proof / Urgency Email
 *Goal: Push fence-sitters with proof and proximity*
-- Lead with a testimonial or success story (before → after format)
+- Lead with a testimonial or success story (before > after format)
 - Remind them the webinar is [X days/hours] away
 - Address one common objection ("Even if you're busy…", "Even if you've tried X before…")
 - Replay scarcity if no replay: "This won't be recorded"
@@ -168,7 +168,7 @@ If webinar details are missing, ask before writing.
 
 **CTA format**
 ```
-# [Register now / Save your seat / Join us live] → [LINK]
+# [Register now / Save your seat / Join us live] > [LINK]
 ```
 - One CTA per email
 - Bolded, H1 size
@@ -188,7 +188,7 @@ Deliver all 5 emails in sequence:
 
 [Email body]
 
-# [CTA Text] → [LINK]
+# [CTA Text] > [LINK]
 
 ---
 ```

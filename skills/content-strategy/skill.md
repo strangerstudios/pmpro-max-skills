@@ -181,7 +181,7 @@ High-intent keywords + product adoption.
 15-30 experts answering one specific question. Built-in distribution.
 
 **Case Studies**
-Structure: Challenge → Solution → Results → Key learnings
+Structure: Challenge > Solution > Results > Key learnings
 
 **Meta Content**
 Behind-the-scenes transparency. "How We Got Our First $5k MRR," "Why We Chose Debt Over VC."
@@ -286,11 +286,11 @@ Output as prioritized table:
 ### 2. Call Transcripts
 
 If user provides sales or customer call transcripts, extract:
-- Questions asked → FAQ content or blog posts
-- Pain points → problems in their own words
-- Objections → content to address proactively
-- Language patterns → exact phrases to use (voice of customer)
-- Competitor mentions → what they compared you to
+- Questions asked > FAQ content or blog posts
+- Pain points > problems in their own words
+- Objections > content to address proactively
+- Language patterns > exact phrases to use (voice of customer)
+- Competitor mentions > what they compared you to
 
 Output content ideas with supporting quotes.
 

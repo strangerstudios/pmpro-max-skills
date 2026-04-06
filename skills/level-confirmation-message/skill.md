@@ -43,7 +43,7 @@ quiz:
       - name: secondary_steps
         label: "(Optional) 2-3 additional helpful links or actions. One per line with the URL."
         type: textarea
-        placeholder: "Join the community forum → https://yoursite.com/community/\nDownload your member welcome kit → https://yoursite.com/welcome-kit/\nBook your onboarding call → https://yoursite.com/book/"
+        placeholder: "Join the community forum > https://yoursite.com/community/\nDownload your member welcome kit > https://yoursite.com/welcome-kit/\nBook your onboarding call > https://yoursite.com/book/"
       - name: expectations
         label: "Anything important to set expectations about right now? Timing, cadence, what happens next."
         type: textarea

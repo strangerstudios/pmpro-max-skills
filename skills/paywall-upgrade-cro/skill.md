@@ -15,7 +15,7 @@ quiz:
       - name: upgrade_type
         label: "What type of upgrade or paywall situation are you optimizing?"
         type: select
-        options: [Free tier → paid membership (freemium), Free trial → paid (trial expiration), Lower tier → higher tier (tier upgrade), Locked content or feature gate, Usage limit hit (e.g. ran out of credits), Add-on or optional upsell]
+        options: [Free tier > paid membership (freemium), Free trial > paid (trial expiration), Lower tier > higher tier (tier upgrade), Locked content or feature gate, Usage limit hit (e.g. ran out of credits), Add-on or optional upsell]
       - name: what_they_want
         label: "What was the member trying to do when they hit the paywall or upgrade prompt?"
         type: textarea
@@ -62,7 +62,7 @@ If `.agents/product-marketing-context.md` exists (or `.claude/product-marketing-
 
 Before providing recommendations, understand:
 
-1. **Upgrade Context** - Freemium → Paid? Trial → Paid? Tier upgrade? Feature upsell? Usage limit?
+1. **Upgrade Context** - Freemium > Paid? Trial > Paid? Tier upgrade? Feature upsell? Usage limit?
 
 2. **Product Model** - What's free? What's behind paywall? What triggers prompts? Current conversion rate?
 
@@ -271,7 +271,7 @@ Deliver the output directly. No preamble, no "here are your recommendations." Th
 [2-4 sentences — what they get, why it's worth it]
 
 **Primary CTA:**
-[Button text] → [URL or placeholder]
+[Button text] > [URL or placeholder]
 
 **Escape hatch:**
 [Not now / Continue with free text]
@@ -331,7 +331,7 @@ Deliver the copy block first, then the placement strategy table below it. No sec
 
 ## Task-Specific Questions
 
-1. What's your current free → paid conversion rate?
+1. What's your current free > paid conversion rate?
 2. What triggers upgrade prompts today?
 3. What features are behind the paywall?
 4. What's your "aha moment" for users?

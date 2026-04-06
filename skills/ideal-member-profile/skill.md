@@ -219,7 +219,7 @@ Ask together:
 
 Ask together:
 
-> 21. What's the hero transformation your membership delivers — where do members start, and where do they end up? (Complete the sentence: "From: ___ → To: ___")
+> 21. What's the hero transformation your membership delivers — where do members start, and where do they end up? (Complete the sentence: "From: ___ > To: ___")
 > 22. What are the 3-5 messaging angles that make your ideal member feel most "seen" — the themes that make them think "this is exactly me"?
 
 ---

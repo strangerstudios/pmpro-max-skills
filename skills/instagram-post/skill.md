@@ -66,10 +66,10 @@ If the user has provided enough context upfront, skip straight to the framework.
 
 Classify the input into ONE category:
 
-- **Reflective / Conceptual** → Carousel or long-caption post
-- **Opinionated / Perspective** → Reel or Carousel
-- **Process / Tactical** → Instagram optional, or Story-only (flag this to the user)
-- **Personal / Observational** → Story or short-caption post
+- **Reflective / Conceptual** > Carousel or long-caption post
+- **Opinionated / Perspective** > Reel or Carousel
+- **Process / Tactical** > Instagram optional, or Story-only (flag this to the user)
+- **Personal / Observational** > Story or short-caption post
 
 If input is heavily tactical, tell the user Instagram may not be the best fit and suggest Story-only or skipping Instagram.
 

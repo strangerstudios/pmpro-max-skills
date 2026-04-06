@@ -160,8 +160,8 @@ The value metric is what you charge for. It should scale with the value customer
 ### Choosing Your Value Metric
 
 Ask: "As a customer uses more of [metric], do they get more value?"
-- If yes → good value metric
-- If no → price doesn't align with value
+- If yes > good value metric
+- If no > price doesn't align with value
 
 ---
 
@@ -177,7 +177,7 @@ Ask: "As a customer uses more of [metric], do they get more value?"
 
 - **Feature gating** — Basic vs. advanced features
 - **Usage limits** — Same features, different limits
-- **Support level** — Email → Priority → Dedicated
+- **Support level** — Email > Priority > Dedicated
 - **Access** — API, SSO, custom branding
 
 **For detailed tier structures and persona-based packaging**: See [references/tier-structure.md](references/tier-structure.md)

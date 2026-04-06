@@ -117,7 +117,7 @@ Every field reduces conversion. For each field, ask:
 ### Email Field
 - Single field (no email confirmation field)
 - Inline validation for format
-- Check for common typos (gmial.com → gmail.com)
+- Check for common typos (gmial.com > gmail.com)
 - Clear error messages
 
 ### Password Field
@@ -245,8 +245,8 @@ Every field reduces conversion. For each field, ask:
 ## Measurement
 
 ### Key Metrics
-- Form start rate (landed → started filling)
-- Form completion rate (started → submitted)
+- Form start rate (landed > started filling)
+- Form completion rate (started > submitted)
 - Field-level drop-off (which fields lose people)
 - Time to complete
 - Error rate by field
@@ -310,7 +310,7 @@ Deliver the output directly. No preamble. The format is determined by the goal s
 
 ---
 
-**If goal = All of the above:** Deliver Audit → Test Recommendations → Copy in that order. Each section clearly labeled.
+**If goal = All of the above:** Deliver Audit > Test Recommendations > Copy in that order. Each section clearly labeled.
 
 ---
 
@@ -319,17 +319,17 @@ Deliver the output directly. No preamble. The format is determined by the goal s
 ### B2B SaaS Trial
 1. Email + Password (or Google auth)
 2. Name + Company (optional: role)
-3. → Onboarding flow
+3. > Onboarding flow
 
 ### B2C App
 1. Google/Apple auth OR Email
-2. → Product experience
+2. > Product experience
 3. Profile completion later
 
 ### Waitlist/Early Access
 1. Email only
 2. Optional: Role/use case question
-3. → Waitlist confirmation
+3. > Waitlist confirmation
 
 ### E-commerce Account
 1. Guest checkout as default

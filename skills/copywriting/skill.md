@@ -32,7 +32,7 @@ quiz:
       - name: pmpro_shortcodes
         label: "Does this page use PMPro shortcodes or member vs. non-member content splits?"
         type: radio
-        options: [Yes — I need member and non-member versions of some content, Yes — I need [pmpro_member] or [pmpro_non_member] shortcode copy, No — this is a fully public page with no conditional content]
+        options: [Yes — I need member and non-member versions of some content, No — this is a fully public page with no conditional content]
   - step: 2
     heading: "Audience"
     hint: "Copy that speaks directly to the reader converts. The more specifically you can describe who you're writing for, the better the output."
@@ -256,7 +256,7 @@ Examples:
 - Make recommended plan obvious
 
 ### Feature Page
-- Connect feature → benefit → outcome
+- Connect feature > benefit > outcome
 - Show use cases and examples
 - Clear path to try or buy
 

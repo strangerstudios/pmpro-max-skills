@@ -132,7 +132,7 @@ Follow this exact 7-step structure, in order. Do not skip or reorder steps.
 - Follow with: **"And no, we aren't just throwing numbers in the air"** — then add your credibility (case studies, customer count, years in business, etc.)
 - Specificity is everything here: "83% of customers" beats "most customers"
 
-### 6. Social Proof — Voice of Doubt → Customer Story
+### 6. Social Proof — Voice of Doubt > Customer Story
 - Transition with: **"Yea, yea... of course you would say that"** (or similar self-aware line)
 - Then pivot to the customer story:
   - Who they were before (relatable background)

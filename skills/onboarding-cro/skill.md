@@ -201,7 +201,7 @@ Define "stalled" criteria (X days inactive, incomplete setup)
 
 Track drop-off at each step:
 ```
-Signup → Step 1 → Step 2 → Activation → Retention
+Signup > Step 1 > Step 2 > Activation > Retention
 100%      80%       60%       40%         25%
 ```
 
@@ -266,10 +266,10 @@ Copy: [Headline / instruction / CTA]
 
 | Product Type | Key Steps |
 |--------------|-----------|
-| B2B SaaS | Setup wizard → First value action → Team invite → Deep setup |
-| Marketplace | Complete profile → Browse → First transaction → Repeat loop |
-| Mobile App | Permissions → Quick win → Push setup → Habit loop |
-| Content Platform | Follow/customize → Consume → Create → Engage |
+| B2B SaaS | Setup wizard > First value action > Team invite > Deep setup |
+| Marketplace | Complete profile > Browse > First transaction > Repeat loop |
+| Mobile App | Permissions > Quick win > Push setup > Habit loop |
+| Content Platform | Follow/customize > Consume > Create > Engage |
 
 ---
 

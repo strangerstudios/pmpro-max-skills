@@ -131,7 +131,7 @@ Must include:
 Must include:
 - Very short — 100-150 words max
 - State clearly: today is the day
-- One direct CTA: "Renew today →"
+- One direct CTA: "Renew today >"
 - What they'll lose access to (specific is better than vague)
 - Make reactivation feel easy: "It takes less than a minute"
 - No guilt, no drama — matter-of-fact and respectful
@@ -167,7 +167,7 @@ On expiry day, they either renew or they don't. A long email won't change that. 
 
 [Email body]
 
-**CTA:** [Button text] → [URL]
+**CTA:** [Button text] > [URL]
 
 ---
 **Email 2 — 7 Days Out**
@@ -175,7 +175,7 @@ On expiry day, they either renew or they don't. A long email won't change that. 
 
 [Email body]
 
-**CTA:** [Button text] → [URL]
+**CTA:** [Button text] > [URL]
 
 ---
 **Email 3 — Expiry Day**
@@ -183,7 +183,7 @@ On expiry day, they either renew or they don't. A long email won't change that. 
 
 [Email body]
 
-**CTA:** [Button text] → [URL]
+**CTA:** [Button text] > [URL]
 ---
 ```
 

@@ -31,7 +31,7 @@ quiz:
         type: textarea
         placeholder: "e.g. They're trading hours for dollars, love teaching but can't figure out how to build recurring income online..."
       - name: transformation
-        label: "What does life look like after joining? Your 'From → To' transformation."
+        label: "What does life look like after joining? Your 'From > To' transformation."
         type: textarea
         placeholder: "e.g. From: overwhelmed, inconsistent income, no community. To: a sustainable membership business with $3-5k/month in recurring revenue..."
       - name: prices_and_billing
@@ -42,7 +42,7 @@ quiz:
       - name: levels_shortcode
         label: "Which shortcode will display your pricing/levels table?"
         type: radio
-        options: [[pmpro_levels], [advanced_levels_page]]
+        options: [[pmpro_levels], [pmpro_advanced_levels]]
   - step: 2
     heading: "What's Included"
     hint: "What members actually get. Specifics sell — 'a private community of 400+ yoga teachers' beats 'access to our community'."
@@ -109,7 +109,7 @@ Ask for any fields that are missing:
 | The core problem they have | What are they struggling with before they join? |
 | The transformation or outcome | What does life look like after joining? |
 | Price(s) and billing period(s) | $29/mo, $249/year, etc. |
-| Levels table shortcode to use | `[pmpro_levels]` OR `[advanced_levels_page]` |
+| Levels table shortcode to use | `[pmpro_levels]` OR `[pmpro_advanced_levels]` |
 
 **What's included:**
 | Field | Example |
@@ -145,7 +145,7 @@ Produce all sections in order. Each section is clearly labeled for easy building
 Components:
 - **Headline** (H1): Outcome-first or audience-first. Not the membership name (that goes in the subheadline).
 - **Subheadline** (H2 or large paragraph): Expand the headline. Name the membership. Invite the right person.
-- **Hero CTA button**: "Join [Membership Name]" or "See Membership Options" → links to the levels section
+- **Hero CTA button**: "Join [Membership Name]" or "See Membership Options" > links to the levels section
 - **Social proof line** (optional but strong): "[X] members" or "Trusted by [audience type] since [year]"
 
 ---
@@ -179,7 +179,7 @@ Components:
 Components:
 - Section headline: "Everything included in [Membership Name]" or "What you get"
 - Each benefit as a named item + 1-2 sentence description (outcome-oriented)
-- If there are multiple tiers, name the key difference at the bottom: "Compare all plans below →"
+- If there are multiple tiers, name the key difference at the bottom: "Compare all plans below >"
 
 ---
 
@@ -196,7 +196,7 @@ Output for this section:
 
 — OR, if using the Advanced Levels Page Add On —
 
-[advanced_levels_page]
+[pmpro_advanced_levels]
 ```
 
 Below the shortcode placeholder, add:
@@ -242,7 +242,7 @@ Components:
 
 Components:
 - Restate the headline benefit in one sentence
-- One CTA button: "Join [Membership Name]" or "Become a Member" → links to levels section
+- One CTA button: "Join [Membership Name]" or "Become a Member" > links to levels section
 - Optional: secondary CTA if there's a free tier or lead magnet ("Not ready? Start with our free [X].")
 
 ---

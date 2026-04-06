@@ -153,7 +153,7 @@ Work through the free-facing content (either by crawling the URL or reviewing a 
 
 **Questions to answer:**
 - Does the free content preview the value inside the membership? Would a visitor reading it understand what they'd get by joining?
-- Is there a coherent content funnel: free content introduces a topic → membership goes deeper?
+- Is there a coherent content funnel: free content introduces a topic > membership goes deeper?
 - Or does the free content feel disconnected from what the membership actually delivers?
 
 **Flag:** Free content on Topic A, membership delivers Topic B. Visitors have no reason to believe the paid content is what they're looking for.
