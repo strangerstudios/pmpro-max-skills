@@ -84,6 +84,7 @@ def build_index():
             "slug": fm['slug'],
             "category": fm['category'],
             "one_shot": fm['one_shot'],
+            "processing": fm.get('processing', 'site'),
             "uses_profile": fm['uses_profile'],
             "description": fm['description'],
             "keywords": fm['keywords'],
