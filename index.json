@@ -368,7 +368,7 @@
     "category": "PMPro",
     "one_shot": true,
     "uses_profile": false,
-    "description": "Extracts a color palette from your logo and outputs a complete custom Memberlite color scheme \u2014 all 17 color values ready to enter in the WordPress Customizer or apply via CSS custom properties.",
+    "description": "Extracts a color palette from your logo and outputs a complete custom Memberlite color scheme \u2014 all 17 color values ready to enter in the WordPress Customizer.",
     "keywords": [
       "Memberlite",
       "color scheme",

@@ -52,7 +52,7 @@ quiz:
       - name: visual_style
         label: "Visual style"
         type: radio
-        options: [Minimal / clean — understated, lots of white space, Bold / high-contrast — attention-grabbing, Warm / inviting — friendly and approachable]
+        options: [Minimal / clean — understated with lots of white space, Bold / high-contrast — attention-grabbing, Warm / inviting — friendly and approachable]
       - name: brand_color
         label: "Primary brand color hex code (for button and accent)"
         type: text

@@ -36,7 +36,7 @@ quiz:
       - name: owned_channels
         label: "Which owned channels do you have active? Select all that apply."
         type: checkbox-group
-        options: [Email list, Blog or content site, Podcast, Private community (Slack, Discord, Circle, Facebook Group), YouTube channel]
+        options: [Email list, Blog or content site, Podcast, Private community (Slack / Discord / Circle / Facebook Group), YouTube channel]
       - name: rented_channels
         label: "Which social platforms are you active on? Select all that apply."
         type: checkbox-group

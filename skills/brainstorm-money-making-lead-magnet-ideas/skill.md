@@ -45,7 +45,7 @@ quiz:
       - name: content_effort
         label: "How much effort can you realistically put into creating the lead magnet?"
         type: radio
-        options: [Minimal — a checklist, template, or short guide (1-2 hours), Moderate — an email course, short video series, or multi-page guide (1-2 days), Significant — a mini-course, webinar, or in-depth resource (1+ week)]
+        options: [Minimal — a checklist / template / short guide (1-2 hours), Moderate — an email course / short video series / multi-page guide (1-2 days), Significant — a mini-course / webinar / in-depth resource (1+ week)]
 ---
 
 # Brainstorm Money-Making Lead Magnet Ideas

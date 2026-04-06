@@ -43,7 +43,7 @@ quiz:
       - name: output_mode
         label: "What do you need?"
         type: radio
-        options: [Single improved renewal email (better than the PMPro default), Full 3-email sequence (30 days out, 7 days out, expiry day)]
+        options: [Single improved renewal email (better than the PMPro default), Full 3-email sequence (30 days / 7 days / expiry day)]
   - step: 2
     heading: "Value & Messaging"
     hint: "Renewal emails that reinforce value outperform ones that just warn about losing access."
